@@ -14,6 +14,8 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    // to register the Netlify CMS plugin
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
