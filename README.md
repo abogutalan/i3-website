@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -101,3 +102,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 > npm install -g gatsby-cli   (installing gatsby globally)
 > gatsby new .
 > npm install --save netlify-cms-app gatsby-plugin-netlify-cms
+=======
+# i3-website
+HTML, CSS, JavaScript, React, Gatsby, NetlifyCMS
+>>>>>>> c58664cf3ffbb59288406ad1a17eb6c5dce30e81
