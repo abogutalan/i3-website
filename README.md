@@ -102,6 +102,11 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 > npm install -g gatsby-cli   (installing gatsby globally)
 > gatsby new .
 > npm install --save netlify-cms-app gatsby-plugin-netlify-cms
+
+Follow these steps to set up your environment
+1) https://www.netlifycms.org/docs/gatsby/
+2) https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/
+
 =======
 # i3-website
 HTML, CSS, JavaScript, React, Gatsby, NetlifyCMS
