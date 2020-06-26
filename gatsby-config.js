@@ -20,13 +20,6 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blogs`,
-        path: `${__dirname}/src/blog`,
-      },
-    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     // to register the Netlify CMS plugin
