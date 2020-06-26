@@ -1,5 +1,5 @@
 ---
-path: first_blog
+path: /blog/my-first-post
 date: 2020-06-26T14:15:24.361Z
 title: Blog Test
 ---
