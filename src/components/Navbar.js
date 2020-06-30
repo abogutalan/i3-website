@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import '../../public/assets/css/navbar.css'
-import '../../public/assets/css/material-kit.css'
+//import '../../public/assets/css/material-kit.css'
 //import '../../public/assets/css/material-kit.css.map'
 //import '../../public/assets/css/material-kit.min.css'
 

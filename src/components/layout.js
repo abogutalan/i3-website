@@ -27,14 +27,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 1560,
-          padding: `0 1.0875rem 9.45rem`,
-          backgroundColor: '#D82924',
-        }}
-      ></div>
 
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
