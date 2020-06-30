@@ -1,0 +1,21 @@
+.ref-link {
+    position: relative;
+    bottom: 87px;
+    /* border: 1px solid black; */
+    color: transparent;
+} 
+/* <- using the other hack */
+
+/* .ref-link {
+    padding-top: 80px;
+} */
+
+.note-item{
+    margin: 40px 0;
+}
+
+.article-img{
+    /* width: 950px; */
+    width: 100%;
+    height: 505px;
+}
