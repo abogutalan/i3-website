@@ -3,13 +3,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import '../../public/assets/css/navbar.css'
-//import '../../public/assets/css/material-kit.css'
+import '../../public/assets/css/material-kit.css'
 //import '../../public/assets/css/material-kit.css.map'
 //import '../../public/assets/css/material-kit.min.css'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100"
+        <nav className="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100"
         id="sectionsNav">
             <div className="container">
                 <div className="navbar-translate">
