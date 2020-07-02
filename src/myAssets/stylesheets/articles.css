@@ -1,0 +1,8 @@
+.article-thumbnail-container{
+    height: 190px;
+    overflow: hidden;
+}
+
+.article-thumbnail-img{
+    min-height: 100%;
+}

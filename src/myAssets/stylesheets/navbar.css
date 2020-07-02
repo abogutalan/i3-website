@@ -1,0 +1,15 @@
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+/* overriding hover background color of nav links */
+.dropdown-menu .dropdown-item:hover, 
+.dropdown-menu .dropdown-item:focus, 
+.dropdown-menu a:hover, .dropdown-menu a:focus, 
+.dropdown-menu a:active {
+    background-color: #D82924;
+}
