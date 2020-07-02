@@ -13,6 +13,11 @@ import Header from "./header"
 import Navbar from './Navbar'
 import "./layout.css"
 
+import '../../public/assets/css/material-kit.css'
+
+
+
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
