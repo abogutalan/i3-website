@@ -38,7 +38,6 @@ function EventsPage() {
                 </div> 
             </div>
             </Layout>
-
         </>
     );
 }
