@@ -1,11 +1,12 @@
 import React from 'react';
 import Events from '../components/Events';
-import {events} from '../Data/events';
-
+import {events} from '../data/events';
+import Layout from '../../components/layout';
 
 function EventsPage() {
     return (
         <>
+            <Layout>
             <div className="page-header header-filter header-small" data-parallax="true"
                 style={{backgroundImage: `url('./myAssets/img/events/AndalusiOstaRasoul.jpg')` }}>
                 <div className="container">
@@ -36,6 +37,7 @@ function EventsPage() {
                     </div>
                 </div> 
             </div>
+            </Layout>
 
         </>
     );
