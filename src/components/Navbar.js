@@ -1,7 +1,6 @@
 
 import React from 'react'
 import { Link } from 'gatsby'
-import '../myAssets/stylesheets/navbar.css'
 
 const Navbar = () => {
     return (
@@ -23,7 +22,6 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav ml-auto">
                         <li className="dropdown nav-item">
