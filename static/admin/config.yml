@@ -43,6 +43,17 @@ collections:
       - { name: featuredimage, label: Featured Image, widget: image }
       - { name: instructorname, label: Instructor Name, widget: string }
       - { name: "timing", label: "Timing", widget: "text"}
-      - { name: path, label: Path }
-      - { name: body, label: Body, widget: markdown }
 
+  - name: fellow
+    label: Fellows
+    folder: src/fellow
+    create: true
+    fields:
+      - { name: fellowname, label: Fellow Name, widget: string }
+      - { name: title, label: Title }
+      - { name: "newdescription", label: "Description", widget: "text"}
+      - { name: url, label: URL, widget: string }
+    
+    
+
+      
