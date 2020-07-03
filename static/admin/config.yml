@@ -1,8 +1,16 @@
 backend:
   name: github
   repo: abogutalan/i3-website
-media_folder: static/assets
-public_folder: /assets
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+media_folder: src/myAssets/img
+public_folder: src/assets/img
+
 collections:
   - name: blog
     label: Blog
@@ -13,13 +21,28 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+      - {label: "Tags", name: "tags", widget: "list"}
   
   - name: instructors
     label: Instructors
-    folder: instructors
+    folder: src/instructors/instructor
     create: true
     fields:
+      - { name: instructorname, label: Instructor Name, widget: string }
+      - { name: featuredimage, label: Featured Image, widget: image }
+      - { name: "newdescription", label: "Description", widget: "text"}
       - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+
+  - name: locations
+    label: Locations
+    folder: src/location
+    create: true
+    fields:
+      - { name: adress, label: Adress, widget: string }
+      - { name: featuredimage, label: Featured Image, widget: image }
+      - { name: instructorname, label: Instructor Name, widget: string }
+      - { name: "timing", label: "Timing", widget: "text"}
+      - { name: path, label: Path }
+      - { name: body, label: Body, widget: markdown }
+
