@@ -7,29 +7,30 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
+      
     <div className="row">
             <div className="col-md-5 ml-auto">
                 <br />
-                <img src={frontmatter.featuredimage} alt={frontmatter.instructorname} className="img-raised rounded img-fluid" />
-                <h3 className="info-title text-center">{frontmatter.instructorname}</h3>
+                <img src={imgURL} alt={name} className="img-raised rounded img-fluid" />
+                <h3 className="info-title text-center">{name}</h3>
             </div>
             <div className="col-md-5 mr-auto">
                 <div className="info info-horizontal">
                     <div className="description">
                         <h4 className="info-title"> </h4>
-                        <p>{frontmatter.newdescription}</p>
+                        <p>{description}</p>
                     </div>
                 </div>
-                {frontmatter.descriptionMore &&
+                {descriptionMore &&
                     <div className="info info-horizontal">
                         <div className="description">
                             <h4 className="info-title"> </h4>
-                            <p>{frontmatter.descriptionMore}</p>
+                            <p>{descriptionMore}</p>
                         </div>
                     </div>}
             </div>
         </div>
-        
+        <hr />
   )
 }
 
@@ -39,9 +40,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         slug
-        featuredimage
-        instructorname
-        newdescription
+        imgURL
+        name
+        description
         descriptionMore
       }
     }
