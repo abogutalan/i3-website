@@ -24,7 +24,7 @@ const Instructor = ({ imgURL, name, description, descriptionMore }) => (
                     </div>}
             </div>
         </div>
-        <hr />
+        <hr /> 
     </>
 
 );

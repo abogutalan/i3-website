@@ -31,8 +31,8 @@ collections:
       - { name: instructorname, label: Instructor Name, widget: string }
       - { name: featuredimage, label: Featured Image, widget: image }
       - { name: "newdescription", label: "Description", widget: "text"}
-      - { name: path, label: Path }
-      - { name: body, label: Body, widget: markdown }
+      - { name: "descriptionMore", label: "More Description", widget: "text"}
+      - { name: slug, label: Slug }
 
   - name: locations
     label: Locations
