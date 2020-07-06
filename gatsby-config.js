@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Interactive Ilm Institute`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Official i3 Institute Website`,
+    author: `i3 Web Team`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

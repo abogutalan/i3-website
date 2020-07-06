@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Link } from 'gatsby'
-import '../myAssets/stylesheets/navbar.css'
+import '../../static/myAssets/stylesheets/navbar.css'
 
 const Navbar = () => {
     return (
@@ -9,11 +9,10 @@ const Navbar = () => {
         id="sectionsNav">
             <div className="container">
                 <div className="navbar-translate">
-                    <Link className="navbar-brand" to="./index.html">
+                    <Link className="navbar-brand" to="/">
                         <div className="logo-image" styles="width: 60px; height: 60px">
-                            <img src="./logonav.png" className="img-fluid" alt="i3"></img>
+                            <img src="/myAssets/img/logonav.png" className="img-fluid" alt="i3"></img>
                         </div>
-
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
                         aria-label="Toggle navigation">
