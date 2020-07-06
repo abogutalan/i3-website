@@ -1,6 +1,6 @@
 ---
-name: 'Sheikh Usta',
-imgURL: '../components/image',
+name: 'Sheikh Usta'
+imgURL: '../components/image'
 description: `
 Sheikh Usta has been teaching Islamic knowledge for over a decade. Sheikh Usta
 is currently completing his Masters in Islamic Shariah, and holds a Bachelors in

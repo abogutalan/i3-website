@@ -7,30 +7,16 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
-      
-    <div className="row">
-            <div className="col-md-5 ml-auto">
-                <br />
-                <img src={imgURL} alt={name} className="img-raised rounded img-fluid" />
-                <h3 className="info-title text-center">{name}</h3>
-            </div>
-            <div className="col-md-5 mr-auto">
-                <div className="info info-horizontal">
-                    <div className="description">
-                        <h4 className="info-title"> </h4>
-                        <p>{description}</p>
-                    </div>
-                </div>
-                {descriptionMore &&
-                    <div className="info info-horizontal">
-                        <div className="description">
-                            <h4 className="info-title"> </h4>
-                            <p>{descriptionMore}</p>
-                        </div>
-                    </div>}
-            </div>
-        </div>
-        <hr />
+    <div className="blog-post-container">
+      <div className="blog-post">
+        <h1>{frontmatter.title}</h1>
+        <h2>{frontmatter.date}</h2>
+        <div
+          className="blog-post-content"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+      </div>
+    </div>
   )
 }
 
@@ -39,11 +25,9 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
+        date(formatString: "MMMM DD, YYYY")
         slug
-        imgURL
-        name
-        description
-        descriptionMore
+        title
       }
     }
   }

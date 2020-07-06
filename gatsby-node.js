@@ -2,6 +2,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
   const blogPostTemplate = require.resolve(`./src/templates/blogTemplate.js`)
+  //const instructorTemplate = require.resolve(`./src/templates/instructorTemplate.js`)
 
   const result = await graphql(`
     {
@@ -30,6 +31,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     createPage({
       path: node.frontmatter.slug,
       component: blogPostTemplate,
+      //component: instructorTemplate,
       context: {
         // additional data can be passed via context
         slug: node.frontmatter.slug,

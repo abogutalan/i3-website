@@ -25,12 +25,12 @@ collections:
   
   - name: instructors
     label: Instructors
-    folder: src/instructors/instructor
+    folder: src/markdown-pages
     create: true
     fields:
-      - { name: instructorname, label: Instructor Name, widget: string }
-      - { name: featuredimage, label: Featured Image, widget: image }
-      - { name: "newdescription", label: "Description", widget: "text"}
+      - { name: name, label: Instructor Name, widget: string }
+      - { name: imgURL, label: Featured Image, widget: image }
+      - { name: "description", label: "Description", widget: "text"}
       - { name: "descriptionMore", label: "More Description", widget: "text"}
       - { name: slug, label: Slug }
 
