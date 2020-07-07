@@ -35,8 +35,8 @@ collections:
       - { name: name, label: Instructor Name, widget: string }
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: "description", label: "Description", widget: "text"}
-      - { name: "descriptionMore", label: "More Description", widget: "text", optional: true}
-      - { name: slug, label: Slug, required: false }
+      - { name: "descriptionMore", label: "More Description", widget: "text", required: false}
+      - { name: slug, label: Slug, widget: "hidden", default: "/YD/YDInstructors/YDInstructors" }
 
   - name: locations
     label: Locations
