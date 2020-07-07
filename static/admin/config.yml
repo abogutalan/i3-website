@@ -35,7 +35,7 @@ collections:
       - { name: name, label: Instructor Name, widget: string }
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: "description", label: "Description", widget: "text"}
-      - { name: "descriptionMore", label: "More Description", widget: "text"}
+      - { name: "descriptionMore", label: "More Description", widget: "text", optional: true}
       - { name: slug, label: Slug }
 
   - name: locations
