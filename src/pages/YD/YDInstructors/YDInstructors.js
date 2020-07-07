@@ -1,7 +1,7 @@
 import React from 'react';
-import Instructors from '../../components/Instructors';
-import { instructors } from '../../data/instructors';
-import Layout from '../../components/layout';
+import Instructors from '../../../components/Instructors';
+import { instructors } from '../../../data/instructors';
+import Layout from '../../../components/layout';
 
 function YDInstructorsPage() {
   return (

@@ -8,16 +8,19 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: src/myAssets/img
-public_folder: src/assets/img
+media_folder: static/myAssets/img
+public_folder: static/assets/img
 
 collections:
   - name: blog
     label: Blog
-    folder: src/markdown-pages/blogs
+    folder: src/pages/markdown-pages
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blogTemplate"}
       - { name: slug, label: Slug }
+      - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
@@ -25,9 +28,10 @@ collections:
   
   - name: instructors
     label: Instructors
-    folder: src/markdown-pages
+    folder: src/pages/YD/YDInstructors
     create: true
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "instructorTemplate"}
       - { name: name, label: Instructor Name, widget: string }
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: "description", label: "Description", widget: "text"}
