@@ -7,5 +7,5 @@ description:
         is currently completing his Masters in Islamic Shariah, and holds a Bachelors in
         Arabic and Islamic Studies. He has learned from 11 prominent scholars including
         Dr. Abdul-Fattah Idris, a leading Comparative Fiqh professor at al-Azhar.
-slug: /YD/YDInstructors
+slug: anything works
 ---

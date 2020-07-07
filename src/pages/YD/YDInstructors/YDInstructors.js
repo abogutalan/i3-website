@@ -2,8 +2,8 @@ import React from 'react';
 import Instructors from '../../../components/Instructors';
 import Layout from '../../../components/layout';
 
-//import { instructors } from '../../../data/instructors';
-const instructors = [ { } ]   // instead of importing data/instructors
+import { instructors } from '../../../data/instructors';
+//const instructors = [ { } ]   // instead of importing data/instructors
 
 function YDInstructorsPage() {
   return (

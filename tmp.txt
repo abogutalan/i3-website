@@ -42,6 +42,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
 *********************************************************************************************
 
+
 const _ = require('lodash')
 const path = require('path')
 
@@ -49,7 +50,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
   //const blogPostTemplate = require.resolve(`./src/templates/blogTemplate.js`)
-  //const instructorTemplate = require.resolve(`./src/templates/instructorTemplate.js`)
 
   const result = await graphql(`
     {
@@ -59,11 +59,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       ) {
         edges {
           node {
-            id
-            fields {
-              slug
-            }
             frontmatter {
+              slug
               templateKey
             }
           }
@@ -78,24 +75,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
-  console.log(result)
-  const posts = result.data.allMarkdownRemark.edges
-
-    posts.forEach(({ edge }) => {
-      const id = edge.node.id
+  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
-      path: edge.node.fields.slug,
+      path: node.frontmatter.slug,
       component: path.resolve(
-        `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+        `src/templates/${String(node.frontmatter.templateKey)}.js`
       ),
       context: {
         // additional data can be passed via context
-        id,
+        slug: node.frontmatter.slug,
       },
     })
-  })
+  })  
 }
-
 
 
 
