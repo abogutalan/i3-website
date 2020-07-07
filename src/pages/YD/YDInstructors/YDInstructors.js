@@ -1,7 +1,9 @@
 import React from 'react';
 import Instructors from '../../../components/Instructors';
-import { instructors } from '../../../data/instructors';
 import Layout from '../../../components/layout';
+
+//import { instructors } from '../../../data/instructors';
+const instructors = [ { } ]   // instead of importing data/instructors
 
 function YDInstructorsPage() {
   return (
@@ -32,6 +34,7 @@ function YDInstructorsPage() {
                 </div>
               </div>
               {/* Profiles begin here */}
+              
               <Instructors instructors={instructors}/>
               </div>
           </div>

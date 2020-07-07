@@ -7,12 +7,11 @@ export default function InstructorTemplate({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+    <div>
+      <div>
+        <h1>{frontmatter.slug}</h1>
+        <h2>{frontmatter.description}</h2>
         <div
-          className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
@@ -25,10 +24,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         slug
-        title
-        tags
+        description
       }
     }
   }

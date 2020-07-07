@@ -1,6 +1,6 @@
 ---
 templateKey: 'instructorTemplate'
-slug: /YD/YDInstructor
+slug: /YD/YDInstructors
 date: 2020-07-06T12:47:01.876Z
 title: My fifth blog Post
 tags:

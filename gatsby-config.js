@@ -20,6 +20,13 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `YDInstructors`,
+        path: `${__dirname}/src/pages/YD/YDInstructors`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     // to register the Netlify CMS plugin
