@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: abdullah  burhan
-imgURL: static/assets/img/UWaterloo.jpg
+imgURL: /myAssets/img/UWaterloo.jpg
 description: studying at UoG
 slug: /YD/YDInstructors
 ---
