@@ -31,13 +31,26 @@ function EventsPage() {
                                         <div className="section-space"></div>
                                     </div>
                                 </div>
-                                {/* Events begin here */}
+                                {/* CurrentEvents begin here */}
+                                <Events events={events} />
+                                <hr />
+                                <div className="section-space"></div>
+                                    <div className="row">
+                                        <div className="col-md-8 ml-auto mr-auto text-center">
+                                            <h2 className="title">Past Events</h2>
+                                            <h5 className="description">
+                                            Stay connected with us. Here are some of our past events:
+                                            </h5>
+                                        <div className="section-space"></div>
+                                    </div>
+                                </div>
+                                {/* PastEvents begin here */}
                                 <Events events={events} />
                             </div>
                         </div>
                     </div>
                 </div>
-            </Layout>
+            </Layout> 
         </>
     );
 }

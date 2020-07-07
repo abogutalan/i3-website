@@ -1,5 +1,4 @@
 import React from 'react';
-// import {ais} from '../../data/ais';
 import Layout from '../../components/layout';
 
 const AIS = () => (
