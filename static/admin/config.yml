@@ -36,7 +36,7 @@ collections:
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: "description", label: "Description", widget: "text"}
       - { name: "descriptionMore", label: "More Description", widget: "text", optional: true}
-      - { name: slug, label: Slug }
+      - { name: slug, label: Slug, required: false }
 
   - name: locations
     label: Locations
