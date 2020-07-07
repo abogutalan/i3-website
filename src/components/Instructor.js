@@ -10,7 +10,7 @@ class Instructor extends React.Component {
         <div className="row">
             {posts &&
           posts.map(({ node: post }) => (
-              <div>
+              <>
             <div className="col-md-5 ml-auto">
                 <br />
                 <img src={post.frontmatter.imgURL} alt={post.frontmatter.name} className="img-raised rounded img-fluid" />
@@ -31,7 +31,7 @@ class Instructor extends React.Component {
                         </div>
                     </div>}
             </div>
-            </div>
+            </>
              ))}
         </div>
        
