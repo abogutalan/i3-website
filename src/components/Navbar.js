@@ -70,7 +70,7 @@ const Navbar = () => {
                                 <i className="material-icons">apps</i> Young Da'ee
                             </Link>
                             <div className="dropdown-menu dropdown-with-icons">
-                                <Link to="/YD/YDLocations" className="dropdown-item">
+                                <Link to="/YD/YDLocations/YDLocations" className="dropdown-item">
                                     <i className="material-icons">location_on</i> Locations
                                 </Link>
                                 <Link to="/YD/YDInstructors/YDInstructors" className="dropdown-item">
@@ -89,7 +89,7 @@ const Navbar = () => {
                                 <i className="material-icons">apps</i> Research Center
                             </Link>
                             <div className="dropdown-menu dropdown-with-icons">
-                                <Link to="/research/fellows" className="dropdown-item">
+                                <Link to="/research/Fellows/fellows" className="dropdown-item">
                                     <i className="material-icons">people</i> Fellows
                                 </Link>
                                 <Link to="/research/articles" className="dropdown-item">

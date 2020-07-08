@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 // import Categories from '../../components/Categories';
 // import Articles from '../../components/Articles';
 // import { articles } from '../../data/articles';
@@ -46,4 +47,13 @@ const ArticlesPage = () => (
   </Layout>
   )
 
+=======
+const ArticlesPage = ({data}) => (
+  <div>
+    <h1>ArticlesPage Page</h1>
+   
+  </div>
+    
+)
+>>>>>>> 42b428ba867a36938c908b7f5495f5ba42df8843
   export default ArticlesPage
