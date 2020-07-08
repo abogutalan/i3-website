@@ -70,7 +70,7 @@ const Navbar = () => {
                                 <i className="material-icons">apps</i> Young Da'ee
                             </Link>
                             <div className="dropdown-menu dropdown-with-icons">
-                                <Link to="/YD/YDLocations" className="dropdown-item">
+                                <Link to="/YD/YDLocations/YDLocations" className="dropdown-item">
                                     <i className="material-icons">location_on</i> Locations
                                 </Link>
                                 <Link to="/YD/YDInstructors/YDInstructors" className="dropdown-item">
