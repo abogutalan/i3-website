@@ -60,7 +60,8 @@ collections:
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}
-      - { name: URL, label: URL, widget: string }
+      - { name: imgURL, label: Image, widget: image }
+      - { name: myURL, label: URL, widget: image }
     
     
 

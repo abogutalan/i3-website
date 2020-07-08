@@ -18,7 +18,7 @@ class Fellow extends React.Component {
               <div className="col-md-5">
                 <div className="card-header card-header-image">
                   <a href="./fellows/osta.html">
-                    <img className="img" alt="alt value" src="/myAssets/img/ShOstaMain2.jpg" />
+                    <img className="img" alt="alt value" src={post.frontmatter.imgURL} />
                   </a>
                   <div className="colored-shadow" style={{backgroundImage: 'url("/assets/img/faces/card-profile1-square.jpg")', opacity: 1}}>
                   </div>
@@ -72,6 +72,7 @@ export default () => (
                 title
                 description
                 imgURL
+                
                 
               }
             }
