@@ -1,7 +1,9 @@
 import React from 'react';
-import Fellows from '../../components/Fellows';
-import { fellows } from '../../data/fellows';
-import Layout from '../../components/layout';
+import Fellows from '../../../components/Fellows';
+import Layout from '../../../components/layout';
+
+//import { fellows } from '../../../data/fellows';
+const fellows = [ { } ]   // instead of importing data/instructors
 
 function FellowsPage() {
   return (
