@@ -1,13 +1,15 @@
 import React from 'react'
-import Locations from '../../components/Locations';
-import { locations } from '../../data/locations';
-import Layout from '../../components/layout';
+import Locations from '../../../components/Locations';
+import Layout from '../../../components/layout';
+
+//import { locations } from '../../../data/locations';
+const locations = [ { } ]   // instead of importing data/locations
 
 function YDLocatons() {
   return (
     <>
     <Layout>
-    <div className="team-5 section-image" style={{ backgroundImage: `url('../../../public/myAssets/img/TorontoBG.jpg')`}}>
+    <div className="team-5 section-image" style={{ backgroundImage: `url('/myAssets/img/TorontoBG.jpg')`}}>
         <div className="container">
             <div className="row">
                 <div className="col-md-8 ml-auto mr-auto text-center">

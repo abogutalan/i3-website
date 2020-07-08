@@ -9,7 +9,7 @@ const Article = ({imgURL, category, title, description, author, date}) => (
                     <div class="card-header card-header-image article-thumbnail-container">
                         <img class="img img-raised article-thumbnail-img" src={imgURL} />
                         <div class="colored-shadow"
-                            style="background-image: url(&quot;./assets/img/office2.jpg&quot;); opacity: 1;">
+                            style= {{backgroundImage: `url(./assets/img/examples/card-blog4.jpg), opacity: 1`}}>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const ArticleCategory = ({linkTo, imgURL, category, background}) => (
                         <img class="img img-raised" src={imgURL} />
                     </a>
                     <div class="colored-shadow"
-                        style= {{backgroundImage: `url(&quot;./assets/img/examples/card-blog4.jpg&quot;)` opacity: 1;}}>
+                        style= {{backgroundImage: `url(./assets/img/examples/card-blog4.jpg), opacity: 1`}}>
                     </div>
                 </div>
                 <div class="card-body">
