@@ -1,6 +1,6 @@
 import React from 'react';
-import Counselors from '../Components/Counselors';  
-import { counselors } from '../Data/counselors';
+import Counselors from '../../Components/Counselors';  
+import { counselors } from '../../Data/counselors';
 
 function CounselorsPage() {
     return (
