@@ -15,7 +15,7 @@ collections:
   - name: blog
     label: Blog
     folder: src/pages/markdown-pages
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blogTemplate"}
@@ -29,6 +29,7 @@ collections:
   - name: instructors
     label: Instructors
     folder: src/pages/YD/YDInstructors
+    slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "instructorTemplate"}
@@ -41,18 +42,20 @@ collections:
   - name: locations
     label: Locations
     folder: src/pages/YD/YDLocations
+    slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "locationTemplate"}
       - { name: slug, label: Slug, widget: "hidden", default: "/YD/YDLocations/YDLocations" }
       - { name: address, label: Address, widget: string }
       - { name: featuredimage, label: Featured Image, widget: image }
-      - { name: instructorname, label: Instructor Name, widget: string }
+      - { name: name, label: Instructor Name, widget: string }
       - { name: "timing", label: "Timing", widget: "text"}
 
   - name: fellow
     label: Fellows
     folder: src/pages/research/Fellows
+    slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fellowTemplate"}
