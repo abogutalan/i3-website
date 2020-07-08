@@ -40,7 +40,7 @@ collections:
 
   - name: locations
     label: Locations
-    folder: src/location
+    folder: src/pages/YD/YDLocations
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "locationTemplate"}
