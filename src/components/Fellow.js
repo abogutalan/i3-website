@@ -31,7 +31,7 @@ class Fellow extends React.Component {
                   <p className="card-description">{post.frontmatter.description}</p>
                 </div>
                 <div className="card-footer">
-                  <a href={post.frontmatter.imgURL} className="btn btn-just-icon btn-link btn-facebook"><i className="fa fa-facebook-square" />
+                  <a href={post.frontmatter.myURL} className="btn btn-just-icon btn-link btn-facebook"><i className="fa fa-facebook-square" />
                   </a>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export default () => (
                 title
                 description
                 imgURL
-                
+                myURL
                 
               }
             }
