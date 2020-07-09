@@ -1,7 +1,7 @@
-// import React from "react";
-// import Category from "./Category";
+import React from "react";
+import Category from "./Category";
 
-// const Categories = ({ categories }) =>
-//     categories.map((category, idx) => <Category key={idx} {...category} />);
+const Categories = ({ categories }) =>
+    categories.map((category, idx) => <Category key={idx} {...category} />);
 
-// export default Categories
+export default Categories
