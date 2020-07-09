@@ -59,7 +59,7 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fellowTemplate"}
-      - { name: slug, label: Slug, widget: "hidden", default: "/research/Fellows/{{name}}" }
+      - { name: slug, label: Slug, widget: "hidden", default: "/research/Fellows/fellows" }
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}
