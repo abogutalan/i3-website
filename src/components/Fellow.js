@@ -17,7 +17,7 @@ class Fellow extends React.Component {
             <div className="row">
               <div className="col-md-5">
                 <div className="card-header card-header-image">
-                  <a href="./fellows/osta.html">
+                  <a href={post.frontmatter.name}>
                     <img className="img" alt="alt value" src={post.frontmatter.imgURL} />
                   </a>
                   <div className="colored-shadow" style={{backgroundImage: 'url("/assets/img/faces/card-profile1-square.jpg")', opacity: 1}}>

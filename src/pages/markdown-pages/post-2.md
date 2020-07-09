@@ -1,7 +1,6 @@
 ---
-templateKey: 'blogTemplate'
-slug: "/blog/my-second-post"
-date: "2019-05-04"
+templateKey: 'fellowTemplate'
+slug: "/research/Fellows/burhan"
 title: "My second blog post"
 ---
 
