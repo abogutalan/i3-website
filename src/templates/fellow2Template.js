@@ -8,6 +8,7 @@ export default function FellowTemplate({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  console.log(data)
   return (
     <>
     <Layout>
@@ -19,7 +20,7 @@ export default function FellowTemplate({
           <div className="container">
             <div className="row">
               <div className="col-md-8 ml-auto mr-auto text-center">
-                <h1 className="title">i3 Research Fellow - Sheikh Usta</h1>
+                <h1 className="title">i3 Research Fellow</h1>
               </div>
             </div>
           </div>
