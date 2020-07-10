@@ -1,12 +1,46 @@
 import React from 'react'
+import Layout from '../../components/layout';
+import Testimonials from '../../components/Testimonials'
+import { testimonials } from '../../data/testimonials'
+// import SlideTestimonials from '../../components/SlideTestimonials'
+// import { slidetestimonials } from '../../data/slidetestimonials'
 
-const Testimonials = ({data}) => (
-    <div>
-      <h1>Testimonials Page</h1>
-     
-    </div>
-      
+function TestimonialsPage () {
+  return (
+    <>
+      <Layout>
+        <div className = "testimonials-1 section-image" style = {{ backgroundImage: `url('./myAssets/img/testimonialsbg.jpg')` }} >
+          <div className = "container">
+            <div className = "row">
+                <div className = "col-md-6 ml-auto mr-auto text-center">
+                    <h2 className = "title">Our Students Love Us</h2>
+                    <h5 className = "description">
+                        Here's what our students have to say about us...
+                    </h5>
+                </div>
+            </div>
+            <div className = "row">
+              {/* testimonials begin here */}
+              <Testimonials testimonials = { testimonials } />
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-2 section-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner"></div>
+                          {/* slidetestimonials begin here */}
+                          {/* <SlideTestimonials slidetestimonials = { slidetestimonials } />  */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+      </Layout>
+    </>
   )
+}
 
-
-  export default Testimonials
+export default TestimonialsPage 

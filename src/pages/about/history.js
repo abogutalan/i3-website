@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout';
 
-const Objective = () => (
+const History = () => (
     <>
     <Layout>
         <div className = "page-header header-filter header-small" data-parallax = "true"
@@ -90,11 +90,11 @@ const Objective = () => (
                                 <br />
                                 <br />
                                 <div>
-                                    <img style = {{ width: '90%' }} src = "./myAssets/img/knowledge.png" />
+                                    <img style ='width: 90%' src = "./myAssets/img/knowledge.png" />
                                 </div>
                             </div>
                             <div className = "col-md-6">
-                            
+                         
                                 <h2 className = "title"> Our Track Record </h2>
                                 <div className = "info info-horizontal">
                                     <div className = "icon icon-primary">
@@ -136,4 +136,4 @@ const Objective = () => (
     </>
 )
 
-export default Objective
+export default History
