@@ -9,8 +9,7 @@ function FellowPage() {
   return (
   <>
       <Layout>
-      <div className="page-header header-filter header-small" 
-      data-parallax="true" style={{backgroundImage: 'url("../../../public/myAssets/img/Research Center/Fellows/FellowsCover.png")'}}>
+      <div className="page-header header-filter header-small" data-parallax="true" style={{backgroundImage: 'url("../../../public/myAssets/img/Research Center/Fellows/FellowsCover.png")'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-8 ml-auto mr-auto text-center">
