@@ -11,13 +11,14 @@ class Fellow extends React.Component {
         <div className="row">
           {posts &&
           posts.map(({ node: post }) => (
+            console.log(post.frontmatter.slug),
               <>
         <div className="col-md-6">
           <div className="card card-profile card-plain">
             <div className="row">
               <div className="col-md-5">
                 <div className="card-header card-header-image">
-                  <a href={post.frontmatter.name}>
+                  <a id='link' href={post.frontmatter.slug + post.frontmatter.name}>
                     <img className="img" alt="alt value" src={post.frontmatter.imgURL} />
                   </a>
                   <div className="colored-shadow" style={{backgroundImage: 'url("/assets/img/faces/card-profile1-square.jpg")', opacity: 1}}>
@@ -52,6 +53,10 @@ Fellow.propTypes = {
     }),
   }),
 }
+
+// path to fellow portfolio when an image of a fellow clicked
+// let link = document.getElementById("link");
+// link.href = "/research/Fellows/fellows" + link.href;
 
 export default () => (
   <StaticQuery

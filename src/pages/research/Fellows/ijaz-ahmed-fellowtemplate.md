@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/Fellows/fellows
+slug: /research/Fellows/fellows/
 name: Ijaz Ahmed
 title: RESEARCH FELLOW
 description: |+
