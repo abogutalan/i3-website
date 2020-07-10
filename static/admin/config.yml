@@ -64,8 +64,11 @@ collections:
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}
       - { name: imgURL, label: Image, widget: image }
-      - { name: social_media_url, label: Social Media URL, widget: string }
+      - { name: facebook_url, label: Facebook URL, widget: string, default: "", required: false }
+      - { name: twitter_url, label: Twitter URL, widget: string, default: "", required: false }
+      - { name: instagram_url, label: Instagram URL, widget: string, default: "", required: false }
+      - { name: youtube_url, label: Youtube URL, widget: string, default: "", required: false }
+      - { name: google_url, label: Google+ URL, widget: string, default: "", required: false }
+      - { name: linkedin_url, label: LinkedIn URL, widget: string, default: "", required: false }
     
-    
-
       

@@ -32,8 +32,16 @@ class Fellow extends React.Component {
                   <p className="card-description">{post.frontmatter.description}</p>
                 </div>
                 <div className="card-footer">
-                  <a href={post.frontmatter.social_media_url} className="btn btn-just-icon btn-link btn-facebook"><i className="fa fa-facebook-square" />
-                  </a>
+                { post.frontmatter.facebook_url ? <a href={post.frontmatter.facebook_url} 
+                  className="btn btn-just-icon btn-link btn-facebook"><i className="fa fa-facebook-square" /> 
+                  </a> : null}
+
+                  { post.frontmatter.twitter_url ? <a href={post.frontmatter.twitter_url} 
+                  className="btn btn-just-icon btn-link btn-twitter"><i className="fa fa-twitter" /> 
+                  </a> : null}
+                  { post.frontmatter.linkedin_url ? <a href={post.frontmatter.linkedin_url} 
+                  className="btn btn-just-icon btn-link btn-linkedin"><i className="fa fa-linkedin" /> 
+                  </a> : null}
                 </div>
               </div>
             </div>
@@ -54,9 +62,6 @@ Fellow.propTypes = {
   }),
 }
 
-// path to fellow portfolio when an image of a fellow clicked
-// let link = document.getElementById("link");
-// link.href = "/research/Fellows/fellows" + link.href;
 
 export default () => (
   <StaticQuery
@@ -77,8 +82,12 @@ export default () => (
                 title
                 description
                 imgURL
-                social_media_url
-                
+                facebook_url
+                twitter_url
+                instagram_url
+                youtube_url
+                google_url
+                linkedin_url
               }
             }
           }
