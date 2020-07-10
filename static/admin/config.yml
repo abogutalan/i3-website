@@ -64,7 +64,7 @@ collections:
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}
       - { name: imgURL, label: Image, widget: image }
-      - { name: myURL, label: URL, widget: string }
+      - { name: social_media_url, label: Social Media URL, widget: string }
     
     
 
