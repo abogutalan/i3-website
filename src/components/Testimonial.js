@@ -22,4 +22,4 @@ const Testimonial = ({quote, author, position, imgURL}) => (
     </>
 )
 
-// export default Testimonial
+export default Testimonial

@@ -61,7 +61,7 @@ Instructor.propTypes = {
                 id
                 
                 frontmatter {
-                slug
+                  slug
                   templateKey
                   name
                   imgURL

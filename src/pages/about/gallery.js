@@ -5,7 +5,7 @@ const Gallery = () => (
   <>
     <Layout>
       <div className = "page-header header-filter header-small" data-parallax = "true"
-        style = {{ backgroundImage: `url('./myAssets/img/AppreciationDinner.jpg')` }}>
+        style = {{ backgroundImage: `url('/myAssets/img/AppreciationDinner.jpg')` }}>
         <div className = "container">
             <div className = "row">
                 <div className = "col-md-8 ml-auto mr-auto text-center">
@@ -41,4 +41,4 @@ const Gallery = () => (
   </>
 )
 
-// export default Gallery
+export default Gallery
