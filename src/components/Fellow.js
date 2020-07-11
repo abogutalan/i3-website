@@ -11,7 +11,6 @@ class Fellow extends React.Component {
         <div className="row">
           {posts &&
           posts.map(({ node: post }) => (
-            console.log(post.frontmatter.slug),
               <>
         <div className="col-md-6">
           <div className="card card-profile card-plain">

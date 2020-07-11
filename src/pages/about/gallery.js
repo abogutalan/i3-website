@@ -26,11 +26,11 @@ const Gallery = () => (
             <div className = "about-services features-2">
               <div className = "ml-auto mr-auto text-center">
                 <h3 className = "title"> 
-                <a target = "_blank" href = "https://www.facebook.com/pg/i3islamicinstitute/photos/?ref=page_internal">
+                <a target = "_blank" rel="noopener noreferrer" href = "https://www.facebook.com/pg/i3islamicinstitute/photos/?ref=page_internal">
                   Click Here To View Our Photo Gallery </a>
                 </h3>
                 <h3 className = "title"> 
-                  <a target = "_blank" href = "https://www.facebook.com/pg/i3islamicinstitute/videos/?ref=page_internal">
+                  <a target = "_blank" rel="noopener noreferrer" href = "https://www.facebook.com/pg/i3islamicinstitute/videos/?ref=page_internal">
                     Click Here To View Our Video Gallery </a>
                 </h3>
               </div>

@@ -14,7 +14,7 @@ const Testimonial = ({quote, author, position, imgURL}) => (
                     <h4 class="card-title">{author}</h4>
                     <h6 class="card-category">{position}</h6>
                     <div class="card-avatar">
-                        <img class="img" src={imgURL} />
+                        <img class="img" src={imgURL} alt="" />
                     </div>
                 </div>
             </div>

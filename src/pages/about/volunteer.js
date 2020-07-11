@@ -28,7 +28,7 @@ function VolunteersPage() {
                             <div className = "row">
                                 <div className = "col-md-8 ml-auto mr-auto text-center">
                                     <h2 className = "title"> Open Positions </h2>
-                                    <img src = "/myAssets/img/volunteer-poster.jpg" style={{width: '50%'}} />
+                                    <img src = "/myAssets/img/volunteer-poster.jpg" style={{width: '50%'}} alt="" />
                                 </div>
                             </div>
                             {/* Volunteer positions begin here */}
