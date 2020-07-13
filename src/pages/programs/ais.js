@@ -5,7 +5,7 @@ const AIS = () => (
         <>
         <Layout>
             <div className="page-header header-filter header-small" data-parallax="true"
-                    style={{backgroundImage: `url('./myAssets/img/AIS banner.jpg')` }}>
+                    style={{backgroundImage: `url('/myAssets/img/AIS banner.jpg')` }}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 ml-auto mr-auto text-center">
@@ -38,7 +38,7 @@ const AIS = () => (
                                         <div className="card-body">
                                         </div>
                                     </div> --> */}
-                                    <img src="./myAssets/img/ais flyer.jpg" alt="flyer" style={{width: '100%'}} />
+                                    <img src="/myAssets/img/ais flyer.jpg" alt="flyer" style={{width: '100%'}} />
                                 </div>
                                 <div className="col-md-5 mr-auto">
                                     <div className="info info-horizontal">
