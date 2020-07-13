@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CounselorsPage = ({data}) => (
+const CounselorsPage = () => (
     <div>
       <h1>CounselorsPage Page</h1>
      
