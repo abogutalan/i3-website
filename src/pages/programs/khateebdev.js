@@ -5,7 +5,7 @@ const Khateebdev = ({data}) => (
   <>
   <Layout>
     <div className = "page-header header-filter header-small" data-parallax = "true"
-        style = {{ backgroundImage: `url('./myAssets/img/OstaAndRasoul2.jpg')` }}>
+        style = {{ backgroundImage: `url('/myAssets/img/OstaAndRasoul2.jpg')` }}>
         <div className = "container">
             <div className = "row">
                 <div className = "col-md-8 ml-auto mr-auto text-center">
@@ -61,7 +61,7 @@ const Khateebdev = ({data}) => (
                         <br />
                         <br />
                         <div className = "phone-container">
-                            <img src="./myAssets/img/ShRasouli3dinner.jpg" alt=""/>
+                            <img src="/myAssets/img/ShRasouli3dinner.jpg" alt=""/>
                         </div>
                     </div>
                     <div className = "col-lg-3 col-md-12 mr-auto">
