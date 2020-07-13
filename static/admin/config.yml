@@ -59,7 +59,7 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fellowTemplate"}
-      - { name: slug, label: Slug, widget: "hidden", default: "/research/Fellows/fellows/" }
+      - { name: slug, label: Slug, widget: "hidden", default: "/research/Fellows/fellow/" }
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}
@@ -71,4 +71,19 @@ collections:
       - { name: google_url, label: Google+ URL, widget: string, default: "", required: false }
       - { name: linkedin_url, label: LinkedIn URL, widget: string, default: "", required: false }
     
+  - name: event
+    label: Events
+    folder: src/pages/programs/Events
+    slug: "{{name}}-{{templateKey}}"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "eventTemplate"}
+      - { name: slug, label: Slug, widget: "hidden", default: "/programs/Events/event/" }
+      - { name: imgURL, label: Image, widget: image }
+      - { name: name, label: Event Name, widget: string }
+      - { name: location, label: Location, widget: "text" }
+      - { name: DT, label: Date/Time, widget: "text"}
+      - { name: "description", label: "Description", widget: "text"}
+      
+      
       
