@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout'
+import '../../../static/myAssets/stylesheets/navbar.css'
 
 const CounselorsPage = ({data}) => (
   <>
