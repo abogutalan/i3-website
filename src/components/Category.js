@@ -6,7 +6,7 @@ const Category = ({linkTo, imgURL, category, background}) => (
             <div class="card card-plain card-blog">
                 <div class="card-header card-header-image">
                     <a href={linkTo}>
-                        <img class="img img-raised" src={imgURL} />
+                        <img class="img img-raised" src={imgURL} alt="" />
                     </a>
                     <div class="colored-shadow"
                         style= {{backgroundImage: `url(./assets/img/examples/card-blog4.jpg)`, opacity: 1}}>

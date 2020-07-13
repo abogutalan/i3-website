@@ -8,7 +8,7 @@ function VolunteersPage() {
       <Layout>
         <>
             <div className = "page-header header-filter header-small" data-parallax = "true"
-            style = {{ backgroundImage: `url('./myAssets/img/events/AndalusiOstaRasoul.jpg')` }}>
+            style = {{ backgroundImage: `url('/myAssets/img/events/AndalusiOstaRasoul.jpg')` }}>
                 <div className = "container">
                     <div className = "row">
                         <div className = "col-md-8 ml-auto mr-auto text-center">
@@ -28,7 +28,7 @@ function VolunteersPage() {
                             <div className = "row">
                                 <div className = "col-md-8 ml-auto mr-auto text-center">
                                     <h2 className = "title"> Open Positions </h2>
-                                    <img src = "./myAssets/img/instructors/volunteer-poster(2).JPG" />
+                                    <img src = "/myAssets/img/volunteer-poster.jpg" style={{width: '50%'}} alt="" />
                                 </div>
                             </div>
                             {/* Volunteer positions begin here */}

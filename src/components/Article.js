@@ -7,7 +7,7 @@ const Article = ({imgURL, category, title, description, author, date}) => (
             <div className="row">
                 <div className="col-md-4">
                     <div className="card-header card-header-image article-thumbnail-container">
-                        <img className="img img-raised article-thumbnail-img" src={imgURL} />
+                        <img className="img img-raised article-thumbnail-img" src={imgURL} alt="" />
                         <div className="colored-shadow"
                             style={{backgroundImage: `url(./assets/img/office2.jpg)`, opacity: 1}}>
                         </div>
