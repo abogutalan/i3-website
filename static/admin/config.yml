@@ -84,6 +84,7 @@ collections:
       - { name: location, label: Location, widget: "text" }
       - { name: DT, label: Date/Time, widget: "text"}
       - { name: "description", label: "Description", widget: "text"}
+      - { name: isCurrentEvent, label: Is it a current event?, widget: boolean }
       
       
       
