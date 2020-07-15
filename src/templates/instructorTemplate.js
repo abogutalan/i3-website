@@ -11,63 +11,57 @@ import { graphql, StaticQuery } from 'gatsby'
 
 class YDInstructorsPage extends React.Component {
   render() {
-    
-    const { data } = this.props
-    const { edges } = data.allMarkdownRemark 
 
+    const { data } = this.props
+    const { edges } = data.allMarkdownRemark
+
+    // getting frontmatters of every edges
     const instructors = edges.map(edge => {
       return edge.node.frontmatter
-    })  
+    })
 
     console.log("DATA: ")
     console.log(data)
     console.log("INSTRUCTORS: ")
     console.log(instructors)
-    return(
-     
-      <Layout>
-         
-    <>
-      <div className="page-header header-filter header-small" data-parallax="true"
-        style={{ backgroundImage: `url('/myAssets/img/instructors/i3bg2.jpg')` }}>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-8 ml-auto mr-auto text-center">
-              <h1 className="title">i3 Instructors</h1>
-              <h4>Get to know our Instructors!</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="main main-raised">
-        <div className="container">
-          <div className="projects-4" id="projects-4">
+    return (
+      <>
+        <Layout>
+          <div className="page-header header-filter header-small" data-parallax="true"
+            style={{ backgroundImage: `url('/myAssets/img/instructors/i3bg2.jpg')` }}>
             <div className="container">
               <div className="row">
                 <div className="col-md-8 ml-auto mr-auto text-center">
-                  <h2 className="title">Instructor Profiles</h2>
-                  <h5 className="description">
-                    We asked each of our instructors to tell us about themselves.
-                  </h5>
-                  <div className="section-space"></div>
+                  <h1 className="title">i3 Instructors</h1>
+                  <h4>Get to know our Instructors!</h4>
                 </div>
               </div>
-              {/* Profiles begin here */}
-              {/* {posts &&
-               posts.map(({ node: {frontmatter} }) => ( */}
-
-                  <Instructors instructors={instructors}/>
-                {/* ))}  */}
-
-              </div>
+            </div>
           </div>
-        </div>
-      </div>
+          <div className="main main-raised">
+            <div className="container">
+              <div className="projects-4" id="projects-4">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-8 ml-auto mr-auto text-center">
+                      <h2 className="title">Instructor Profiles</h2>
+                      <h5 className="description">
+                        We asked each of our instructors to tell us about themselves.
+                  </h5>
+                      <div className="section-space"></div>
+                    </div>
+                  </div>
+
+                  <Instructors instructors={instructors} />
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </Layout>
       </>
-      </Layout>
-    
-  );
-}
+    );
+  }
 
 }
 
