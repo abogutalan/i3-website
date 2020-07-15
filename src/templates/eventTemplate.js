@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
 // import { events } from '../../data/events';
-// const events = [ { } ] nevermind ok lemme know if anything goes wrong salam
+const events = [ { } ] 
 // const pastevents = [ { } ]
 
 class EventsPage extends React.Component {
@@ -26,28 +26,25 @@ class EventsPage extends React.Component {
 
     
 
-    const currentevents=[ { } ];
-    const pastevents=[ { } ];
+    var currentevents=[ { } ];
+    var pastevents=[ { } ];
     edges.map((edge) => { 
       console.log("IS Current Event:")
-        console.log(edge.node.frontmatter.isCurrentEvent)
+      console.log(edge.node.frontmatter.isCurrentEvent)
       if (edge.node.frontmatter.isCurrentEvent) {       
         currentevents.concat(edge.node.frontmatter) 
         console.log("Current Event:")
-        console.log(edge.node.frontmatter)
+        console.log(currentevents)
       } else {
         pastevents.concat(edge.node.frontmatter)
         console.log("Past Event:")
-        console.log(edge.node.frontmatter)
+        console.log(pastevents)
       }
     })
 
     return(
       <>
       <Layout>
-        
-              
-
                 <div className="page-header header-filter header-small" data-parallax="true"
                     style={{ backgroundImage: `url('/myAssets/img/events/AndalusiOstaRasoul.jpg')` }}>
                     <div className="container">
@@ -73,7 +70,7 @@ class EventsPage extends React.Component {
                                     </div>
                                 </div>
                                 {/* CurrentEvents begin here */}
-                                <Events events={events} />
+                                <Events events={currentevents} />
                                 <hr />
                                 <div className="section-space"></div>
                                     <div className="row">
@@ -86,7 +83,7 @@ class EventsPage extends React.Component {
                                     </div>
                                 </div>
                                 {/* PastEvents begin here */}
-                                <Events events = {events} />
+                                <Events events = {pastevents} />
                             </div>
                         </div>
                     </div>
