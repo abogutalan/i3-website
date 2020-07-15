@@ -24,14 +24,14 @@ const Donate = ()  => (
                         <div className = "col-md-6">
                             <br />
                             <br />
-                            <iframe allowpaymentrequest = "" frameborder = "0" height = "900px" name = "donorbox" scrolling = "no"
+                            <iframe title="donationbox" allowpaymentrequest = "" frameborder = "0" height = "900px" name = "donorbox" scrolling = "no"
                                 seamless = "seamless" src = "https://donorbox.org/embed/i3institute?default_interval=m"
                                 style = {{ maxWidth: '500px', minWidth: '310px', maxHeight:'none!important' }}
                                 width = "100% "></iframe>
                         </div>
                         <div className = "col-md-6">
                             <h2 className = "title"> Donate Today! </h2>
-                            <iframe frameborder = "0" height = "93px" name = "donorbox" scrolling = "no" seamless = "seamless"
+                            <iframe title="donationbox" frameborder = "0" height = "93px" name = "donorbox" scrolling = "no" seamless = "seamless"
                                 src = "https://donorbox.org/embed/i3institute?donation_meter_color=%2341a2d8&amp;only_donation_meter=true"
                                 style = {{ maxWidth:'500px', minWidth:'250px', maxHeight:'none!important', width:"100%" }}>
                             </iframe>
