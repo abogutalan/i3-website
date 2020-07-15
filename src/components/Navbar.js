@@ -48,7 +48,7 @@ const Navbar = () => {
                                 <i className="material-icons">apps</i> Programs
                             </Link>
                             <div className="dropdown-menu dropdown-with-icons">
-                                <Link to="/programs/events" className="dropdown-item">
+                                <Link to="/programs/Events/event/" className="dropdown-item">
                                     <i className="material-icons">line_style</i> Events
                                 </Link>
                                 <Link to="/programs/khateebdev" className="dropdown-item">

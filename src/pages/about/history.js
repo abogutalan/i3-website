@@ -90,7 +90,7 @@ const History = () => (
                                 <br />
                                 <br />
                                 <div>
-                                    <img style={{width: '90%'}} src="/myAssets/img/knowledge.png" alt="" />
+                                    <img style = {{width: '90%'}} src = "/myAssets/img/knowledge.png" alt = "" />
                                 </div>
                             </div>
                             <div className = "col-md-6">

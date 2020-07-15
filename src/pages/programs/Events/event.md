@@ -6,4 +6,5 @@ location: Online
 description: testing
 DT: Today
 slug: /programs/Events
+isCurrentEvent: false
 ---

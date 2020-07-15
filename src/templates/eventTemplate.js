@@ -2,13 +2,52 @@ import React from 'react';
 import Events from '../components/Events';
 import Layout from '../components/layout';
 
-// import { events } from '../../data/events';
-const events = [ { } ]
+import PropTypes from 'prop-types'
+import { graphql, StaticQuery } from 'gatsby'
 
-function EventsPage() {
-    return (
-        <>
-            <Layout>
+// import { events } from '../../data/events';
+// const events = [ { } ] nevermind ok lemme know if anything goes wrong salam
+// const pastevents = [ { } ]
+
+class EventsPage extends React.Component {
+  render() {
+    
+    const { data } = this.props
+    const { edges } = data.allMarkdownRemark 
+
+    const events = edges.map(edge => {
+      return edge.node.frontmatter
+    })  
+
+    console.log("DATA: ")
+    console.log(data)
+    console.log("EVENTS: ") 
+    console.log(events)
+
+    
+
+    const currentevents=[ { } ];
+    const pastevents=[ { } ];
+    edges.map((edge) => { 
+      console.log("IS Current Event:")
+        console.log(edge.node.frontmatter.isCurrentEvent)
+      if (edge.node.frontmatter.isCurrentEvent) {       
+        currentevents.concat(edge.node.frontmatter) 
+        console.log("Current Event:")
+        console.log(edge.node.frontmatter)
+      } else {
+        pastevents.concat(edge.node.frontmatter)
+        console.log("Past Event:")
+        console.log(edge.node.frontmatter)
+      }
+    })
+
+    return(
+      <>
+      <Layout>
+        
+              
+
                 <div className="page-header header-filter header-small" data-parallax="true"
                     style={{ backgroundImage: `url('/myAssets/img/events/AndalusiOstaRasoul.jpg')` }}>
                     <div className="container">
@@ -29,7 +68,7 @@ function EventsPage() {
                                         <h2 className="title">Upcoming Events</h2>
                                         <h5 className="description">
                                             Stay connected with us. Here are our upcoming events:
-                                    </h5>
+                                        </h5>
                                         <div className="section-space"></div>
                                     </div>
                                 </div>
@@ -47,14 +86,53 @@ function EventsPage() {
                                     </div>
                                 </div>
                                 {/* PastEvents begin here */}
-                                <Events events={events} />
+                                <Events events = {events} />
                             </div>
                         </div>
                     </div>
                 </div>
-            </Layout> 
-        </>
+                
+            </Layout>
+            </> 
     );
+  }
 }
 
-export default EventsPage;
+EventsPage.propTypes = {
+    data: PropTypes.shape({
+      allMarkdownRemark: PropTypes.shape({
+        edges: PropTypes.array,
+      }),
+    }),
+  }
+
+  export default () => (
+    <StaticQuery
+      query={graphql`
+        query EventQuery {
+          allMarkdownRemark(
+            filter: { frontmatter: { templateKey: { eq: "eventTemplate" } } }
+          ) {
+            edges {
+              node {
+                excerpt(pruneLength: 400)
+                id
+                
+                frontmatter {
+                  slug
+                  templateKey
+                  imgURL
+                  name
+                  location
+                  DT
+                  description   
+                  isCurrentEvent               
+                }
+              }
+            }
+          }
+        }
+      `}
+      render={(data, count) => <EventsPage data={data} count={count} />}
+    />
+  )
