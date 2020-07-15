@@ -20,7 +20,6 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "instructorTemplate"}
-      - { name: slug, label: Slug, widget: "hidden", default: "/YD/YDInstructors/YDInstructors" }
       - { name: name, label: Instructor Name, widget: string }
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: "description", label: "Description", widget: "text"}
@@ -33,7 +32,6 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "locationTemplate"}
-      - { name: slug, label: Slug, widget: "hidden", default: "/YD/YDLocations/YDLocations" }
       - { name: address, label: Address, widget: string }
       - { name: featuredimage, label: Featured Image, widget: image }
       - { name: name, label: Instructor Name, widget: string }
@@ -46,7 +44,6 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fellowTemplate"}
-      - { name: slug, label: Slug, widget: "hidden", default: "/research/Fellows/fellow/" }
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}

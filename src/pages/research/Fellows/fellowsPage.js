@@ -16,6 +16,7 @@ class FellowPage extends React.Component {
     const fellows = edges.map(edge => {
       return edge.node.frontmatter
     })
+    
     return (
       <>
         <Layout>

@@ -4,10 +4,6 @@ import Layout from '../../../components/layout';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
-//import { instructors } from '../../../data/instructors';
-//const instructors = [ { } ]   // instead of importing data/instructors
-
-// InstructorsPage
 
 class YDInstructorsPage extends React.Component {
   render() {
@@ -20,10 +16,6 @@ class YDInstructorsPage extends React.Component {
       return edge.node.frontmatter
     })
 
-    console.log("DATA: ")
-    console.log(data)
-    console.log("INSTRUCTORS: ")
-    console.log(instructors)
     return (
       <>
         <Layout>
