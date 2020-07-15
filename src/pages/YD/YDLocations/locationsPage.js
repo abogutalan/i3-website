@@ -1,6 +1,6 @@
 import React from 'react'
-import Locations from '../components/Locations';
-import Layout from '../components/layout';
+import Locations from '../../../components/Locations';
+import Layout from '../../../components/layout';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 

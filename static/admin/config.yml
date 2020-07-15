@@ -12,19 +12,6 @@ media_folder: static/myAssets/img
 public_folder: /myAssets/img
 
 collections:
-  - name: blog
-    label: Blog
-    folder: src/pages/markdown-pages
-    slug: "{{name}}-{{templateKey}}"
-    create: true
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blogTemplate"}
-      - { name: slug, label: Slug }
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
-      - {label: "Tags", name: "tags", widget: "list"}
   
   - name: instructors
     label: Instructors

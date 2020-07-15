@@ -1,6 +1,6 @@
 import React from 'react';
-import Fellows from '../components/Fellows';
-import Layout from '../components/layout';
+import Fellows from '../../../components/Fellows';
+import Layout from '../../../components/layout';
 
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
