@@ -26,17 +26,17 @@ class EventsPage extends React.Component {
 
     
 
-    var currentevents=[ { } ];
-    var pastevents=[ { } ];
+    var currentevents=[ ];
+    var pastevents=[ ];
     edges.map((edge) => { 
       console.log("IS Current Event:")
       console.log(edge.node.frontmatter.isCurrentEvent)
       if (edge.node.frontmatter.isCurrentEvent) {       
-        currentevents.concat(edge.node.frontmatter) 
+        currentevents.push(edge.node.frontmatter) 
         console.log("Current Event:")
         console.log(currentevents)
       } else {
-        pastevents.concat(edge.node.frontmatter)
+        pastevents.push(edge.node.frontmatter)
         console.log("Past Event:")
         console.log(pastevents)
       }
@@ -70,7 +70,7 @@ class EventsPage extends React.Component {
                                     </div>
                                 </div>
                                 {/* CurrentEvents begin here */}
-                                <Events events={events} />
+                                <Events events={currentevents} />
                                 <hr />
                                 <div className="section-space"></div>
                                     <div className="row">
@@ -83,7 +83,7 @@ class EventsPage extends React.Component {
                                     </div>
                                 </div>
                                 {/* PastEvents begin here */}
-                                <Events events = {events} />
+                                <Events events = {pastevents} />
                             </div>
                         </div>
                     </div>
