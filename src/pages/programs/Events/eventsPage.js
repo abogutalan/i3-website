@@ -1,13 +1,10 @@
 import React from 'react';
-import Events from '../components/Events';
-import Layout from '../components/layout';
+import Events from '../../../components/Events';
+import Layout from '../../../components/layout';
 
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
-// import { events } from '../../data/events';
-const events = [ { } ] 
-// const pastevents = [ { } ]
 
 class EventsPage extends React.Component {
   render() {
@@ -15,31 +12,16 @@ class EventsPage extends React.Component {
     const { data } = this.props
     const { edges } = data.allMarkdownRemark 
 
-    const events = edges.map(edge => {
-      return edge.node.frontmatter
-    })  
-
-    console.log("DATA: ")
-    console.log(data)
-    console.log("EVENTS: ") 
-    console.log(events)
-
-    
-
-    var currentevents=[ ];
-    var pastevents=[ ];
+    // seperating current events and past events
+    let currentevents=[ ];
+    let pastevents=[ ];
     edges.map((edge) => { 
-      console.log("IS Current Event:")
-      console.log(edge.node.frontmatter.isCurrentEvent)
       if (edge.node.frontmatter.isCurrentEvent) {       
         currentevents.push(edge.node.frontmatter) 
-        console.log("Current Event:")
-        console.log(currentevents)
       } else {
         pastevents.push(edge.node.frontmatter)
-        console.log("Past Event:")
-        console.log(pastevents)
       }
+      return ""
     })
 
     return(
@@ -116,7 +98,6 @@ EventsPage.propTypes = {
                 id
                 
                 frontmatter {
-                  slug
                   templateKey
                   imgURL
                   name

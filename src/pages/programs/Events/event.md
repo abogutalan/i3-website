@@ -5,6 +5,5 @@ imgURL: /myAssets/img/events/bbq.jpg
 location: Online
 description: testing
 DT: Today
-slug: /programs/Events/events
 isCurrentEvent: false
 ---

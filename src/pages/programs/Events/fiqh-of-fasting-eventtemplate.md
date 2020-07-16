@@ -1,6 +1,5 @@
 ---
 templateKey: eventTemplate
-slug: /programs/Events/event/
 imgURL: /myAssets/img/fasting.png
 name: Fiqh of Fasting
 location: Online Workshop
