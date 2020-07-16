@@ -1,13 +1,10 @@
 import React from 'react';
-import Events from '../components/Events';
-import Layout from '../components/layout';
+import Events from '../../../components/Events';
+import Layout from '../../../components/layout';
 
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
-// import { events } from '../../data/events';
-// const events = [ { } ] nevermind ok lemme know if anything goes wrong salam
-// const pastevents = [ { } ]
 
 class EventsPage extends React.Component {
   render() {
@@ -15,39 +12,21 @@ class EventsPage extends React.Component {
     const { data } = this.props
     const { edges } = data.allMarkdownRemark 
 
-    const events = edges.map(edge => {
-      return edge.node.frontmatter
-    })  
-
-    console.log("DATA: ")
-    console.log(data)
-    console.log("EVENTS: ") 
-    console.log(events)
-
-    
-
-    const currentevents=[ {} ];
-    const pastevents=[ {} ];
+    // seperating current events and past events
+    let currentevents=[ ];
+    let pastevents=[ ];
     edges.map((edge) => { 
-      console.log("Current Event:")
-        console.log(edge.node.frontmatter)
       if (edge.node.frontmatter.isCurrentEvent) {       
-        currentevents.concat(edge.node.frontmatter) 
-        console.log("Current Event:")
-        console.log(currentevents)
+        currentevents.push(edge.node.frontmatter) 
       } else {
-        pastevents.concat(edge.node.frontmatter)
-        console.log("Past Event:")
-        console.log(pastevents)
+        pastevents.push(edge.node.frontmatter)
       }
+      return ""
     })
 
     return(
       <>
       <Layout>
-        
-              
-
                 <div className="page-header header-filter header-small" data-parallax="true"
                     style={{ backgroundImage: `url('/myAssets/img/events/AndalusiOstaRasoul.jpg')` }}>
                     <div className="container">
@@ -73,7 +52,7 @@ class EventsPage extends React.Component {
                                     </div>
                                 </div>
                                 {/* CurrentEvents begin here */}
-                                <Events events={events} />
+                                <Events events={currentevents} />
                                 <hr />
                                 <div className="section-space"></div>
                                     <div className="row">
@@ -86,7 +65,7 @@ class EventsPage extends React.Component {
                                     </div>
                                 </div>
                                 {/* PastEvents begin here */}
-                                <Events events = {events} />
+                                <Events events = {pastevents} />
                             </div>
                         </div>
                     </div>
@@ -119,7 +98,6 @@ EventsPage.propTypes = {
                 id
                 
                 frontmatter {
-                  slug
                   templateKey
                   imgURL
                   name
