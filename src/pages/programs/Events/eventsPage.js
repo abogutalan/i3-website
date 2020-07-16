@@ -12,16 +12,19 @@ class EventsPage extends React.Component {
     const { data } = this.props
     const { edges } = data.allMarkdownRemark 
 
+    console.log("EDGES:: ",edges)
+
     // seperating current events and past events
     let currentevents=[ ];
     let pastevents=[ ];
-    edges.map((edge) => { 
+    edges.forEach((edge) => { 
       if (edge.node.frontmatter.isCurrentEvent) {       
         currentevents.push(edge.node.frontmatter) 
+
       } else {
         pastevents.push(edge.node.frontmatter)
       }
-      return ""
+      
     })
 
     return(

@@ -61,6 +61,7 @@ collections:
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "eventTemplate"}
       - { name: imgURL, label: Image, widget: image }
       - { name: name, label: Event Name, widget: string }
       - { name: location, label: Location, widget: "text" }
