@@ -26,19 +26,19 @@ class EventsPage extends React.Component {
 
     
 
-    const currentevents=[ { } ];
-    const pastevents=[ { } ];
+    const currentevents=[ {} ];
+    const pastevents=[ {} ];
     edges.map((edge) => { 
-      console.log("IS Current Event:")
-        console.log(edge.node.frontmatter.isCurrentEvent)
+      console.log("Current Event:")
+        console.log(edge.node.frontmatter)
       if (edge.node.frontmatter.isCurrentEvent) {       
         currentevents.concat(edge.node.frontmatter) 
         console.log("Current Event:")
-        console.log(edge.node.frontmatter)
+        console.log(currentevents)
       } else {
         pastevents.concat(edge.node.frontmatter)
         console.log("Past Event:")
-        console.log(edge.node.frontmatter)
+        console.log(pastevents)
       }
     })
 

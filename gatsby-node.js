@@ -31,7 +31,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     // creating pages only for FELLOWS PORTFOLIO and 
       // will create ESSAYS
-    if(node.frontmatter.templateKey == "fellow2Template" )
+    if(node.frontmatter.templateKey == "fellow2Template" ||
+        node.frontmatter.templateKey == "eventTemplate" )
     {console.log(node.frontmatter.templateKey)
       createPage({
       path: node.frontmatter.slug,
