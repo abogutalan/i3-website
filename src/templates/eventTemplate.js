@@ -70,7 +70,7 @@ class EventsPage extends React.Component {
                                     </div>
                                 </div>
                                 {/* CurrentEvents begin here */}
-                                <Events events={currentevents} />
+                                <Events events={events} />
                                 <hr />
                                 <div className="section-space"></div>
                                     <div className="row">
@@ -83,7 +83,7 @@ class EventsPage extends React.Component {
                                     </div>
                                 </div>
                                 {/* PastEvents begin here */}
-                                <Events events = {pastevents} />
+                                <Events events = {events} />
                             </div>
                         </div>
                     </div>
