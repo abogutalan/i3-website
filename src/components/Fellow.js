@@ -3,13 +3,12 @@ import React from "react";
 const Fellow = ({ name, title, description, imgURL, facebook_url, twitter_url,
   instagram_url, youtube_url, google_url, linkedin_url, slug }) => (
     
-      <div className="row">
         <div className="col-md-6">
           <div className="card card-profile card-plain">
             <div className="row">
               <div className="col-md-5">
                 <div className="card-header card-header-image">
-                  <a id='link' href={slug + name}>
+                  <a href={slug + name}>
                     <img className="img" alt="alt value" src={imgURL} />
                   </a>
                   <div className="colored-shadow" style={{ backgroundImage: 'url("/assets/img/faces/card-profile1-square.jpg")', opacity: 1 }}>
@@ -36,10 +35,10 @@ const Fellow = ({ name, title, description, imgURL, facebook_url, twitter_url,
                     className="btn btn-just-icon btn-link btn-linkedin"><i className="fa fa-linkedin" />
                   </a> : null}
                   {youtube_url ? <a href={youtube_url}
-                    className="btn btn-just-icon btn-youtube btn-round"><i className="fa fa-youtube-play"></i>
+                    className="btn btn-just-icon btn-youtube btn-link"><i className="fa fa-youtube-play"></i>
                   </a> : null}
                   {instagram_url ? <a href={instagram_url}
-                    className="btn btn-just-icon btn-instagram btn-round"><i className="fa fa-instagram"></i>
+                    className="btn btn-just-icon btn-instagram btn-link"><i className="fa fa-instagram"></i>
                   </a> : null}
                 </div>
               </div>
@@ -47,7 +46,6 @@ const Fellow = ({ name, title, description, imgURL, facebook_url, twitter_url,
           </div>
         </div>
 
-      </div>
   )
 
 export default Fellow

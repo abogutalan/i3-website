@@ -73,7 +73,7 @@ const Navbar = () => {
                                 <Link to="/YD/YDLocations/locationsPage" className="dropdown-item">
                                     <i className="material-icons">location_on</i> Locations
                                 </Link>
-                                <Link to="/YD/YDInstructors/instructorsPage" className="dropdown-item">
+                                <Link to="/YD/instructorsPage" className="dropdown-item">
                                     <i className="material-icons">people</i> Instructors
                                 </Link>
                                 <Link to="/YD/register" className="dropdown-item">
