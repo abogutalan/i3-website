@@ -7,5 +7,5 @@ description: Sheikh Usta has been teaching Islamic knowledge for over a decade.
   a Bachelors in Arabic and Islamic Studies. He has learned from 11 prominent
   scholars including Dr. Abdul-Fattah Idris, a leading Comparative Fiqh
   professor at al-Azhar
-descriptionMore: we can add more desc here
+descriptionMore: ""
 ---
