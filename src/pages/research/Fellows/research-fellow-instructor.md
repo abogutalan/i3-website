@@ -1,18 +1,16 @@
 ---
 templateKey: fellowTemplate
+slug: /research/Fellows/fellowsPage/
 name: Sheikh Rasoul
 title: RESEARCH FELLOW, INSTRUCTOR
-description: >+
+description: >
   Sheikh Rasoul is a teacher, a leader, and an active contributor to the
   community.
-slug: /research/Fellows/fellowsPage/
 imgURL: /myAssets/img/ShRasoulMain2.jpg
-
-facebook_url: https://www.facebook.com/salar.rasoul?__tn__=lCH-R&eid=ARBy36mQHXuPnsOD2tJ 
-twitter_url: https://twitter.com/MKamilAhmad
+facebook_url: https://www.facebook.com/salar.rasoul?__tn__=lCH-R&eid=ARBy36mQHXuPnsOD2tJ%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20V0WFlScK31apseC6iErB0eugERa_5aHLH_BT14npwI50Kk8T69hRWK9JHmn1c&hc%2520%2520%2520%2520%2520%2520%25%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252020%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520_ref=ARTM5Tp23A08DAEU8YccJt7GFANfL-A4gAMyswVNYftBQ470H%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20X8A3o47udeM2R9EsSo
+twitter_url: ""
 instagram_url: ""
 youtube_url: ""
 google_url: ""
-linkedin_url: "https://www.linkedin.com/in/kamil-ahmad-b9476531"
-
+linkedin_url: ""
 ---
