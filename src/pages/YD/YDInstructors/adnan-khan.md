@@ -1,12 +1,11 @@
 ---
 templateKey: instructorTemplate
 name: Adnan Khan
-imgURL: /myAssets/img/OstaAndRasoul.jpg
-description: Sheikh Usta has been teaching Islamic knowledge for over a decade.
-  Sheikh Usta is currently completing his Masters in Islamic Shariah, and holds
-  a Bachelors in Arabic and Islamic Studies. He has learned from 11 prominent
-  scholars including Dr. Abdul-Fattah Idris, a leading Comparative Fiqh
-  professor at al-Azhar.
+imgURL: /myAssets/img/adnan2.jpg
+description: Adnan has been part of the i3 Institute Inc. since 2015. He is
+  currently enrolled in the Bachelors of Islamic Studies program at Mishkah
+  University and also pursuing Arabic Studies from The Quran Institute. His
+  favourite subjects are Usul-ul-Fiqh and History of Islam.
 descriptionMore: Adnan graduated as a Mechatronics Engineer from the University
   of Waterloo and is currently working as a Senior Process Planner at a plastic
   injection mold making company. He loves to read, write and reflect on issues
