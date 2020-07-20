@@ -2,7 +2,7 @@ import React from "react";
 
 const Fellow = ({ name, title, description, imgURL, facebook_url, twitter_url,
   instagram_url, youtube_url, google_url, linkedin_url, slug }) => (
-    <>
+    
       <div className="row">
         <div className="col-md-6">
           <div className="card card-profile card-plain">
@@ -48,7 +48,6 @@ const Fellow = ({ name, title, description, imgURL, facebook_url, twitter_url,
         </div>
 
       </div>
-    </>
   )
 
 export default Fellow

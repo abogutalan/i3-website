@@ -6,6 +6,8 @@ description: >+
   Sheikh Usta is currently completing his Masters in Islamic Shariah, and holds
   a Bachelors in Arabic and Islamic Studies.
 
+slug: /research/Fellows/fellowsPage/
+
 imgURL: /myAssets/img/ShOstaMain2.jpg
 facebook_url: https://www.facebook.com/salar.rasoul?__tn__=lCH-R&eid=ARBy36mQHXuPnsOD2tJ 
 twitter_url: https://twitter.com/MKamilAhmad

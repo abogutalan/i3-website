@@ -8,7 +8,7 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: static/myAssets/img
+media_folder: static/myAssets/img/Locations
 public_folder: /myAssets/img
 
 collections:
@@ -44,6 +44,7 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fellowTemplate"}
+      - {label: "Slug", name: "slug", widget: "hidden", default: "/research/Fellows/fellowsPage/"}
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}

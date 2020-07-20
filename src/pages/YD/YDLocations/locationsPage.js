@@ -65,7 +65,7 @@ export default () => (
                     templateKey
                     address
                     featuredimage
-                    instructorname
+                    name
                     timing
                     
                   }
