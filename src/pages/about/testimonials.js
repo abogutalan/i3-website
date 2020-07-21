@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../../components/layout';
+import Layout from '../../components/layout'
 import Testimonials from '../../components/Testimonials'
 import { testimonials } from '../../data/testimonials'
-// import SlideTestimonials from '../../components/SlideTestimonials'
-// import { slidetestimonials } from '../../data/slidetestimonials'
+import SlideTestimonials from '../../components/SlideTestimonials'
+import { slidetestimonials } from '../../data/slidetestimonials'
 
 function TestimonialsPage () {
   return (
@@ -25,14 +25,14 @@ function TestimonialsPage () {
             </div>
           </div>
         </div>
-        <div class="testimonials-2 section-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner"></div>
+        <div className="testimonials-2 section-dark">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
+                    <div id="carouselExampleIndicatorss" className="carousel slide" data-ride="carousel">
+                        <div className="carousel-inner"></div>
                           {/* slidetestimonials begin here */}
-                          {/* <SlideTestimonials slidetestimonials = { slidetestimonials } />  */}
+                          <SlideTestimonials slidetestimonials = { slidetestimonials } /> 
                         </div>
                     </div>
                 </div>

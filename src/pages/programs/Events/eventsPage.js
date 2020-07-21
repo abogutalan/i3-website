@@ -18,7 +18,7 @@ class EventsPage extends React.Component {
     edges.map((edge) => { 
       if (edge.node.frontmatter.isCurrentEvent) {       
         currentevents.push(edge.node.frontmatter) 
-      } else {
+      } else { 
         pastevents.push(edge.node.frontmatter)
       }
       return ""
@@ -70,9 +70,8 @@ class EventsPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                
             </Layout>
-            </> 
+        </> 
     );
   }
 }
