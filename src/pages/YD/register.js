@@ -1,9 +1,9 @@
 import React from 'react'
 import Layout from '../../components/layout'
 
-const Register = ({ data }) => (
-  <>
+const Register = () => (
   <Layout>
+
   <div className="landing-page sidebar-collapse">
     <div id="navbarDiv">
     </div>
@@ -95,13 +95,16 @@ const Register = ({ data }) => (
             *<span style={{ fontWeight: 'bold' }}>Important Note: </span>If you are here because you'd like to sign up for our Global Online program, please
           click <a href="./global.html">here</a>.
         </p>
-          <iframe className="airtable-embed airtable-dynamic-height" title="airtable" src="https://airtable.com/embed/shrWkLrBVrXn8aK1g?backgroundColor=red" frameBorder={0} onmousewheel width="100%" height={3468} style={{ background: 'transparent', border: '1px solid #ccc', width: '50%', minWidth: '290px' }} />
+          <iframe className="airtable-embed airtable-dynamic-height" title="airtable" 
+          src="https://airtable.com/embed/shrWkLrBVrXn8aK1g?backgroundColor=red"
+          frameBorder="0" onmousewheel width="100%" height="3468" 
+          style={{ background: 'transparent', border: '1 solid #ccc', width: '50%', minWidth: '290' }} ></iframe>
         </div>
       </div>
     </div>
   </div>
+  
   </Layout>
-  </>
 )
 
 

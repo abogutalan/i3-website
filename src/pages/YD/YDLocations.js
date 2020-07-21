@@ -1,11 +1,11 @@
 import React from 'react'
-import Locations from '../../../components/Locations';
-import Layout from '../../../components/layout';
+import Locations from '../../components/Locations';
+import Layout from '../../components/layout';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
 class YDLocationsPage extends React.Component {
-  
+
   render() {
 
     const { data } = this.props
@@ -29,8 +29,12 @@ class YDLocationsPage extends React.Component {
                     </h5>
                 </div>
               </div>
-              {/* Profiles begin here */}
-              <Locations locations={locations} />
+
+              <div className="row">
+                {/* Profiles begin here */}
+                <Locations locations={locations} />
+              </div>
+
             </div>
           </div>
         </Layout>

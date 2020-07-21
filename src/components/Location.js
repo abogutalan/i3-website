@@ -3,7 +3,8 @@ import React from 'react';
 
 const Location = ({ address, featuredimage, name, timing }) => (
     <>
-      <div className="row">
+      <div className="col-md-6">
+
         <div className="card card-profile card-plain">
           <div className="row">
             <div className="col-md-5">
