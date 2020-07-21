@@ -4,6 +4,8 @@ import Layout from '../../components/layout'
 const History = () => (
     <>
     <Layout>
+    <div className = "about-us sidebar-collapse">
+
         <div className = "page-header header-filter header-small" data-parallax = "true"
             style  = {{ backgroundImage: `url('/myAssets/img/AppreciationDinner.jpg')` }} >
             <div className = "container">
@@ -131,6 +133,7 @@ const History = () => (
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </Layout>
     </>
