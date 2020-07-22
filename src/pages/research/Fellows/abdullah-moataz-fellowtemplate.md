@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/Fellows/fellowsPage/
+slug: /research/fellows/
 name: Abdullah Moataz
 title: RESEARCH FELLOW
 description: Abdullah Moataz is a hadith researcher with several ijazah.

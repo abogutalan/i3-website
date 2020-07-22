@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -107,7 +106,5 @@ Follow these steps to set up your environment
 1) https://www.netlifycms.org/docs/gatsby/
 2) https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/
 
-=======
 # i3-website
 HTML, CSS, JavaScript, React, Gatsby, NetlifyCMS
->>>>>>> c58664cf3ffbb59288406ad1a17eb6c5dce30e81
