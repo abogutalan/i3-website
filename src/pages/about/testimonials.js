@@ -9,7 +9,7 @@ function TestimonialsPage () {
   return (
     <>
       <Layout>
-        <div className = "testimonials-1 section-image" style = {{ backgroundImage: `url('./myAssets/img/testimonialsbg.jpg')` }} >
+        <div className = "testimonials-1 section-image" style = {{ backgroundImage: `url('/myAssets/img/testimonialsbg.jpg')` }} >
           <div className = "container">
             <div className = "row">
                 <div className = "col-md-6 ml-auto mr-auto text-center">

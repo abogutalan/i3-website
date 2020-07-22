@@ -1,31 +1,31 @@
 import React from 'react';
-import Fellows from '../../../components/Fellows';
-import Layout from '../../../components/layout';
-
+import Instructors from '../../components/Instructors';
+import Layout from '../../components/layout';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
-class FellowPage extends React.Component {
 
+class YDInstructorsPage extends React.Component {
   render() {
 
     const { data } = this.props
     const { edges } = data.allMarkdownRemark
 
     // getting frontmatters of every edges
-    const fellows = edges.map(edge => {
+    const instructors = edges.map(edge => {
       return edge.node.frontmatter
     })
-    
+
     return (
       <>
         <Layout>
-          <div className="page-header header-filter header-small" data-parallax="true" style={{ backgroundImage: 'url("/myAssets/img/Research Center/Fellows/FellowsCover.png")' }}>
+          <div className="page-header header-filter header-small" data-parallax="true"
+            style={{ backgroundImage: `url('/myAssets/img/i3bg2.jpg')` }}>
             <div className="container">
               <div className="row">
                 <div className="col-md-8 ml-auto mr-auto text-center">
-                  <h1 className="title">i3 Research Fellows</h1>
-                  <h4>Our Team Of Research Fellows</h4>
+                  <h1 className="title">i3 Instructors</h1>
+                  <h4>Get to know our Instructors!</h4>
                 </div>
               </div>
             </div>
@@ -36,15 +36,16 @@ class FellowPage extends React.Component {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-8 ml-auto mr-auto text-center">
-                      <h2 className="title">i3 Research Center - Fellows</h2>
+                      <h2 className="title">Instructor Profiles</h2>
                       <h5 className="description">
-                        At the i3 Research Center, our team of research fellows will be contributing articles on various topics. Click on their picture to find out more about them.
+                        We asked each of our instructors to tell us about themselves.
                   </h5>
-                      <div className="section-space" />
+                      <div className="section-space"></div>
                     </div>
                   </div>
-                  {/* Profiles begin here */}
-                  <Fellows fellows={fellows} />
+
+                  <Instructors instructors={instructors} />
+
                 </div>
               </div>
             </div>
@@ -53,9 +54,10 @@ class FellowPage extends React.Component {
       </>
     );
   }
+
 }
 
-FellowPage.propTypes = {
+YDInstructorsPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -63,13 +65,12 @@ FellowPage.propTypes = {
   }),
 }
 
-
 export default () => (
   <StaticQuery
     query={graphql`
-      query FellowQuery {
+      query InstructorQuery {
         allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { eq: "fellowTemplate" } } }
+          filter: { frontmatter: { templateKey: { eq: "instructorTemplate" } } }
         ) {
           edges {
             node {
@@ -80,21 +81,16 @@ export default () => (
                 slug
                 templateKey
                 name
-                title
-                description
                 imgURL
-                facebook_url
-                twitter_url
-                instagram_url
-                youtube_url
-                google_url
-                linkedin_url
+                description
+                descriptionMore
+                
               }
             }
           }
         }
       }
     `}
-    render={(data, count) => <FellowPage data={data} count={count} />}
+    render={(data, count) => <YDInstructorsPage data={data} count={count} />}
   />
 )

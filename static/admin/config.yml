@@ -8,7 +8,7 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: static/myAssets/img
+media_folder: static/myAssets/img/
 public_folder: /myAssets/img
 
 collections:
@@ -44,6 +44,7 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fellowTemplate"}
+      - {label: "Slug", name: "slug", widget: "hidden", default: "/research/Fellows/fellowsPage/"}
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}
@@ -61,12 +62,13 @@ collections:
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "eventTemplate"}
       - { name: imgURL, label: Image, widget: image }
       - { name: name, label: Event Name, widget: string }
       - { name: location, label: Location, widget: "text" }
       - { name: DT, label: Date/Time, widget: "text"}
       - { name: "description", label: "Description", widget: "text"}
-      - { name: isCurrentEvent, label: Is it a current event?, widget: boolean }
+      - { name: isCurrentEvent, label: Is it a current event?, widget: boolean, default: false, required: false }
       
       
       

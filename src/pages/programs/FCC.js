@@ -70,7 +70,7 @@ const CounselorsPage = ({data}) => (
                       <div className="row">
                         <div className="col-md-5">
                           <div className="card-header card-header-image">
-                            <img className="img" src="/myAssets/img/instructors/CoachZubair.jpg" alt=""/>
+                            <img className="img" src="/myAssets/img/CoachZubair.jpg" alt=""/>
                             <div className="colored-shadow" style={{backgroundImage: 'url("/assets/img/faces/card-profile1-square.jpg")', opacity: 1}}>
                             </div>
                           </div>
@@ -103,7 +103,7 @@ const CounselorsPage = ({data}) => (
                       <div className="row">
                         <div className="col-md-5">
                           <div className="card-header card-header-image">
-                            <img className="img" src="/myAssets/img/instructors/adnan2.jpg" alt=""/>
+                            <img className="img" src="/myAssets/img/adnan2.jpg" alt=""/>
                             <div className="colored-shadow" style={{backgroundImage: 'url("/assets/img/faces/card-profile1-square.jpg")', opacity: 1}}>
                             </div>
                           </div>
