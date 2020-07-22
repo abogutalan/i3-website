@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/Fellows/fellowsPage/
+slug: /research/fellows/
 name: Sheikh Rasoul
 title: RESEARCH FELLOW, INSTRUCTOR
 description: >

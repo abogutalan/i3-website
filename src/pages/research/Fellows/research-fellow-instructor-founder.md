@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/Fellows/fellowsPage/
+slug: /research/fellows/
 name: Sheikh Usta
 title: RESEARCH FELLOW, INSTRUCTOR, FOUNDER
 description: >+

@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/Fellows/fellowsPage/
+slug: /research/fellows/
 name: Abdullah Andalusi
 title: RESEARCH FELLOW
 description: Abdullah al Andalusi is an international speaker, thinker and

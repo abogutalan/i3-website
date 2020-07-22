@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/Fellows/fellowsPage/
+slug: /research/fellows/
 name: Zara Faris
 title: RESEARCH FELLOW
 description: Zara Faris a researcher, writer, and international speaker for the
