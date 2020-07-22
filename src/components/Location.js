@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../static/myAssets/stylesheets/locations.css'
 
 
 const Location = ({ address, featuredimage, name, timing }) => (

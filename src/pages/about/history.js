@@ -8,6 +8,21 @@ const History = () => (
             <div className = "page-header header-filter header-small" data-parallax = "true"
                 style  = {{ backgroundImage: `url('/myAssets/img/AppreciationDinner.jpg')` }} >
                 <div className = "container">
+    <div className = "about-us sidebar-collapse">
+        <div className = "page-header header-filter header-small" data-parallax = "true"
+            style  = {{ backgroundImage: `url('/myAssets/img/AppreciationDinner.jpg')` }} >
+            <div className = "container">
+                <div className = "row">
+                    <div className = "col-md-8 ml-auto mr-auto text-center">
+                        <h1 className = "title"> Objective </h1>
+                        <h4> Find out how i3 started and what it has to offer you! </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className = "main main-raised">
+            <div className = "container">
+                <div className = "about-description text-center">
                     <div className = "row">
                         <div className = "col-md-8 ml-auto mr-auto text-center">
                             <h1 className = "title"> Objective </h1>
@@ -133,6 +148,10 @@ const History = () => (
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
     </Layout>
     </>
