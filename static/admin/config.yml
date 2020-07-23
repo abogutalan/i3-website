@@ -48,6 +48,7 @@ collections:
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
       - { name: "description", label: "Description", widget: "text"}
+      - { name: "descriptionMore", label: "More Description", widget: "markdown"}
       - { name: imgURL, label: Image, widget: image }
       - { name: facebook_url, label: Facebook URL, widget: string, default: "", required: false }
       - { name: twitter_url, label: Twitter URL, widget: string, default: "", required: false }

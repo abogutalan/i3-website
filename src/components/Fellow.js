@@ -26,7 +26,7 @@ const Fellow = ({ name, title, description, imgURL, facebook_url, twitter_url,
                     className="btn btn-just-icon btn-link btn-facebook"><i className="fa fa-facebook-square" />
                   </a> : null}
                   {google_url ? <a href={google_url}
-                    class="btn btn-just-icon btn-link btn-google"><i class="fa fa-google"></i>
+                    className="btn btn-just-icon btn-link btn-google"><i className="fa fa-google"></i>
                   </a> : null}
                   {twitter_url ? <a href={twitter_url}
                     className="btn btn-just-icon btn-link btn-twitter"><i className="fa fa-twitter" />
