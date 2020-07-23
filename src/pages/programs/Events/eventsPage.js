@@ -20,7 +20,6 @@ class EventsPage extends React.Component {
     edges.forEach((edge) => { 
       if (edge.node.frontmatter.isCurrentEvent) {       
         currentevents.push(edge.node.frontmatter) 
-
       } else {
         pastevents.push(edge.node.frontmatter)
       }
@@ -73,9 +72,8 @@ class EventsPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                
             </Layout>
-            </> 
+        </> 
     );
   }
 }
