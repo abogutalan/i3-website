@@ -7,7 +7,7 @@ const InstructorsPagePreview = ({ entry, getAsset }) => (
     name={entry.getIn(['data', 'name'])}
     description={entry.getIn(['data', 'description'])}
     descriptionMore={entry.getIn(['data', 'descriptionMore'])}
-    imgURL={getAsset(entry.getAsset(['data', 'imgURL']))}
+    imgURL={getAsset(entry.getIn(['data', 'imgURL']))}
 
   />
 )

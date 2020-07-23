@@ -34,14 +34,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     // creating pages only for FELLOWS PORTFOLIO and 
       // will create ESSAYS
     if(node.frontmatter.templateKey == "fellowTemplate" ) {
-      console.log(node.frontmatter)
-      let my_path = node.frontmatter.slug + node.frontmatter.name
+      /** id provides matching fellows and fellow portfolios  */
       const id = node.id
-
-      console.log("PATH: " + my_path)
-
+      let portfolio_path = node.frontmatter.slug + node.frontmatter.name
+      /** 
+       * if new template added path can be a updated in if cases
+       */
       createPage({
-      path: my_path, // to have one mark down for every fellowss
+      path: portfolio_path, // to have one mark down for every fellowss
       component: path.resolve(
         `src/templates/${String(node.frontmatter.templateKey)}.js`
       ),
