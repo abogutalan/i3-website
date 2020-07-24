@@ -1,7 +1,6 @@
 import React from 'react'
 
 const SlideTestimonial = ({imgURL, quote, author, position}) => (
-    <>
     <div className="carousel-item">
         <div className="card card-testimonial card-plain">
             <div className="card-avatar">
@@ -23,7 +22,6 @@ const SlideTestimonial = ({imgURL, quote, author, position}) => (
                 </div>
             </div>
         </div>
-    </>
 )
 
 export default SlideTestimonial

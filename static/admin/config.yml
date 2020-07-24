@@ -69,6 +69,22 @@ collections:
       - { name: DT, label: Date/Time, widget: "text"}
       - { name: "description", label: "Description", widget: "text"}
       - { name: isCurrentEvent, label: Is it a current event?, widget: boolean, default: false, required: false }
+
+  - name: counselors
+    label: Counselors
+    folder: src/pages/FCC/FCCPage
+    slug: "{{name}}-{{templateKey}}"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "counselorTemplate"}
+      - { name: name, label: Counselor Name, widget: string }
+      - { name: title, label: Position, widget: string }
+      - { name: imgURL, label: Featured Image, widget: image }
+      - { name: "education", label: "Education", widget: "text"}
+      - { name: "otherInterests", label: "Hobbies", widget: "text"}
+      - { name: link, label: E-mail, widget: string }
+      - { name: name, label: Counselor Name, widget: string }
+      
       
       
       

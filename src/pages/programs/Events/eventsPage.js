@@ -55,7 +55,6 @@ class EventsPage extends React.Component {
                                 </div>
                                 {/* CurrentEvents begin here */}
                                 <Events events={currentevents} />
-                                <hr />
                                 <div className="section-space"></div>
                                     <div className="row">
                                         <div className="col-md-8 ml-auto mr-auto text-center">
