@@ -12,7 +12,7 @@ export default function FellowTemplate({
   return (
     <>
     <Layout>
-    <div class="about-us sidebar-collapse">        
+    <div className="about-us sidebar-collapse">        
         <div id="navbarDiv">
         </div>
         
@@ -33,7 +33,7 @@ export default function FellowTemplate({
                   <div className="col-md-8 ml-auto mr-auto text-center">
                     <h2 className="title">{frontmatter.name}</h2>
                     <img className="img-raised rounded img-fluid fellow-img-lg" src={frontmatter.imgURL} alt="osta" />
-                    <h5 className="description">{frontmatter.description}</h5>
+                    <h5 className="description">{frontmatter.descriptionMore}</h5>
                   </div>
                 </div>
               </div>
@@ -50,14 +50,14 @@ export default function FellowTemplate({
 
 
 export const pageQuery = graphql`
-  query($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+  query($id: String!) {
+    markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         slug
         name
         title
-        description
+        descriptionMore
         imgURL
       }
     }

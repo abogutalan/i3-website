@@ -4,7 +4,7 @@ const SlideTestimonial = ({imgURL, quote, author, position}) => (
     <div className="carousel-item">
         <div className="card card-testimonial card-plain">
             <div className="card-avatar">
-                <img className="img" src={imgURL} />
+                <img className="img" src={imgURL} alt="" />
             </div>
             <div className="card-body">
                 <h5 className="card-description">

@@ -12,9 +12,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       allMarkdownRemark{
         edges {
           node {
+            id
             frontmatter {
               slug
               templateKey
+              name
             }
           }
         }
@@ -27,20 +29,25 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-
+  
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     // creating pages only for FELLOWS PORTFOLIO and 
       // will create ESSAYS
-    if(node.frontmatter.templateKey == "fellow2Template" )
-    {console.log(node.frontmatter.templateKey)
+    if(node.frontmatter.templateKey == "fellowTemplate" ) {
+      /** id provides matching fellows and fellow portfolios  */
+      const id = node.id
+      let portfolio_path = node.frontmatter.slug + node.frontmatter.name
+      /** 
+       * if new template added path can be a updated in if cases
+       */
       createPage({
-      path: node.frontmatter.slug,
+      path: portfolio_path, // to have one mark down for every fellowss
       component: path.resolve(
         `src/templates/${String(node.frontmatter.templateKey)}.js`
       ),
       context: {
         // additional data can be passed via context
-        slug: node.frontmatter.slug,
+        id,
       },
     })
   }//if
