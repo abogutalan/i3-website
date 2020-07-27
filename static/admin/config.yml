@@ -84,7 +84,6 @@ collections:
       - { name: "education", label: "Education", widget: "text"}
       - { name: "otherInterests", label: "Hobbies", widget: "text"}
       - { name: link, label: E-mail, widget: string }
-      - { name: name, label: Counselor Name, widget: string }
       
       
       

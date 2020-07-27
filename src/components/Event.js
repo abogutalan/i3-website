@@ -15,7 +15,7 @@ const Event = ({ imgURL, name, location, DT, description, idx }) => {
         <div className="row">
             <div className={imgClassName}>
                 <br />
-                <img src={imgURL} alt={name} className="img-raised rounded img-fluid" width="100%" />
+                <img src={imgURL} alt={name} className="img-raised rounded img-fluid" width="55%" />
                 <h3 className="info-title text-center"> {name}</h3>
             </div> 
             <div className={desClassName}>
