@@ -4,7 +4,6 @@ import Layout from '../../components/layout';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
-
 class YDInstructorsPage extends React.Component {
   render() {
 

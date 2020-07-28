@@ -60,7 +60,7 @@ const Navbar = () => {
                                 <Link to="/programs/ais" className="dropdown-item">
                                     <i className="material-icons">chrome_reader_mode</i> Advanced Islamic Studies (AIS)
                                 </Link>
-                                <Link to="/programs/FCC" className="dropdown-item">
+                                <Link to="/programs/FCC/FCCPage" className="dropdown-item">
                                     <i className="material-icons">people</i> Faith Crisis Care
                                 </Link>
                             </div>

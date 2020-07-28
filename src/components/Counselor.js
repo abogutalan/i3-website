@@ -1,6 +1,6 @@
 import React from "react";
 
-export default Counselor = ({ imgURL, name, title, education, otherInterests, instructions, link, linkName, booklink, gender }) => (
+const Counselor = ({ imgURL, name, title, education, otherInterests, instructions, link, booklink, gender }) => (
     <>
         <div className = "row">
             <div className = "col-md-10 ml-auto mr-auto">
@@ -8,7 +8,7 @@ export default Counselor = ({ imgURL, name, title, education, otherInterests, in
                     <div className = "row">
                         <div className = "col-md-5">
                             <div className = "card-header card-header-image">
-                                <img className = "img" src = {imgURL} />
+                                <img className = "img" src = {imgURL} alt = {name} />
                                 <h3 className = "info-title text-center"> {name} </h3>
                             </div>
                             <div className = "section-space" />
@@ -17,7 +17,7 @@ export default Counselor = ({ imgURL, name, title, education, otherInterests, in
                         </div>
                     <div className = "col-md-7 mr-auto">
                         <div className = "card-body">
-                            <h4 className = "card-title"> <a className = "c1" href = {link} > {linkName} </a> </h4>
+                            <h4 className = "card-title"> <a className = "c1" href = {`mailto: ${link}` } > {link} </a> </h4>
                             <h6 className = "card-category text-muted"> {title} - i3 Faith Crisis Care </h6>
                             <p> 
                                 {education} <br /> {otherInterests} <br /> {instructions} <br /> 
@@ -31,5 +31,6 @@ export default Counselor = ({ imgURL, name, title, education, otherInterests, in
             </div>
         </div>
     </>
+)
 
-);
+export default Counselor
