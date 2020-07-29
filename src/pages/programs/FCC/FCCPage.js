@@ -114,6 +114,7 @@ export default () => (
                 slug
                 templateKey
                 name
+                title
                 imgURL
                 education
                 otherInterests
