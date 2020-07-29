@@ -73,7 +73,7 @@ collections:
 
   - name: counselors
     label: Counselors
-    folder: src/pages/FCC/FCCPage
+    folder: src/pages/programs/FCC/FCCCounselors
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
@@ -85,7 +85,7 @@ collections:
       - { name: otherInterests, label: Hobbies, widget: "text"}
       - { name: link, label: Link, widget: string}
       - { name: linkDisplay, label: Displayed link, widget: string}
-      - { name: instructions, label: Specifics?, widget: string, required: false }
+      - { name: instructions, label: Specifics?, widget: string }
       - { name: booklink, label: Link to booking page, widget: string }
       - { name: gender, label: Gender, widget: string }
       
