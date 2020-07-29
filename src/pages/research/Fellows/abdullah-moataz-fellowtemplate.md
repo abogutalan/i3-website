@@ -4,7 +4,7 @@ slug: /research/fellows/
 name: Abdullah Moataz
 title: RESEARCH FELLOW
 description: Abdullah Moataz is a hadith researcher with several ijazah.
-descriptionMore: >-
+body: >-
   Abdullah Moataz is a hadith researcher originally hailing from Damascus, Syria
   though he was born and raised in the United States of America. His interest in
   hadith developed as a teenager through a “divinely decreed” accident. While

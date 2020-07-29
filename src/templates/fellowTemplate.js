@@ -33,7 +33,7 @@ export default function FellowTemplate({
                   <div className="col-md-8 ml-auto mr-auto text-center">
                     <h2 className="title">{frontmatter.name}</h2>
                     <img className="img-raised rounded img-fluid fellow-img-lg" src={frontmatter.imgURL} alt="osta" />
-                    <h5 className="description">{frontmatter.descriptionMore}</h5>
+                    <h5 className="description">{frontmatter.body}</h5>
                   </div>
                 </div>
               </div>
@@ -57,7 +57,7 @@ export const pageQuery = graphql`
         slug
         name
         title
-        descriptionMore
+        body
         imgURL
       }
     }
