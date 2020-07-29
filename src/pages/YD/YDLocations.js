@@ -1,8 +1,8 @@
 import React from 'react'
-import Locations from '../../components/Locations';
 import Layout from '../../components/layout';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
+import LocationsPageTemplate from '../../components/LocationsPageTemplate';
 
 class YDLocationsPage extends React.Component {
 
@@ -17,28 +17,9 @@ class YDLocationsPage extends React.Component {
     })
 
     return (
-      <>
-        <Layout>
-          <div className="team-5 section-image" style={{ backgroundImage: `url('/myAssets/img/TorontoBG.jpg')` }}>
-            <div className="container">
-              <div className="row">
-                <div className="col-md-8 ml-auto mr-auto text-center">
-                  <h2 className="title">YD Locations</h2>
-                  <h5 className="description">
-                    Sign up and attend a className in any one of our offered locations around the GTA, and beyond!
-                    </h5>
-                </div>
-              </div>
-
-              <div className="row">
-                {/* Profiles begin here */}
-                <Locations locations={locations} />
-              </div>
-
-            </div>
-          </div>
-        </Layout>
-      </>
+      <Layout>
+        <LocationsPageTemplate locations={locations} />
+      </Layout>
 
     );
   }
