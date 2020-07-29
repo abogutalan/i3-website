@@ -119,6 +119,7 @@ export default () => (
                 otherInterests
                 instructions
                 link
+                linkDisplay
                 booklink
                 gender
                 

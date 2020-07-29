@@ -5,7 +5,8 @@ export const counselors = [
         imgURL: './myAssets/img/instructors/CoachZubair.jpg ',
         education: 'Education: BSc Computer Science, Cyber Security Researcher at Microsoft.',
         otherInterests: 'Other Interests: Quran, Personal Development, Leadership and Coaching, Inviting to Islam and New Muslim Development.',
-        link: "https://www.youtube.com/c/CoachZubair",
+        link: "https://www.youtube.com/CoachZubair",
+        linkDisplay: "@CoachZubair - coachzubair.com",
         booklink: "https://calendly.com/chatwithzubair",
         gender: "male"
         
@@ -17,6 +18,7 @@ export const counselors = [
         education: 'Education: BSc Honors Mechatronics Engineering, Senior Process Planner.',
         otherInterests: 'Other Interests: Dawah, Islam, Western Philosophy, Usul-ul-Fiqh, History & Politics.',
         link: "adnan@i3institute.ca",
+        linkDisplay: "adnan@i3institute.ca",
         booklink: "https://calendly.com/adnan-ak",
         gender: "male"
     },
@@ -28,6 +30,7 @@ export const counselors = [
         otherInterests: 'Other Interests: Education, Family matters, Philosophy, Middle Eastern studies, History, Aqeedah & Fiqh.',
         instructions: `Specific: Males through emails only.`,
         link: "duaa.s@i3institute.ca",
+        linkDisplay: "duaa.s@i3institute.ca",
         booklink: "https://calendly.com/duaa-s",
         gender: "female"
     }

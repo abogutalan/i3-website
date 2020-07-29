@@ -83,7 +83,8 @@ collections:
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: education, label: Education, widget: "text"}
       - { name: otherInterests, label: Hobbies, widget: "text"}
-      - { name: link, label: E-mail, widget: string}
+      - { name: link, label: Link, widget: string}
+      - { name: linkDisplay, label: Displayed link, widget: string}
       - { name: instructions, label: Specifics?, widget: string, required: false }
       - { name: booklink, label: Link to booking page, widget: string }
       - { name: gender, label: Gender, widget: string }
