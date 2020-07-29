@@ -4,12 +4,16 @@ import Counselor from '../../components/Counselor'
 
 const CounselorsPagePreview = ({ entry, getAsset }) => (
   <Counselor
-    name={entry.getIn(['data', 'name'])}
-    title={entry.getIn(['data', 'title'])}
-    imgURL={getAsset(entry.getIn(['data', 'imgURL']))}
-    education={entry.getIn(['data', 'education'])}
-    otherInterests={entry.getIn(['data', 'otherInterests'])}
-    link={entry.getIn(['data', 'link'])}    
+    name = {entry.getIn(['data', 'name'])}
+    title = {entry.getIn(['data', 'title'])}
+    imgURL = {getAsset(entry.getIn(['data', 'imgURL']))}
+    education = {entry.getIn(['data', 'education'])}
+    otherInterests = {entry.getIn(['data', 'otherInterests'])}
+    link = {entry.getIn(['data', 'link'])}
+    linkDisplay = {entry.getIn(['data', 'linkDisplay'])}
+    instructions = {entry.getIn(['data', 'instructions'])}
+    booklink = {entry.getIn(['data', 'booklink'])}
+    gender = {entry.getIn(['data', 'gender'])}
   />
 )
 

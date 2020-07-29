@@ -73,17 +73,21 @@ collections:
 
   - name: counselors
     label: Counselors
-    folder: src/pages/FCC/FCCPage
+    folder: src/pages/programs/FCC/FCCCounselors
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "counselorTemplate"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "counselorTemplate" }
       - { name: name, label: Counselor Name, widget: string }
       - { name: title, label: Position, widget: string }
       - { name: imgURL, label: Featured Image, widget: image }
-      - { name: "education", label: "Education", widget: "text"}
-      - { name: "otherInterests", label: "Hobbies", widget: "text"}
-      - { name: link, label: E-mail, widget: string }
+      - { name: education, label: Education, widget: "text"}
+      - { name: otherInterests, label: Hobbies, widget: "text"}
+      - { name: link, label: Link, widget: string}
+      - { name: linkDisplay, label: Displayed link, widget: string}
+      - { name: instructions, label: Specifics?, widget: string }
+      - { name: booklink, label: Link to booking page, widget: string }
+      - { name: gender, label: Gender, widget: string }
       
       
       

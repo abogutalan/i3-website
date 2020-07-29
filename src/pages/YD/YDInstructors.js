@@ -4,7 +4,6 @@ import { graphql, StaticQuery } from 'gatsby'
 import Layout from '../../components/layout';
 import InstructorsPageTemplate from '../../components/InstructorsPageTemplate';
 
-
 class YDInstructorsPage extends React.Component {
   render() {
 
