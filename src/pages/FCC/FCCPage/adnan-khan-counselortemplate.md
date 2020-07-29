@@ -1,12 +1,14 @@
 ---
 templateKey: counselorTemplate
-name: Adnan Khan
-title: I3 INSTRUCTOR & COUNSELLOR
-imgURL: /myAssets/img/adnan2.jpg
-education: BSc Honors Mechatronics Engineering, Senior Process Planner
-otherInterests: Dawah, Islam, Western Philosophy, Usul-ul-Fiqh, History & Politics.
-link: adnan@i3institute.ca
-linkDisplay: adnan@i3institute.ca
-booklink: https://calendly.com/adnan-ak
-gender: male
+name: Duaa Saber
+title: TEACHER & COUNSELLOR
+imgURL: /myAssets/img/DuaaSaber.jpg
+education: BSc Global Health, Diploma Liberal Arts.
+otherInterests: Education, Family matters, Philosophy, Middle Eastern studies,
+  History, Aqeedah & Fiqh.
+link: duaa.s@i3institute.ca
+linkDisplay: duaa.s@i3institute.ca
+instructions: Males through emails only.
+booklink: https://calendly.com/duaa-s
+gender: female
 ---
