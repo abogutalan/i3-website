@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import FellowsPageTemplate from '../../components/FellowsPageTemplate'
 
+
 const FellowsPagePreview = ({ entry, getAsset, widgetFor }) => {
 
   const fellows = [{
@@ -22,6 +23,7 @@ const FellowsPagePreview = ({ entry, getAsset, widgetFor }) => {
   return(
 
   <FellowsPageTemplate fellows={fellows} />
+
 )}
 
 FellowsPagePreview.propTypes = {
