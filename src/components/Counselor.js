@@ -22,7 +22,7 @@ const Counselor = ({ imgURL, name, title, education, otherInterests, instruction
                             <p> 
                                 {education} <br /> Hobbies: {otherInterests} <br /> {instructions} <br /> 
                                 <h6 className = "card-category text-muted"> TO BOOK A CALL WITH { name } VISIT 
-                                <span> <a className = "c1" href = {booklink} > {gender === 'male' ? "HIS" : "HER"} BOOKING PAGE </a> </span> </h6> 
+                                <span> <a className = "c2" href = {booklink} > {gender === 'male' || gender === 'Male' ? "HIS" : "HER"} BOOKING PAGE </a> </span> </h6> 
                             </p>
                             </div>
                         </div>
