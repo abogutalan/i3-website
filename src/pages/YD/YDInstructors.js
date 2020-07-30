@@ -23,9 +23,7 @@ class YDInstructorsPage extends React.Component {
   }
 
 }
-// InstructorsPageTemplate.propTypes = {
-//   instructors: PropTypes.array,
-// }
+
 
 YDInstructorsPage.propTypes = {
   data: PropTypes.shape({
