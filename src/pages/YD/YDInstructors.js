@@ -14,7 +14,8 @@ class YDInstructorsPage extends React.Component {
     const instructors = edges.map(edge => {
       return edge.node.frontmatter
     })
-
+    console.log("instructors:")
+    console.log(instructors)
     return (
       <Layout>
         <InstructorsPageTemplate instructors={instructors} />

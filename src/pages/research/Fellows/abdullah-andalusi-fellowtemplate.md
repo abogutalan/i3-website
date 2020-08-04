@@ -7,7 +7,7 @@ twitter_url: https://twitter.com/AbdullaAndalusi
 instagram_url: ""
 google_url: ""
 linkedin_url: ""
-descriptionMore: Abdullah al Andalusi is an international speaker, thinker and
+body: Abdullah al Andalusi is an international speaker, thinker and
   intellectual activist for Islam and Muslim affairs. Abdullah has studied
   Islamic revivalism (nahda), theology, philosophy, the physical sciences,
   sociology, psychology, anthropology and political philosophy. Abdullah has

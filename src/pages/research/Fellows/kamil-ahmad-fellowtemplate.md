@@ -5,7 +5,7 @@ name: Kamil Ahmad
 title: RESEARCH FELLOW
 description: Sheikh Kamil Ahmad's research concentrated on New Atheism and its
   impact on Muslims.
-descriptionMore: >-
+body: >-
   Kamil Ahmad was born and raised in Toronto, Canada. He studied at the Islamic
   University of Madinah where he graduated with a bachelors degree from the
   faculty of Shariʿah in 2009. He then went on to complete a post-graduate
