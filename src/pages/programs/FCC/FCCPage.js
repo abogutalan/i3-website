@@ -20,7 +20,7 @@ class FCCPage extends React.Component {
       <>
         <Layout>
           <div className = "about-us sidebar-collapse">
-            <div id = "navbarDiv">
+            <div id="navbarDiv">
             </div>
             <div className = "page-header header-filter header-small" data-parallax = "true" style = {{ backgroundImage: 'url("/myAssets/img/FaithCrisis/FCCBackground.jpg")' }}>
               <div className = "container">
@@ -48,8 +48,8 @@ class FCCPage extends React.Component {
                       <br />
                       <div className = "col-md-4 ml-auto">
                         <img src = "/myAssets/img/FaithCrisis/FCCPoster.jpeg" alt = "Faith Crisis Poster" className = "img-raised rounded img-fluid" />
-                       </div>
-                       <div className = "col-md-6 ml-auto mr-auto">
+                      </div>
+                      <div className = "col-md-6 ml-auto mr-auto">
                         <h7 className = "description"> We are living in an age of information but also disinformation. There are many ways whereby one can start struggling with their faith or have difficulties explaining seemingly irrational or contradictory ideas. Are you someone who is facing lack of confidence in Islam? Doubting your Islamic identity? Not sure how to address some concerns and ideas being raised by friends, colleagues and others around you? We would love to chat with you!
                     </h7>
                         <br /><br />
@@ -66,7 +66,7 @@ class FCCPage extends React.Component {
                     </span><wbr />
                         <i> If you would rather communicate via email or chat, please send us an email at </i>
                         <i>
-                          <a className = "c1" href = "mailto:fcc@i3institute.ca"> fcc@i3institute.ca </a>
+                          <a className = "c1" href="mailto:fcc@i3institute.ca"> fcc@i3institute.ca </a>
                         </i>
                         <i> and we will arrange an instant chat or communicate via email. </i>
                       </p>
@@ -76,7 +76,7 @@ class FCCPage extends React.Component {
                       <h3 className = "title"> Meet our Counsellors! </h3>
                       <div className = "section-space" />
                     </div>
-
+                    {/* Counselor details begin here */}
                     <Counselors counselors = {counselors} />
 
                   </div>

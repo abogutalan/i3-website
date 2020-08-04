@@ -19,11 +19,11 @@ collections:
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "instructorTemplate"}
+      - {label: Template Key, name: templateKey, widget: hidden, default: instructorTemplate }
       - { name: name, label: Instructor Name, widget: string }
       - { name: imgURL, label: Featured Image, widget: image }
-      - { name: "description", label: "Description", widget: "text"}
-      - { name: "descriptionMore", label: "More Description", widget: "text", required: false}
+      - { name: description, label: Description, widget: text }
+      - { name: descriptionMore, label: More Description, widget: text, required: false }
 
   - name: locations
     label: Locations
@@ -31,11 +31,11 @@ collections:
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "locationTemplate"}
+      - {label: Template Key, name: templateKey, widget: hidden, default: locationTemplate }
       - { name: address, label: Address, widget: string }
       - { name: featuredimage, label: Featured Image, widget: image }
       - { name: name, label: Instructor Name, widget: string }
-      - { name: "timing", label: "Timing", widget: "text"}
+      - { name: timing, label: Timing, widget: text}
 
   - name: fellow
     label: Fellows
@@ -43,12 +43,12 @@ collections:
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "fellowTemplate"}
-      - {label: "Slug", name: "slug", widget: "hidden", default: "/research/fellows/"}
+      - {label: Template Key, name: templateKey, widget: hidden, default: fellowTemplate }
+      - {label: Slug, name: slug, widget: hidden, default: /research/fellows/ }
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
-      - { name: "description", label: "Description", widget: "text"}
-      - { name: "body", label: "More Description", widget: "markdown"}
+      - { name: description, label: Description, widget: text }
+      - { name: body, label: More Description, widget: markdown }
       - { name: imgURL, label: Image, widget: image }
       - { name: facebook_url, label: Facebook URL, widget: string, default: "", required: false }
       - { name: twitter_url, label: Twitter URL, widget: string, default: "", required: false }
@@ -63,12 +63,12 @@ collections:
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "eventTemplate"}
+      - {label: Template Key, name: templateKey, widget: hidden, default: eventTemplate}
       - { name: imgURL, label: Image, widget: image }
       - { name: name, label: Event Name, widget: string }
-      - { name: location, label: Location, widget: "text" }
-      - { name: DT, label: Date/Time, widget: "text"}
-      - { name: "description", label: "Description", widget: "text"}
+      - { name: location, label: Location, widget: text }
+      - { name: DT, label: Date/Time, widget: text }
+      - { name: description, label: Description, widget: text }
       - { name: isCurrentEvent, label: Is it a current event?, widget: boolean, default: false, required: false }
 
   - name: counselors
@@ -77,17 +77,30 @@ collections:
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "counselorTemplate" }
+      - {label: Template Key, name: templateKey, widget: hidden, default: counselorTemplate }
       - { name: name, label: Counselor Name, widget: string }
       - { name: title, label: Position, widget: string }
       - { name: imgURL, label: Featured Image, widget: image }
-      - { name: education, label: Education, widget: "text"}
-      - { name: otherInterests, label: Hobbies, widget: "text"}
-      - { name: link, label: Link, widget: string}
-      - { name: linkDisplay, label: Displayed link, widget: string}
-      - { name: instructions, label: Specifics?, widget: string }
+      - { name: education, label: Education, widget: text }
+      - { name: otherInterests, label: Hobbies, widget: text }
+      - { name: link, label: Link/e-mail, widget: string }
+      - { name: linkDisplay, label: link (on screen), widget: string }
+      - { name: instructions, label: Special Instructions, widget: string, required: false }
       - { name: booklink, label: Link to booking page, widget: string }
       - { name: gender, label: Gender, widget: string }
+
+  - name: volunteers
+    label: Volunteer Postions
+    folder: src/pages/about/Volunteer/VolunteerPostions
+    slug: "{{name}}-{{templateKey}}"
+    create: true
+    fields:
+      - {label: Template Key, name: templateKey, widget: hidden, default: counselorTemplate }
+      - { name: jobTitle, label: Postion, widget: string }
+      - { name: jobTeam, label: Department, widget: string }
+      - { name: description, label: Job Description, widget: text}
+      - { name: duties, label: Duties and Responsibilities, widget: markdown }
+      - { name: qualifications, label: Qualifications, widget: markdown }
       
       
       

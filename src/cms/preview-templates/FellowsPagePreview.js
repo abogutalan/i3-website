@@ -9,7 +9,7 @@ const FellowsPagePreview = ({ entry, getAsset, widgetFor }) => {
     name:entry.getIn(['data', 'name']),
     title:entry.getIn(['data', 'title']),
     description:entry.getIn(['data', 'description']),
-    descriptionMore:widgetFor('body'),                  
+    descriptionMore:widgetFor('body'),                 
     imgURL:getAsset(entry.getIn(['data', 'imgURL'])),
     facebook_url:entry.getIn(['data', 'facebook_url']),
     twitter_url:entry.getIn(['data', 'twitter_url']),
