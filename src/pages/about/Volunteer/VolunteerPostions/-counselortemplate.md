@@ -2,12 +2,11 @@
 templateKey: counselorTemplate
 jobTitle: Creative Producer
 jobTeam: Research Center
-description: >-
-  The Research centers purpose is to the be the catalyst
-    for clarifying Islamic thought and innovation. It is attended by
-    prominent researchers who have contributed to different aspect of
-    societal issues. The creative producer is the most vital asset in
-    handling all aspects of video production towards media distribution channels at scale.
+description: The Research centers purpose is to the be the catalyst for
+  clarifying Islamic thought and innovation. It is attended by prominent
+  researchers who have contributed to different aspect of societal issues. The
+  creative producer is the most vital asset in handling all aspects of video
+  production towards media distribution channels at scale.
 duties: >-
   * Determine all media distribution channels that will be utilized to promote
   research center material
