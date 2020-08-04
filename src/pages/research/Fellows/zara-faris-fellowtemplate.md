@@ -6,7 +6,7 @@ title: RESEARCH FELLOW
 description: |-
   Zara Faris a researcher, writer, and international speaker for the
     Muslim Debate Initiative (MDI).
-descriptionMore: >
+body: >
   Zara Faris graduated in Arabic & Islamic Studies from SOAS University (School
   of Oriental and African Studies). She has lived for a year in Egypt studying
   the Arabic language. She is now a researcher, writer, and international

@@ -5,6 +5,7 @@ import FellowsPageTemplate from '../../components/FellowsPageTemplate'
 
 const FellowsPagePreview = ({ entry, getAsset, widgetFor }) => {
 
+<<<<<<< HEAD
   const fellows = [{
     name:entry.getIn(['data', 'name']),
     title:entry.getIn(['data', 'title']),
@@ -25,6 +26,19 @@ const FellowsPagePreview = ({ entry, getAsset, widgetFor }) => {
   <FellowsPageTemplate fellows={fellows} />
 
 )}
+=======
+
+  return (
+    <FellowsPageTemplate
+      name={entry.getIn(['data', 'name'])}
+      body={widgetFor('body')}
+      imgURL={getAsset(entry.getIn(['data', 'imgURL']))}
+    />
+
+
+  )
+}
+>>>>>>> c2a3352af71b1774f346ecd3f452d257930596d2
 
 FellowsPagePreview.propTypes = {
   entry: PropTypes.shape({
