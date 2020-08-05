@@ -2,20 +2,20 @@ import React from 'react';
 import Layout from '../../components/layout';
 
 const AIS = () => (
-        <>
+    <>
         <Layout>
             <div className="page-header header-filter header-small" data-parallax="true"
-                    style={{backgroundImage: `url('/myAssets/img/AIS banner.jpg')` }}>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-8 ml-auto mr-auto text-center">
-                                <div className="brand">
-                                    <h1 className="title"> Advanced Islamic Studies (AIS) </h1>
-                                    <h4> Our super intensive initiative that is designed to change the Islamic landscape in Canada! </h4>
-                                </div>
+                style={{ backgroundImage: `url('/myAssets/img/AIS banner.jpg')` }}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-8 ml-auto mr-auto text-center">
+                            <div className="brand">
+                                <h1 className="title"> Advanced Islamic Studies (AIS) </h1>
+                                <h4> Our super intensive initiative that is designed to change the Islamic landscape in Canada! </h4>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
             <div className="main main-raised">
                 <div className="section">
@@ -25,8 +25,8 @@ const AIS = () => (
                                 <div className="col-md-8 ml-auto mr-auto text-center">
                                     <h2 className="title"> Introducing the AIS Program </h2>
                                     <h5 className="description"> The YD Program has been a great success for the last few years. We have had 13 classes
-                                        operating, and we think it is the right time to introduce our community to a new
-                                        program.... 
+                                    operating, and we think it is the right time to introduce our community to a new
+                                    program....
                                     </h5>
                                     <div className="section-space"></div>
                                 </div>
@@ -38,7 +38,7 @@ const AIS = () => (
                                         <div className="card-body">
                                         </div>
                                     </div> --> */}
-                                    <img src="/myAssets/img/ais flyer.jpg" alt="flyer" style={{width: '100%'}} />
+                                    <img src="/myAssets/img/ais flyer.jpg" alt="flyer" style={{ width: '100%' }} />
                                 </div>
                                 <div className="col-md-5 mr-auto">
                                     <div className="info info-horizontal">
@@ -48,10 +48,10 @@ const AIS = () => (
                                         <div className="description">
                                             <h4 className="info-title">Intensive</h4>
                                             <p className="description"> This program is super intensive and very comprehensive and covers a structure of
-                                                material similar to that of Islamic universities.
-                                                This is for those who want to take their knowledge to the next level and cause
-                                                change in their own lives. We are asking all the highly committed students to
-                                                sign up.
+                                            material similar to that of Islamic universities.
+                                            This is for those who want to take their knowledge to the next level and cause
+                                            change in their own lives. We are asking all the highly committed students to
+                                            sign up.
                                             </p>
                                         </div>
                                     </div>
@@ -62,9 +62,9 @@ const AIS = () => (
                                         <div className="description">
                                             <h4 className="info-title"> Comprehensive </h4>
                                             <p className="description"> You can expect to cover a wide range of topics like Tafsir, classical Fiqh
-                                                texts,
-                                                Comparative Fiqh, Quranic Sciences, Hadith Sciences, Fiqh of Da'wah, Aqeedah,
-                                                Tazkiya and Tasawwuf, and much more.
+                                            texts,
+                                            Comparative Fiqh, Quranic Sciences, Hadith Sciences, Fiqh of Da'wah, Aqeedah,
+                                            Tazkiya and Tasawwuf, and much more.
                                              </p>
                                         </div>
                                     </div>
@@ -75,9 +75,9 @@ const AIS = () => (
                                         <div className="description">
                                             <h4 className="info-title"> Accessible </h4>
                                             <p className="description"> An equivalent program costs over $20,000 CAD. However, we are offering this
-                                                program for $100 per term (Excluding a registration fee), for which you will
-                                                have
-                                                online access to, from the comfort of your own home.
+                                            program for $100 per term (Excluding a registration fee), for which you will
+                                            have
+                                            online access to, from the comfort of your own home.
                                              </p>
                                         </div>
                                     </div>
@@ -92,7 +92,7 @@ const AIS = () => (
                                     <ol>
                                         <li> Finish reading 2 full tafsirs of fhe Quran. </li>
                                         <li> Study a main classical fiqh text and its one of its explanations for all 4 schools
-                                             of thoughts.
+                                        of thoughts.
                                         </li>
                                         <li> Study a comparative fiqh module. </li>
                                         <li> Study at least 2 classical Usul al-Fiqh books and their explanations. </li>
@@ -116,7 +116,7 @@ const AIS = () => (
                 </div>
             </div>
         </Layout>
-        </>
- )
+    </>
+)
 
 export default AIS

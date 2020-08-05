@@ -15,7 +15,7 @@ class VolunteerPage extends React.Component {
         const volunteers = edges.map(edge => {
             return edge.node.frontmatter
         })
-
+            console.log(volunteers)
         return (
             <Layout>
                 <>

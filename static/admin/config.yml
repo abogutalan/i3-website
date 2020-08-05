@@ -95,12 +95,24 @@ collections:
     slug: "{{name}}-{{templateKey}}"
     create: true
     fields:
-      - {label: Template Key, name: templateKey, widget: hidden, default: counselorTemplate }
+      - {label: Template Key, name: templateKey, widget: hidden, default: volunteerTemplate }
       - { name: jobTitle, label: Postion, widget: string }
       - { name: jobTeam, label: Department, widget: string }
       - { name: description, label: Job Description, widget: text}
       - { name: duties, label: Duties and Responsibilities, widget: markdown }
       - { name: qualifications, label: Qualifications, widget: markdown }
+
+  - name: slider
+    label: Slider Testimonials
+    folder: src/pages/about/testimonials/sliders
+    slug: "{{name}}-{{templateKey}}"
+    create: true
+    fields:
+      - {label: Template Key, name: templateKey, widget: hidden, default: carouselTemplate }
+      - { name: imgURL, label: Image, widget: image }
+      - { name: quote, label: Quote, widget: text}
+      - { name: author, label: Author, widget: string }
+      - { name: position, label: Position, widget: string }
       
       
       
