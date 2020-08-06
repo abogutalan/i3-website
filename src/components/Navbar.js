@@ -35,10 +35,10 @@ const Navbar = () => {
                                 <Link to="/about/gallery" className="dropdown-item">
                                     <i className="material-icons">content_paste</i> Gallery
                                 </Link>
-                                <Link to="/about/testimonials" className="dropdown-item">
+                                <Link to="/about/testimonials/testimonialsPage" className="dropdown-item">
                                     <i className="material-icons">chat</i> Testimonials
                                 </Link>
-                                <Link to="/about/volunteer" className="dropdown-item">
+                                <Link to="/about/Volunteer/VolunteerPage" className="dropdown-item">
                                     <i className="material-icons">pan_tool</i> Volunteer
                                 </Link>
                             </div>
