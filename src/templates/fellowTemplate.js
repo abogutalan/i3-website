@@ -8,7 +8,7 @@ export default function FellowTemplate({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter } = markdownRemark
-  
+
   return (
     <Layout>
       <FellowsPageTemplate {...frontmatter} />

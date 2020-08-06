@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Sr. Lana
-imgURL: /myAssets/img/lana.jpg
+imgURL: /myAssets/img/instructors/lana.jpg
 description: "Sister Lana has been a student of the i3 institute since 2015, a
   TA for YD1 for the 2017/2018 year, and has been an instructor for the YD1
   sister’s class in Mississauga for one year. She formally studied at Islamic

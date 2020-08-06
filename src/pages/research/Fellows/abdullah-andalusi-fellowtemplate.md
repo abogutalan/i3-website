@@ -2,7 +2,7 @@
 templateKey: fellowTemplate
 slug: /research/fellows/
 name: Abdullah Andalusi
-imgURL: /myAssets/img/abdullahandalusi.jpg
+imgURL: /myAssets/img/Research Center/Fellows/abdullahandalusi.jpg
 twitter_url: https://twitter.com/AbdullaAndalusi
 instagram_url: ""
 google_url: ""

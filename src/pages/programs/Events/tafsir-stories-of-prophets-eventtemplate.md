@@ -1,6 +1,6 @@
 ---
 templateKey: eventTemplate
-imgURL: /myAssets/img/tafsir.png
+imgURL: /myAssets/img/events/tafsir.png
 name: Tafsir & Stories of Prophets
 location: Online on Zoom
 DT: Every Friday 8:30-10:30pm EST

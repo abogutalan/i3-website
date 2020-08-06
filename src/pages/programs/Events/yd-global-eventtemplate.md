@@ -1,6 +1,6 @@
 ---
 templateKey: eventTemplate
-imgURL: /myAssets/img/sciences.png
+imgURL: /myAssets/img/events/sciences.png
 name: YD Global
 location: Completely online.
 DT: Saturdays 10-12 am EST

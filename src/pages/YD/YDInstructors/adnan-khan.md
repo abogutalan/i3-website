@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Adnan Khan
-imgURL: /myAssets/img/adnan2.jpg
+imgURL: /myAssets/img/instructors/adnan2.jpg
 description: Adnan has been part of the i3 Institute Inc. since 2015. He is
   currently enrolled in the Bachelors of Islamic Studies program at Mishkah
   University and also pursuing Arabic Studies from The Quran Institute. His

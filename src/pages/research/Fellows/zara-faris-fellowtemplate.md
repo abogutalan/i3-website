@@ -26,7 +26,7 @@ body: >
 
 
   ​Outside of the UK, Zara has spoken in Ireland, Germany, New Zealand, and Malaysia. Her work has been translated into Arabic, German, Malaysian, Indonesian and Albanian. She is currently writing her first book, “Women’s Rights Without Feminism”.
-imgURL: /myAssets/img/zarafaris2.jpg
+imgURL: /myAssets/img/Research Center/Fellows/zarafaris2.jpg
 facebook_url: https://www.facebook.com/pg/zara.h.faris/about/?ref=page_internal
 twitter_url: https://twitter.com/zarafaris
 instagram_url: ""

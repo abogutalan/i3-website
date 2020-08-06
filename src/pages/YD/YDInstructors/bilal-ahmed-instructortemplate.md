@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Bilal Ahmed
-imgURL: /myAssets/img/bilal.jpg
+imgURL: /myAssets/img/instructors/bilal.jpg
 description: Bilal has been learning with the i3 Institute and many other
   Islamic institutions for many years now and has been a teaching assistant at
   i3 Institute for two years. Bilal is also a student of Mishkah University. His

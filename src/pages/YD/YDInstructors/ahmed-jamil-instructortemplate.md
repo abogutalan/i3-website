@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Ahmed Jamil
-imgURL: /myAssets/img/ahmedJ.jpg
+imgURL: /myAssets/img/instructors/ahmedJ.jpg
 description: Ahmed Jamil, also known as Abu Mustafa, is a current i3 student,
   and a passionate instructor. Ahmed's life revolves around work, family and
   dawah. He has been studying with the i3 Institute for over three years and has
