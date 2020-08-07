@@ -2,7 +2,7 @@
 templateKey: counselorTemplate
 name: Zubair A.
 title: SENIOR COUNSELLOR & MANAGER
-imgURL: /myAssets/img/CoachZubair.JPG
+imgURL: /myAssets/img/instructors/CoachZubair.JPG
 education: BSc Computer Science, Cyber Security Researcher at Microsoft.
 otherInterests: Quran, Personal Development, Leadership and Coaching, Inviting
   to Islam and New Muslim Development.
