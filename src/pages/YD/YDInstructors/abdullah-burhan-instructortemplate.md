@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Abdullah Burhan
-imgURL: aaaaa.jpg
+imgURL: instructors/bbbbbb.jpg
 description: web designer
 descriptionMore: designing a web
 ---
