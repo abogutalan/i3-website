@@ -78,6 +78,8 @@ class TestimonialsPage extends Component {
                                         <div className = "carousel-inner">
                                             {/* slidetestimonials begin here */}
 
+                                            {/* adding a random line for fun */}
+
                                             {slidetestimonials.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === this.state.activeIndex} />)}
 
                                             <a className = "carousel-control-prev" role = "button"
