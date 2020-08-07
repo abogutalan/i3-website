@@ -14,11 +14,7 @@ class TestimonialsPage extends Component {
             activeIndex: 0
         }
         console.log(this.state)
-    }
-
-    gotoSlide(index) {
-        this.setState({ activeIndex: index })
-    }
+    }        
 
     gotoPrev = () => {
         let index = this.state.activeIndex
@@ -44,7 +40,7 @@ class TestimonialsPage extends Component {
         }
     }
 
-    render() {
+    render() {  
         const { data } = this.props
         const { edges } = data.allMarkdownRemark
 
@@ -54,6 +50,7 @@ class TestimonialsPage extends Component {
         })
         console.log("carousel::")
         console.log(carousel)
+
         return (
             <Layout>
                 <div className = "landing-page sidebar-collapse" >
