@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: furquan
-imgURL: /instructors/adnan.jpg
+imgURL: /instructors/aaaaa.jpg
 description: web designer
 descriptionMore: good guy
 ---
