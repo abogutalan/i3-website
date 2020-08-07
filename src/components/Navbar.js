@@ -5,95 +5,95 @@ import '../../static/myAssets/stylesheets/navbar.css'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100"
-        id="sectionsNav">
-            <div className="container">
-                <div className="navbar-translate">
-                    <Link className="navbar-brand" to="/">
-                        <div className="logo-image" styles="width: 60px; height: 60px">
-                            <img src="/myAssets/img/logonav.png" className="img-fluid" alt="i3"></img>
+        <nav className = "navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll = "100"
+            id="sectionsNav">
+            <div className = "container">
+                <div className = "navbar-translate">
+                    <Link className = "navbar-brand" to = "/">
+                        <div className = "logo-image" styles = "width: 60px; height: 60px">
+                            <img src="/myAssets/img/logonav.png" className = "img-fluid" alt = "i3"></img>
                         </div>
                     </Link>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span className="sr-only">Toggle navigation</span>
-                        <span className="navbar-toggler-icon"></span>
-                        <span className="navbar-toggler-icon"></span>
-                        <span className="navbar-toggler-icon"></span>
+                    <button className = "navbar-toggler" type = "button" data-toggle = "collapse" aria-expanded="false"
+                        aria-label = "Toggle navigation">
+                        <span className = "sr-only"> Toggle navigation </span>
+                        <span className = "navbar-toggler-icon"></span>
+                        <span className = "navbar-toggler-icon"></span>
+                        <span className = "navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div className="collapse navbar-collapse">
-                    <ul className="navbar-nav ml-auto">
-                        <li className="dropdown nav-item">
-                            <Link to="#" className="dropdown-toggle nav-link" data-toggle="dropdown">
-                                <i className="material-icons">apps</i> About Us
+                <div className = "collapse navbar-collapse">
+                    <ul className = "navbar-nav ml-auto">
+                        <li className = "dropdown nav-item">
+                            <Link to = "#" className = "dropdown-toggle nav-link" data-toggle = "dropdown">
+                                <i className = "material-icons"> apps </i> About Us
                             </Link>
-                            <div className="dropdown-menu dropdown-with-icons">
-                                <Link to="/about/history" className="dropdown-item">
-                                    <i className="material-icons">layers</i> Objective
+                            <div className = "dropdown-menu dropdown-with-icons">
+                                <Link to = "/about/history" className = "dropdown-item">
+                                    <i className = "material-icons"> layers </i> Objective
                                 </Link>
-                                <Link to="/about/gallery" className="dropdown-item">
-                                    <i className="material-icons">content_paste</i> Gallery
+                                <Link to = "/about/gallery" className = "dropdown-item">
+                                    <i className = "material-icons"> content_paste </i> Gallery
                                 </Link>
-                                <Link to="/about/testimonials/testimonialsPage" className="dropdown-item">
-                                    <i className="material-icons">chat</i> Testimonials
+                                <Link to = "/about/testimonials/testimonialsPage" className = "dropdown-item">
+                                    <i className = "material-icons"> chat </i> Testimonials
                                 </Link>
-                                <Link to="/about/Volunteer/VolunteerPage" className="dropdown-item">
-                                    <i className="material-icons">pan_tool</i> Volunteer
+                                <Link to = "/about/Volunteer/VolunteerPage" className = "dropdown-item">
+                                    <i className = "material-icons"> pan_tool </i> Volunteer
                                 </Link>
                             </div>
                         </li>
-                        <li className="dropdown nav-item">
-                            <Link to="#" className="dropdown-toggle nav-link" data-toggle="dropdown">
-                                <i className="material-icons">apps</i> Programs
+                        <li className = "dropdown nav-item">
+                            <Link to = "#" className = "dropdown-toggle nav-link" data-toggle = "dropdown">
+                                <i className = "material-icons"> apps </i> Programs
                             </Link>
-                            <div className="dropdown-menu dropdown-with-icons">
-                                <Link to="/programs/events/" className="dropdown-item">
-                                    <i className="material-icons">line_style</i> Events
+                            <div className = "dropdown-menu dropdown-with-icons">
+                                <Link to = "/programs/events/" className = "dropdown-item">
+                                    <i className = "material-icons"> line_style </i> Events
                                 </Link>
-                                <Link to="/programs/khateebdev" className="dropdown-item">
-                                    <i className="material-icons">build</i> Khateeb Development
+                                <Link to = "/programs/khateebdev" className = "dropdown-item">
+                                    <i className = "material-icons"> build </i> Khateeb Development
                                 </Link>
-                                <Link to="/programs/outreach" className="dropdown-item">
-                                    <i className="material-icons">people</i> Outreach
+                                <Link to = "/programs/outreach" className = "dropdown-item">
+                                    <i className = "material-icons"> people </i> Outreach
                                 </Link>
-                                <Link to="/programs/ais" className="dropdown-item">
-                                    <i className="material-icons">chrome_reader_mode</i> Advanced Islamic Studies (AIS)
+                                <Link to = "/programs/ais" className = "dropdown-item">
+                                    <i className = "material-icons"> chrome_reader_mode </i> Advanced Islamic Studies (AIS)
                                 </Link>
-                                <Link to="/programs/FCC/FCCPage" className="dropdown-item">
-                                    <i className="material-icons">people</i> Faith Crisis Care
+                                <Link to = "/programs/FCC/FCCPage" className = "dropdown-item">
+                                    <i className = "material-icons"> people </i> Faith Crisis Care
                                 </Link>
                             </div>
                         </li>
-                        <li className="dropdown nav-item">
-                            <Link to="#" className="dropdown-toggle nav-link" data-toggle="dropdown">
-                                <i className="material-icons">apps</i> Young Da'ee
+                        <li className = "dropdown nav-item">
+                            <Link to = "#" className = "dropdown-toggle nav-link" data-toggle = "dropdown">
+                                <i className = "material-icons"> apps </i> Young Da'ee
                             </Link>
-                            <div className="dropdown-menu dropdown-with-icons">
-                                <Link to="/YD/YDLocations" className="dropdown-item">
-                                    <i className="material-icons">location_on</i> Locations
+                            <div className = "dropdown-menu dropdown-with-icons">
+                                <Link to = "/YD/YDLocations" className = "dropdown-item">
+                                    <i className = "material-icons"> location_on </i> Locations
                                 </Link>
-                                <Link to="/YD/YDInstructors" className="dropdown-item">
-                                    <i className="material-icons">people</i> Instructors
+                                <Link to = "/YD/YDInstructors" className = "dropdown-item">
+                                    <i className = "material-icons"> people </i> Instructors
                                 </Link>
-                                <Link to="/YD/register" className="dropdown-item">
-                                    <i className="material-icons">person_add</i> Registration
+                                <Link to = "/YD/register" className = "dropdown-item">
+                                    <i className = "material-icons"> person_add </i> Registration
                                 </Link>
-                                <Link to="/YD/global" className="dropdown-item">
-                                    <i className="material-icons">public</i> i3 Global
+                                <Link to = "/YD/global" className = "dropdown-item">
+                                    <i className = "material-icons"> public </i> i3 Global
                                 </Link>
                             </div>
                         </li>
-                        <li className="dropdown nav-item">
-                            <Link to="#" className="dropdown-toggle nav-link" data-toggle="dropdown">
-                                <i className="material-icons">apps</i> Research Center
+                        <li className = "dropdown nav-item">
+                            <Link to = "#" className = "dropdown-toggle nav-link" data-toggle = "dropdown">
+                                <i className = "material-icons"> apps </i> Research Center
                             </Link>
-                            <div className="dropdown-menu dropdown-with-icons">
-                                <Link to="/research/fellows" className="dropdown-item">
-                                    <i className="material-icons">people</i> Fellows
+                            <div className = "dropdown-menu dropdown-with-icons">
+                                <Link to = "/research/fellows" className = "dropdown-item">
+                                    <i className = "material-icons"> people </i> Fellows
                                 </Link>
-                                <Link to="/research/articles" className="dropdown-item">
-                                    <i className="material-icons">chrome_reader_mode</i> Articles
+                                <Link to = "/research/articles" className = "dropdown-item">
+                                    <i className = "material-icons"> chrome_reader_mode </i> Articles
                                 </Link>
                             </div>
                         </li>
@@ -104,12 +104,19 @@ const Navbar = () => {
                                 </button>
                             </a>
                         </li> --> */}
-                        <li className="button-container nav-item iframe-extern">
-                            <Link to="/donate">
-                                <button className="btn btn-warning btn-round ">
-                                    <i className="material-icons">attach_money</i> Donate
-                                </button>
+                        <li className = "dropdown nav-item">
+                            <Link to = "#" className = "dropdown-toggle nav-link" data-toggle = "dropdown" width = "50px">
+                                <i className = "material-icons"> attach_money </i> Donate
                             </Link>
+                            <div className = "dropdown-menu dropdown-with-icons">
+                                <Link to = "/donate/donatePage" className = "dropdown-item">
+                                        <i className = "material-icons"> money </i> Donate Today!
+                                </Link>
+                                <Link to = "/donate/businessSponsorship" className = "dropdown-item">
+                                        <i className = "material-icons"> business </i> Business Sponsorship
+                                </Link>
+                            </div>
+                            <Link to = "/"></Link>
                         </li>
                     </ul>
                 </div>
@@ -118,5 +125,5 @@ const Navbar = () => {
     )
 }
 
-export default Navbar 
+export default Navbar
 

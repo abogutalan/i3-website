@@ -45,7 +45,7 @@ EventsPage.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-        query EventQuery {
+    query EventQuery {
           allMarkdownRemark(
             filter: { frontmatter: { templateKey: { eq: "eventTemplate" } } }
           ) {
