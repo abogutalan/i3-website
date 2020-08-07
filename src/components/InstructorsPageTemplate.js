@@ -6,7 +6,7 @@ import Instructors from './Instructors';
       <>
     
         <div className="page-header header-filter header-small" data-parallax="true"
-          style={{ backgroundImage: `url('/myAssets/img/i3bg2.jpg')` }}>
+          style={{ backgroundImage: `url('/myAssets/img/instructors/i3bg2.jpg')` }}>
           <div className="container">
             <div className="row">
               <div className="col-md-8 ml-auto mr-auto text-center">

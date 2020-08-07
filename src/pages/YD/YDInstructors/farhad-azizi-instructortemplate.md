@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Farhad Azizi
-imgURL: /myAssets/img/farhad.jpg
+imgURL: /myAssets/img/instructors/farhad.jpg
 description: 'Farhad has been a student of i3 for a few years. He is one of the
   "guinea lambs". He has been a student of the YD program since its birth: 4
   years. He has been a TA for 2 years, covered few classes when instructors were

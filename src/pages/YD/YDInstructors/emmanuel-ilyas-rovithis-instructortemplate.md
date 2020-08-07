@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Emmanuel Ilyas Rovithis
-imgURL: /myAssets/img/emmanuel.jpg
+imgURL: /myAssets/img/instructors/emmanuel.jpg
 description: Emmanuel is a Greek-Polish revert, who accepted Islam in the year
   2009 in the month of Ramadhan whilst doing his university degree in
   Kinesiology. He has been an Islamic school teacher since 2012 and has taught

@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Amro Ibrahim (Abu Alhasan)
-imgURL: /myAssets/img/amro.jpg
+imgURL: /myAssets/img/instructors/amro.jpg
 description: Amro is currently leading the YD program in Oshawa (mainly in
   Ontario Technical University and Durham College). He has a few diplomas in
   Islamic Studies, an Ijaza in teaching Quran, a Sanad in teaching Seerah, two

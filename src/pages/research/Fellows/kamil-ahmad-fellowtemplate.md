@@ -16,7 +16,7 @@ body: >-
 
 
   Besides his academic studies, he has studied various classical texts in different Islamic disciplines under several scholars during his stay in Saudi Arabia. Over the last decade, he has lectured in various countries and appeared on a number of satellite channels, including Peace TV and Huda TV. He has also been teaching for the Islamic Online University since 2010 where he currently serves as assistant professor for the MAIS (Masters in Islamic Studies) program.
-imgURL: /myAssets/img/kamilahmed.jpg
+imgURL: /myAssets/img/Research Center/Fellows/kamilahmed.jpg
 facebook_url: https://www.facebook.com/kamil1
 twitter_url: https://twitter.com/MKamilAhmad
 instagram_url: ""

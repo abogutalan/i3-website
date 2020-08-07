@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Aiyaz Noor
-imgURL: /myAssets/img/aiyaz.jpg
+imgURL: /myAssets/img/instructors/aiyaz.jpg
 description: Alhamdulillah Aiyaz has completed two years in the Young Da’ee
   program here at i3, and one year as a YD Instructor. In terms of favourite
   topics, Aiyaz enjoys Aqeedah, Usul-ul-Fiqh, and modern Da'wah techniques.

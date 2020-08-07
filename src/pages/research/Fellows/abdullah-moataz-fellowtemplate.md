@@ -23,7 +23,7 @@ body: >-
 
 
   Though Moataz has received dozens of Ijazat, he recognizes that the majority are meaningless; the only Ijazat which he views contain value are: An honorary Ijazah in Hadith from Dr. Hakem Al-Mutairi – Dr. Hakem awarded him this ijazah after Moataz sent him a bit of research for review. An Ijazah in the Bayquniyyah primer in hadith from Dr. Abu Zayd – this is the first Ijazah Moataz received and It was awarded after he recited the poem from memory to Dr. Abu Zayd and was then subject to a brief test on its meanings which he passed.
-imgURL: /myAssets/img/abdullahmoataz.jpg
+imgURL: /myAssets/img/Research Center/Fellows/abdullahmoataz.jpg
 facebook_url: ""
 twitter_url: ""
 instagram_url: ""

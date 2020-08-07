@@ -1,6 +1,6 @@
 ---
 templateKey: eventTemplate
-imgURL: /myAssets/img/daily.png
+imgURL: /myAssets/img/events/daily.png
 name: Ramadan Programs
 location: Online on Facebook/Zoom
 DT: Evenings

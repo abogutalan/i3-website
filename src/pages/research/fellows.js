@@ -21,7 +21,7 @@ class FellowPage extends React.Component {
 <div className="about-us sidebar-collapse">
             <div id="navbarDiv">
             </div>
-            <div className="page-header header-filter header-small" data-parallax="true" style={{ backgroundImage: 'url("/myAssets/img/FellowsCover.png")' }}>
+            <div className="page-header header-filter header-small" data-parallax="true" style={{ backgroundImage: 'url("/myAssets/img/Research Center/Fellows/FellowsCover.png")' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 ml-auto mr-auto text-center">

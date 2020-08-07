@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Irshad Rashid
-imgURL: /myAssets/img/i3bg.jpg
+imgURL: /myAssets/img/instructors/i3bg.jpg
 description: Irshad Rashid has been a student at the i3 Institute since the very
   early days. He has gone through the YD1 and YD2 programs, following up with 2
   years of being a TA for YD1 classes. Now he is on the epic journey of
