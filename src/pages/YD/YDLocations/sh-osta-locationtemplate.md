@@ -1,7 +1,7 @@
 ---
 templateKey: locationTemplate
-address: i3 Hub, Mississauga
+name: i3 Hub, Mississauga
 featuredimage: /myAssets/img/Locations/mississauga downtown.jpg
-name: SH. OSTA
+instructor: SH. OSTA
 timing: AIS Class
 ---

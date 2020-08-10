@@ -1,7 +1,7 @@
 ---
 templateKey: locationTemplate
-address: Shalimar Masjid, Mississauga
+name: Shalimar Masjid, Mississauga
 featuredimage: /myAssets/img/Locations/mississauga downtown.jpg
-name: SH. RASOUL
+instructor: SH. RASOUL
 timing: WEDNESDAYS 7:00 PM - 9:00 PM
 ---

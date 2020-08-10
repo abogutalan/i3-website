@@ -1,7 +1,7 @@
 ---
 templateKey: locationTemplate
-address: DIC, Toronto
+name: DIC, Toronto
 featuredimage: /myAssets/img/Locations/toronto downtown.jpg
-name: FARID
+instructor: FARID
 timing: TBA
 ---

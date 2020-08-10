@@ -1,7 +1,7 @@
 ---
 templateKey: locationTemplate
-address: Toronto Islamic Center, Toronto
+name: Toronto Islamic Center, Toronto
 featuredimage: /myAssets/img/Locations/toronto downtown.jpg
-name: ASSEM
+instructor: ASSEM
 timing: TBA
 ---

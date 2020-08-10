@@ -1,7 +1,7 @@
 ---
 templateKey: locationTemplate
-address: Seneca, Scarborough
+name: Seneca, Scarborough
 featuredimage: /myAssets/img/Locations/scarborough bluffs.jpg
-name: OSMAN H.
+instructor: OSMAN H.
 timing: TBA
 ---
