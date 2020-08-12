@@ -3,6 +3,7 @@ import Layout from '../../components/layout';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import LocationsPageTemplate from '../../components/LocationsPageTemplate';
+import '../../../static/myAssets/stylesheets/locations.css'
 
 class YDLocationsPage extends React.Component {
 
@@ -48,9 +49,9 @@ export default () => (
                   frontmatter {
                   slug
                     templateKey
-                    address
-                    featuredimage
                     name
+                    featuredimage
+                    instructor
                     timing
                     
                   }

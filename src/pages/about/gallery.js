@@ -2,8 +2,11 @@ import React from 'react'
 import Layout from '../../components/layout'
 
 const Gallery = () => (
-  <>
+
     <Layout>
+    <div >
+        
+        
       <div className = "page-header header-filter header-small" data-parallax = "true"
         style = {{ backgroundImage: `url('/myAssets/img/AppreciationDinner.jpg')` }}>
         <div className = "container">
@@ -37,8 +40,9 @@ const Gallery = () => (
             </div>
         </div>
       </div>
+      </div>
     </Layout>
-  </>
+  
 )
 
 export default Gallery
