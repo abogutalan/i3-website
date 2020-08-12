@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout'
 
-const Khateebdev = ({data}) => (
+const Khateebdev = () => (
   <>
   <Layout>
     <div className = "page-header header-filter header-small" data-parallax = "true"

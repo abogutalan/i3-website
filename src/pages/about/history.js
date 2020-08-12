@@ -3,11 +3,9 @@ import Layout from '../../components/layout'
 
 const History = () => (
     <Layout>
-        <div className="about-us sidebar-collapse">
+        <div>
         
-        <div id="navbarDiv">
-        </div>
-        <div className="page-header header-filter header-small" data-parallax="true" style={{backgroundImage: 'url("/myAssets/img/AppreciationDinner.jpg")'}}>
+        <div className="page-header header-filter header-small" data-parallax="true" style={{backgroundImage: 'url("./myAssets/img/AppreciationDinner.jpg")'}}>
           <div className="container">
             <div className="row">
               <div className="col-md-8 ml-auto mr-auto text-center">
@@ -91,7 +89,7 @@ const History = () => (
                     <br />
                     <br />
                     <div>
-                      <img style={{width: '90%'}} src="/myAssets/img/knowledge.png" />
+                      <img style={{width: '90%'}} src="./myAssets/img/knowledge.png" />
                     </div>
                   </div>
                   <div className="col-md-6">

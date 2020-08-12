@@ -116,8 +116,8 @@ collections:
     label: Slider Testimonials
     folder: src/pages/about/testimonials/sliders
     slug: "{{name}}-{{templateKey}}"
-    media_folder: "/../../../../{{media_folder}}"
-    public_folder: "/../../../../{{media_folder}}"
+    media_folder: "/../../../../{{media_folder}}/testimonials"
+    public_folder: "/../../../../{{media_folder}}/testimonials"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: carouselTemplate }
