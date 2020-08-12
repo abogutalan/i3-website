@@ -8,4 +8,5 @@ description: 'Farhad has been a student of i3 for a few years. He is one of the
   unable to make it, and has done review and exam prep classes.'
 descriptionMore: Farhad works full-time as a partner at a used cars dealership.
   His hobbies include spending time with kids and family.
+rank: 7
 ---

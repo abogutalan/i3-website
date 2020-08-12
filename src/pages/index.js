@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Layout from "../components/layout"
 // import PropTypes from 'prop-types'
 import { graphql, useStaticQuery } from 'gatsby'
+import EventCarousel from '../components/EventCarousel'
 
 class HomePage extends Component {
   // constructor(props) {
@@ -43,25 +44,25 @@ class HomePage extends Component {
   render() {
     return (
       <Layout>
-        <div className="page-header header-filter" data-parallax="true"
+        <div className = "page-header header-filter" data-parallax="true"
           style={{ backgroundImage: `url('/myAssets/img/landingBG.jpg')` }}>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <h1 className="title">Interactive Ilm Institute</h1>
+          <div className = "container">
+            <div className = "row">
+              <div className = "col-md-6">
+                <h1 className = "title">Interactive Ilm Institute</h1>
                 <h4> Interactive Ilm Institute - your journey to a lifetime of empowerment. </h4>
                 <br />
               </div>
-              <div className="col-md-12">
+              <div className = "col-md-12">
                 <a href="https://www.youtube.com/watch?v=m026tqmJpU0" target="_blank"
-                  className="btn btn-danger btn-raised btn-lg">
-                  <i className="fa fa-play"></i> Watch Video
+                  className = "btn btn-danger btn-raised btn-lg">
+                  <i className = "fa fa-play"></i> Watch Video
               </a>
-                <a href="http://eepurl.com/dJjNcT" target="_blank" className="btn btn-danger btn-raised btn-lg">
-                  <i className="material-icons">subscriptions</i> Subscribe
+                <a href="http://eepurl.com/dJjNcT" target="_blank" className = "btn btn-danger btn-raised btn-lg">
+                  <i className = "material-icons">subscriptions</i> Subscribe
               </a>
-                <a href="./register.html" className="btn btn-warning btn-raised btn-lg">
-                  <i className="material-icons">person_add</i> Register
+                <a href="./register.html" className = "btn btn-warning btn-raised btn-lg">
+                  <i className = "material-icons">person_add</i> Register
               </a>
               </div>
             </div>
@@ -69,16 +70,16 @@ class HomePage extends Component {
         </div>
         <br />
         <br />
-        <div className="main main-raised">
-          <div className="container">
+        <div className = "main main-raised">
+          <div className = "container">
             {/* <!-- Research Center advertisement --> */}
-            <div className="section">
-              <div className="row">
-                <div className="col-md-8 ml-auto mr-auto text-center">
-                  <h2 className="title">New Research Articles!</h2>
-                  <h5 className="description">
+            <div className = "section">
+              <div className = "row">
+                <div className = "col-md-8 ml-auto mr-auto text-center">
+                  <h2 className = "title">New Research Articles!</h2>
+                  <h5 className = "description">
                     Head over to i3 Institute's new <a href="./articles.html"> Research Center</a> and check out the latest articles!
-                </h5>
+                  </h5>
                   {/* <!-- <div class="card card-plain card-blog">
                   <div class="row">
                     <div class="col-md-4">
@@ -109,28 +110,28 @@ class HomePage extends Component {
                       </div>
                     </div>
                   </div> --> */}
-                  <div className="card card-plain card-blog">
-                    <div className="row">
-                      <div className="col-md-4">
-                        <div className="card-header card-header-image article-thumbnail-container">
-                          <img className="img img-raised article-thumbnail-img"
+                  <div className = "card card-plain card-blog">
+                    <div className = "row">
+                      <div className = "col-md-4">
+                        <div className = "card-header card-header-image article-thumbnail-container">
+                          <img className = "img img-raised article-thumbnail-img" alt="raised_image"
                             src="./myAssets/img/Research Center/Articles/Article Pics/quranShouldNot-1.jpg" />
-                          <div className="colored-shadow"
+                          <div className = "colored-shadow"
                             style={{ backgroundImage: `url('/assets/img/office2.jpg')`, opacity: 1 }}>
                           </div>
                         </div>
                       </div>
-                      <div className="col-md-8">
-                        <h3 className="card-title">
+                      <div className = "col-md-8">
+                        <h3 className = "card-title">
                           <a href="./articles/quranShouldNot.html">The Qur’an Should Not Have Been Preserved</a>
                         </h3>
-                        <p className="card-description">
+                        <p className = "card-description">
                           When one considers the miracle of the Qur’an, a topic which is often
                           highlighted is that of its preservation and there is very good reason for
-                          this. … 
+                          this. …
                         <a href="./articles/quranShouldNot.html"> Read More </a>
                         </p>
-                        <p className="author">
+                        <p className = "author">
                           by <a href="./fellows/ijazahmed.html">
                             <b>Ijaz Ahmed</b>
                           </a>, May 17, 2019
@@ -142,39 +143,51 @@ class HomePage extends Component {
               </div>
             </div>
             {/* <!-- End Research Center advertisement --> */}
-            <div className="row section">
-              <div className="col-md-8 ml-auto mr-auto text-center">
-                <h2 className="title">Upcoming Events</h2>
-                <h5 className="description">
+            <div className = "row section">
+              <div className = "col-md-8 ml-auto mr-auto text-center">
+                <h2 className = "title">Upcoming Events</h2>
+                <h5 className = "description">
                   Here are some upcoming events happening at i3!
               </h5>
               </div>
             </div>
-            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-              <ol className="carousel-indicators">
+            <div id="carouselExampleIndicators" className = "carousel slide" data-ride="carousel">
+              <ol className = "carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" className="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" className = "active"></li>
               </ol>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <div className="page-header header-filter"
-                    style={{ backgroundImage: `url('/myAssets/img/events/BiWeeklyS.png')` }}>
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-md-6 ml-auto mr-auto text-center">
-                          <h1 className="title">Weekly Live Q/A</h1>
+              <div className = "carousel-inner">
+                <div className = "carousel-item active">
+                  <div className = "page-header header-filter" style={{ backgroundImage: `url('/myAssets/img/events/BiWeeklyS.png')` }}>
+                    <div className = "container">
+                      <div className = "row">
+                        <div className = "col-md-6 ml-auto mr-auto text-center">
+                          <h1 className = "title">Weekly Live Q/A</h1>
+                          <br />
+                        </div>
+                      </div>                                                 
+                    </div>
+                  </div>
+                </div>
+                <div className = "carousel-item">
+                  <div className = "page-header header-filter" style={{ backgroundImage: `url('/myAssets/img/events/bbq.png')` }}>
+                    <div className = "container">
+                      <div className = "row">
+                        <div className = "col-md-6 ml-auto mr-auto text-center">
+                          <h1 className = "title">BBQ Testing</h1>
                           <br />
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="page-header header-filter"
-                    style={{ backgroundImage: `url('/myAssets/img/events/bbq.png')` }}>
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-md-6 ml-auto mr-auto text-center">
-                          <h1 className="title">BBQ Testing</h1>
+                </div>
+                <div className = "carousel-item">
+                  <div className = "page-header header-filter" style={{ backgroundImage: `url('/myAssets/img/events/AndalusiOstaRasoul.png')` }}>
+                    <div className = "container">
+                      <div className = "row">
+                        <div className = "col-md-6 ml-auto mr-auto text-center">
+                          <h1 className = "title">BOB</h1>
                           <br />
                         </div>
                       </div>
@@ -182,33 +195,33 @@ class HomePage extends Component {
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <i class="material-icons" keyboard_arrow_left> </i>
-                <span class="sr-only" Previous> </span>
+              <a className = "carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <i className = "material-icons" keyboard_arrow_left> </i>
+                <span className = "sr-only" Previous> </span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <i class="material-icons" keyboard_arrow_right> </i>
-                <span class="sr-only" Next> </span>
+              <a className = "carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <i className = "material-icons" keyboard_arrow_right> </i>
+                <span className = "sr-only" Next> </span>
               </a>
             </div>
-            <div className="section text-center">
-              <div className="row">
-                <div className="col-md-8 ml-auto mr-auto">
-                  <h2 className="title">What is i3?</h2>
-                  <h5 className="description">
+            <div className = "section text-center">
+              <div className = "row">
+                <div className = "col-md-8 ml-auto mr-auto">
+                  <h2 className = "title">What is i3?</h2>
+                  <h5 className = "description">
                     i3 Institute is an educational organization that provides classical Islamic education
                     through a unique, modern, and interactive college-level teaching approach.
                 </h5>
                 </div>
               </div>
-              <div className="features">
-                <div className="row">
-                  <div className="col-md-4">
-                    <div className="info">
-                      <div className="icon icon-info">
-                        <i className="material-icons">chat</i>
+              <div className = "features">
+                <div className = "row">
+                  <div className = "col-md-4">
+                    <div className = "info">
+                      <div className = "icon icon-info">
+                        <i className = "material-icons">chat</i>
                       </div>
-                      <h4 className="info-title">Interactive</h4>
+                      <h4 className = "info-title">Interactive</h4>
                       <p>
                         Our teaching style emphasizes interactivity between the student and the instructor.
                         We engage the students through multiple means. For example: open discussions,
@@ -219,12 +232,12 @@ class HomePage extends Component {
                     </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
-                    <div className="info">
-                      <div className="icon icon-success">
-                        <i className="material-icons">verified_user</i>
+                  <div className = "col-md-4">
+                    <div className = "info">
+                      <div className = "icon icon-success">
+                        <i className = "material-icons">verified_user</i>
                       </div>
-                      <h4 className="info-title">Intensive</h4>
+                      <h4 className = "info-title">Intensive</h4>
                       <p>
                         Even though our courses are fun to attend, we do not sacrifice the high caliber of
                         knowledge we will be delivering.
@@ -233,12 +246,12 @@ class HomePage extends Component {
                     </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
-                    <div className="info">
-                      <div className="icon icon-danger">
-                        <i className="material-icons">fingerprint</i>
+                  <div className = "col-md-4">
+                    <div className = "info">
+                      <div className = "icon icon-danger">
+                        <i className = "material-icons">fingerprint</i>
                       </div>
-                      <h4 className="info-title">Inspiring</h4>
+                      <h4 className = "info-title">Inspiring</h4>
                       <p>
                         The whole organizational approach we take is to fulfill one goal in mind and that is
                         to inspire the young generation to learn their Deen and for the older crowd to feel
@@ -249,11 +262,11 @@ class HomePage extends Component {
                 </div>
               </div>
             </div>
-            <div className="section">
-              <div className="row">
-                <div className="col-md-8 ml-auto mr-auto text-center">
-                  <h2 className="title">i3's Flagship Program: Young Da'ee (YD)</h2>
-                  <h5 className="description">
+            <div className = "section">
+              <div className = "row">
+                <div className = "col-md-8 ml-auto mr-auto text-center">
+                  <h2 className = "title">i3's Flagship Program: Young Da'ee (YD)</h2>
+                  <h5 className = "description">
                     We invite you to our weekly in-person Islamic development program, where each class is
                     filled with an engaging presentation, group discussions, and Q/A at any time.
                     If you are a person that is active and want to make an impact in your community, here is the
@@ -263,32 +276,29 @@ class HomePage extends Component {
                 </div>
               </div>
             </div>
-            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-              <ol className="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" className=""></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" className=""></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" className="active"></li>
+            <div id="carouselExampleIndicators" className = "carousel slide" data-ride="carousel">
+              <ol className = "carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" className = ""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" className = ""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" className = "active"></li>
               </ol>
-              <div className="carousel-inner">
-                <div className="carousel-item">
-                  <div className="page-header header-filter"
-                    style={{ backgroundImage: `url('/myAssets/img/YD1Toronto.jpg')` }}>
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-md-6 ml-auto mr-auto text-center">
-                          <h1 className="title">Part-Time & Flexible</h1>
+              <div className = "carousel-inner">
+                <div className = "carousel-item active">
+                  <div className = "page-header header-filter" style={{ backgroundImage: `url('/myAssets/img/YD1Toronto.jpg')` }}>
+                    <div className = "container">
+                      <div className = "row">
+                        <div className = "col-md-6 ml-auto mr-auto text-center">
+                          <h1 className = "title">Part-Time & Flexible</h1>
                           <h4>
                             Our classes are offered in several different locations within the GTA
                             and surroundings. With 2 hours of weekly classes and recommended readings it
-                            is
-                            a program that is flexible enough for any working
-                            professional or student to join it.
-                        </h4>
+                            is a program that is flexible enough for any working professional or student to join it.
+                          </h4>
                           <br />
-                          <div className="buttons">
-                            <a href="./YDLocations.html" className="btn btn-danger btn-lg">
-                              <i className="material-icons">location_on</i> View Locations & Timings
-                              <div className="ripple-container"></div>
+                          <div className = "buttons">
+                            <a href="./YDLocations.html" className = "btn btn-danger btn-lg">
+                              <i className = "material-icons">location_on</i> View Locations & Timings
+                              <div className = "ripple-container"></div>
                             </a>
                           </div>
                         </div>
@@ -296,53 +306,47 @@ class HomePage extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="carousel-item">
-                  <div className="page-header header-filter"
-                    style={{ backgroundImage: `url('/myAssets/img/YD1Sauga.jpg')` }}>
-                    <div style={{ wordWrap: 'break-word' }} className="container">
-                      <div className="row">
-                        <div className="col-md-8 ml-auto mr-auto text-center">
-                          <h1 className="title">Both Basic and In-Depth Islamic Studies</h1>
+                <div className = "carousel-item">
+                  <div className = "page-header header-filter" style={{ backgroundImage: `url('/myAssets/img/YD1Sauga.jpg')` }}>
+                    <div style={{ wordWrap: 'break-word' }} className = "container">
+                      <div className = "row">
+                        <div className = "col-md-8 ml-auto mr-auto text-center">
+                          <h1 className = "title">Both Basic and In-Depth Islamic Studies</h1>
                           <h4>
                             At the YD Program, students will learn several branches/modules of Islamic
-                            Studies
-                            from Instructors who have completed the program previously and are
-                            constantly
-                            trained to be better leaders.
-                        </h4>
+                            Studies from Instructors who have completed the program previously and are
+                            constantly trained to be better leaders.
+                          </h4>
                           <br />
                           <h6>Various modules such as:</h6>
                           <h4> Usul-ul-Fiqh + Ilmun-Hadeeth + Aqeedah + Seerah + Tazkiyya </h4>
                           <br />
-                          <div className="buttons">
-                            <a href="./YDInstructors.html" className="btn btn-danger btn-lg">
-                              <i className="material-icons">people</i> View Instructors' Profiles
-                              </a>
+                          <div className = "buttons">
+                            <a href="./YDInstructors.html" className = "btn btn-danger btn-lg">
+                              <i className = "material-icons">people</i> View Instructors' Profiles
+                            </a>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="carousel-item active">
-                  <div className="page-header header-filter"
-                    style={{ backgroundImage: `url('/myAssets/img/YD1Scarborough2.jpg')` }}>
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-md-7 ml-auto mr-auto text-center">
-                          <h1 className="title">A Truly Transformative Program</h1>
+                <div className = "carousel-item ">
+                  <div className = "page-header header-filter" style={{ backgroundImage: `url('/myAssets/img/YD1Scarborough2.jpg')` }}>
+                    <div className = "container">
+                      <div className = "row">
+                        <div className = "col-md-7 ml-auto mr-auto text-center">
+                          <h1 className = "title">A Truly Transformative Program</h1>
                           <h4>
                             Become a leader! One who is motivational, inspirational, and has sound
-                            knowledge.
-                            One who sees challenges and doesn't wait for others to fix them, but takes
-                            initiative
-                            themselves. Be the change you want to see!
-                            </h4>
+                            knowledge. One who sees challenges and doesn't wait for others to fix them, but takes
+                            initiative themselves. Be the change you want to see!
+                          </h4>
                           <br />
-                          <div className="buttons">
-                            <a href="./YDRegister.html" className="btn btn-danger btn-lg">
-                              <i className="material-icons">person_add</i> Register Now
-                              </a>
+                          <div className = "buttons">
+                            <a href="./YDRegister.html" className = "btn btn-danger btn-lg">
+                              <i className = "material-icons">person_add</i> Register Now
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -350,32 +354,33 @@ class HomePage extends Component {
                   </div>
                 </div>
               </div>
-              <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <i className="material-icons">keyboard_arrow_left</i>
-                <span className="sr-only">Previous</span>
+              <a className = "carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <i className = "material-icons" keyboard_arrow_left> </i>
+                <span className = "sr-only" Previous> </span>
               </a>
-              <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <i className="material-icons">keyboard_arrow_right</i>
-                <span className="sr-only">Next</span>
+              <a className = "carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <i className = "material-icons" keyboard_arrow_right> </i>
+                <span className = "sr-only" Next> </span>
               </a>
             </div>
-            <div className="section text-center">
-              <h2 className="title">Our Main Shuyukh</h2>
-              <div className="team">
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="team-player">
-                      <div className="card card-plain">
-                        <div className="col-md-6 ml-auto mr-auto">
+            {/* <EventCarousel> yd stuff </EventCarousel> */}
+            <div className = "section text-center">
+              <h2 className = "title">Our Main Shuyukh</h2>
+              <div className = "team">
+                <div className = "row">
+                  <div className = "col-md-6">
+                    <div className = "team-player">
+                      <div className = "card card-plain">
+                        <div className = "col-md-6 ml-auto mr-auto">
                           <img src="./myAssets/img/ShOstaMain2.jpg" alt="Thumbnail Image"
-                            className="img-raised rounded-circle img-fluid" />
+                            className = "img-raised rounded-circle img-fluid" />
                         </div>
-                        <h4 className="card-title">Sheikh Usta
+                        <h4 className = "card-title">Sheikh Usta
                         <br />
-                          <small className="card-description text-muted">Founder, Instructor</small>
+                          <small className = "card-description text-muted">Founder, Instructor</small>
                         </h4>
-                        <div className="card-body">
-                          <p className="card-description">
+                        <div className = "card-body">
+                          <p className = "card-description">
                             Sheikh Usta has been teaching Islamic knowledge for over a decade.
                             Sheikh Usta is currently completing his Masters in Islamic Shariah, and
                             holds a Bachelors in Arabic and Islamic Studies.
@@ -383,42 +388,42 @@ class HomePage extends Component {
                             a leading Comparative Fiqh professor at al-Azhar.
                         </p>
                         </div>
-                        <div className="card-footer justify-content-center">
+                        <div className = "card-footer justify-content-center">
                           <a href="https://www.facebook.com/sheikh.osta"
-                            className="btn btn-just-icon btn-link btn-facebook"><i className="fa fa-facebook-square"></i>
-                            <div className="ripple-container"></div>
+                            className = "btn btn-just-icon btn-link btn-facebook"><i className = "fa fa-facebook-square"></i>
+                            <div className = "ripple-container"></div>
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <div className="team-player">
-                      <div className="card card-plain">
-                        <div className="col-md-6 ml-auto mr-auto">
+                  <div className = "col-md-6">
+                    <div className = "team-player">
+                      <div className = "card card-plain">
+                        <div className = "col-md-6 ml-auto mr-auto">
                           <img src="./myAssets/img/ShRasoulMain2.jpg" alt="Thumbnail Image"
-                            className="img-raised rounded-circle img-fluid" />
+                            className = "img-raised rounded-circle img-fluid" />
                         </div>
-                        <h4 className="card-title">Sheikh Rasoul
+                        <h4 className = "card-title">Sheikh Rasoul
                         <br />
-                          <small className="card-description text-muted">Instructor</small>
+                          <small className = "card-description text-muted">Instructor</small>
                         </h4>
-                        <div className="card-body">
-                          <p className="card-description">
+                        <div className = "card-body">
+                          <p className = "card-description">
                             Sheikh Rasoul is a teacher, a leader, and an active contributor to the
                             community. He currently serves as the principal at ISNA High School.
                             Shiekh Rasoul has memorized the Qur’an and conveys his knowledge through
                             khutbas and halaqas at various mosques within the GTA.
                           </p>
                         </div>
-                        <div className="card-footer justify-content-center">
+                        <div className = "card-footer justify-content-center">
                           <a href="https://www.facebook.com/salar.rasoul?__tn__=lCH-R&eid=ARBy36mQHXuPnsOD2tJV0WFlScK31apseC6iErB0eugERa_5aHLH_BT14npwI50Kk8T69hRWK9JHmn1c&hc
                                             _ref=ARTM5Tp23A08DAEU8YccJt7GFANfL-A4gAMyswVNYftBQ470HX8A3o47udeM2R9EsSo&__xts__[0]=68.ARCPe-VUPTmjBNv2-x1I9MNMcdF55OleagF8bQZUi2kKP1xMDTW4YPt4gFlE
                                             q3Jvuc9ePWgUGjt88RQ3V2p5TM1_XKJbg3HwhkJ_zWPaVhW2HEDAL4QmNnAjF0vKkxYxg50scDZXpOwCen9ZvUkuaQLF8r19Xp9yNweJjOTP4ukNeTaIpPtlXGatbuzvSs3ZZ4Qr52PPIXaSRg
                                             1f-ShaUy2wC9IVwJRPnkhPK17YiuoirTArxyYKIpDOcVX2jQwYqbSFCPl0aQYO8lmnHgz1ryIh2AD5d1OXI7f128LKS-BbxKQ0Hg"
-                            className="btn btn-just-icon btn-link btn-facebook">
-                            <i className="fa fa-facebook-square"></i>
-                            <div className="ripple-container"></div>
+                            className = "btn btn-just-icon btn-link btn-facebook">
+                            <i className = "fa fa-facebook-square"></i>
+                            <div className = "ripple-container"></div>
                           </a>
                         </div>
                       </div>
@@ -427,24 +432,24 @@ class HomePage extends Component {
                 </div>
               </div>
             </div>
-            <div className="row text-center">
-              <div className="col-md-8 ml-auto mr-auto">
-                <h2 className="title">Connect With Us</h2>
-                <h5 className="description">
+            <div className = "row text-center">
+              <div className = "col-md-8 ml-auto mr-auto">
+                <h2 className = "title">Connect With Us</h2>
+                <h5 className = "description">
                   <a href="https://twitter.com/i3institute" class="btn btn-just-icon btn-twitter btn-round">
-                    <i className="fa fa-twitter"></i>
+                    <i className = "fa fa-twitter"></i>
                   </a>
                   <a href="https://www.facebook.com/i3islamicinstitute"
-                    className="btn btn-just-icon btn-facebook btn-round">
-                    <i className="fa fa-facebook-square"></i>
+                    className = "btn btn-just-icon btn-facebook btn-round">
+                    <i className = "fa fa-facebook-square"></i>
                   </a>
                   <a href="https://www.instagram.com/i3institute/?utm_source=ig_profile_share&igshid=aulh50muid5n"
-                    className="btn btn-just-icon btn-instagram btn-round">
-                    <i className="fa fa-instagram"></i>
+                    className = "btn btn-just-icon btn-instagram btn-round">
+                    <i className = "fa fa-instagram"></i>
                   </a>
                   <a href="https://www.youtube.com/channel/UCKJanj2b-TEfkaTiSU7QOPg"
-                    className="btn btn-just-icon btn-youtube btn-round">
-                    <i className="fa fa-youtube-play"></i>
+                    className = "btn btn-just-icon btn-youtube btn-round">
+                    <i className = "fa fa-youtube-play"></i>
                   </a>
                 </h5>
               </div>

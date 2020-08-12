@@ -18,7 +18,7 @@ class FCCPage extends React.Component {
 
     return (
       <Layout>
-        <CounselorsPageTemplate counselors={counselors} />
+        <CounselorsPageTemplate counselors = { counselors } />
       </Layout>
     )
   }
@@ -34,35 +34,34 @@ FCCPage.propTypes = {
 
 export default () => (
   <StaticQuery
-    query={graphql`
-      query CounselorQuery {
-        allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { eq: "counselorTemplate" } } }
-        ) {
-          edges {
-            node {
-              excerpt(pruneLength: 400)
-              id
-          
-              frontmatter {
-                slug
-                templateKey
-                name
-                title
-                imgURL
-                education
-                otherInterests
-                instructions
-                link
-                linkDisplay
-                booklink
-                gender
-                
-              }
+    query = {graphql`
+    query CounselorQuery {
+      allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "counselorTemplate"}}}, 
+      sort: {fields: frontmatter___rank, order: ASC}) {
+        edges {
+          node {
+            excerpt(pruneLength: 400)
+            id
+            frontmatter {
+              slug
+              templateKey
+              name
+              title
+              imgURL
+              education
+              otherInterests
+              instructions
+              link
+              linkDisplay
+              booklink
+              gender
+              rank
             }
           }
         }
       }
+    }
+    
      `}
     render={(data, count) => <FCCPage data={data} count={count} />}
   />

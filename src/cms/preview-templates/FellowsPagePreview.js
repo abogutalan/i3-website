@@ -11,6 +11,7 @@ const FellowsPagePreview = ({ entry, getAsset, widgetFor }) => {
       name={entry.getIn(['data', 'name'])}
       body={widgetFor('body')}
       imgURL={getAsset(entry.getIn(['data', 'imgURL']))}
+      rank={entry.getIn(['data', 'rank'])}
     />
 
 

@@ -15,4 +15,5 @@ description: Sheikh Rasoul has memorized the Quran over twenty two years ago
   2011, specializing in leadership and administration in education. He is
   currently completing his Bachelor Degree in Islamic Studies from Mishkah
   University.
+rank: 0
 ---

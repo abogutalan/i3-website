@@ -10,15 +10,26 @@ import { graphql, StaticQuery } from 'gatsby'
 class TestimonialsPage extends Component {
     constructor(props) {
         super(props)
+        const { data } = this.props
+        const { edges } = data.allMarkdownRemark
+
+        // getting frontmatters of every edges
+        const carousel = edges.map(edge => {
+            return edge.node.frontmatter
+        })
         this.state = {
-            activeIndex: 0
+            activeIndex: 0,
+            carousel: carousel
         }
+        console.log("carousel::")
+        console.log(carousel)
         console.log(this.state)
+        
     }        
 
     gotoPrev = () => {
         let index = this.state.activeIndex
-        let finalIdx = slidetestimonials.length - 1
+        let finalIdx = this.state.carousel.length - 1
 
         if (index === 0) {
             this.setState({ activeIndex: finalIdx })
@@ -30,7 +41,7 @@ class TestimonialsPage extends Component {
 
     gotoNext = () => {
         let index = this.state.activeIndex
-        let finalIdx = slidetestimonials.length - 1
+        let finalIdx = this.state.carousel.length - 1
 
         if (index === finalIdx) {
             this.setState({ activeIndex: 0 })
@@ -41,15 +52,7 @@ class TestimonialsPage extends Component {
     }
 
     render() {  
-        const { data } = this.props
-        const { edges } = data.allMarkdownRemark
-
-        // getting frontmatters of every edges
-        const carousel = edges.map(edge => {
-            return edge.node.frontmatter
-        })
-        console.log("carousel::")
-        console.log(carousel)
+        
 
         return (
             <Layout>
@@ -78,9 +81,7 @@ class TestimonialsPage extends Component {
                                         <div className = "carousel-inner">
                                             {/* slidetestimonials begin here */}
 
-                                            {/* adding a random line for fun */}
-
-                                            {slidetestimonials.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === this.state.activeIndex} />)}
+                                            {this.state.carousel.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === this.state.activeIndex} />)}
 
                                             <a className = "carousel-control-prev" role = "button"
                                                 onClick = {this.gotoPrev} >

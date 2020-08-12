@@ -12,4 +12,5 @@ descriptionMore: Adnan graduated as a Mechatronics Engineer from the University
   faced by Muslims in the West and abroad. Adnan's goal is to empower the
   Muslims in Canada, help build robust leadership and change agents in society
   who work together strategically on the Islamic vision.
+rank: 2
 ---

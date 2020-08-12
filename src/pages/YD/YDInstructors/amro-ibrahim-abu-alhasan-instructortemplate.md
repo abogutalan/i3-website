@@ -14,4 +14,5 @@ descriptionMore: Amro has a PhD in Mechanical Engineering, in the mechatronics
   professor at Durham College and as a CNC programmer in Home Design business.
   His goal is to revive knowledge and to build an empowered Muslim generation
   that has both leadership and Islamic knowledge.
+rank: 10
 ---

@@ -10,6 +10,7 @@ const InstructorsPagePreview = ({ entry, getAsset }) => {
     description: entry.getIn(['data', 'description']),
     descriptionMore: entry.getIn(['data', 'descriptionMore']),
     imgURL: getAsset(entry.getIn(['data', 'imgURL'])),
+    rank:entry.getIn(['data', 'rank'])
   }]
   return (
 

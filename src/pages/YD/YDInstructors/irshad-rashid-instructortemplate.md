@@ -12,4 +12,5 @@ descriptionMore: Irshad graduated from Sheridan College doing the Software
   Development and Network Engineering program. Currently he is working as a
   Technical Account Manager at an IT company that develops software for Property
   Management and Accounting. His hobbies are sports, camping and martial arts.
+rank: 6
 ---

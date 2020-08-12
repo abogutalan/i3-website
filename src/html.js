@@ -18,7 +18,7 @@ export default function HTML(props) {
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes} className="landing-page sidebar-collapse">
+      <body {...props.bodyAttributes} className = "landing-page sidebar-collapse">
         {props.preBodyComponents}
         <div
           key={`body`}
@@ -26,31 +26,31 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <footer style={{ backgroundColor: 'black', marginTop: '20px' }} className="footer">
-          <div className="container">
-            <nav className="pull-left">
+        <footer style={{ backgroundColor: 'black', marginTop: '20px' }} className = "footer">
+          <div className = "container">
+            <nav className = "pull-left">
               <ul>
                 <li>
-                  <a href="https://twitter.com/i3institute" className="btn btn-just-icon btn-twitter btn-round">
-                    <i className="fa fa-twitter"></i>
+                  <a href="https://twitter.com/i3institute" className = "btn btn-just-icon btn-twitter btn-round">
+                    <i className = "fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.facebook.com/i3islamicinstitute"
-                    className="btn btn-just-icon btn-facebook btn-round">
-                    <i className="fa fa-facebook-square"></i>
+                    className = "btn btn-just-icon btn-facebook btn-round">
+                    <i className = "fa fa-facebook-square"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.instagram.com/i3institute/?utm_source=ig_profile_share&igshid=aulh50muid5n"
-                    className="btn btn-just-icon btn-instagram btn-round">
-                    <i className="fa fa-instagram"></i>
+                    className = "btn btn-just-icon btn-instagram btn-round">
+                    <i className = "fa fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.youtube.com/channel/UCKJanj2b-TEfkaTiSU7QOPg"
-                    className="btn btn-just-icon btn-youtube btn-round">
-                    <i className="fa fa-youtube-play"></i>
+                    className = "btn btn-just-icon btn-youtube btn-round">
+                    <i className = "fa fa-youtube-play"></i>
                   </a>
                 </li>
                 <li>
@@ -58,7 +58,7 @@ export default function HTML(props) {
                 </li>
               </ul>
             </nav>
-            <div className="copyright pull-right">
+            <div className = "copyright pull-right">
               ©
               2019 Interactive Ilm Institute
             </div>

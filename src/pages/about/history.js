@@ -42,7 +42,7 @@ const History = () => (
                                                         young, aspiring and visionary leaders who are principled, skilled, empowered and aware of
                                                         current issues. We aim to build an aware, confident and active group of people that have a
                                                         positive impact in the Canadian Civil Society.
-                                </h5>
+                                                    </h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -65,7 +65,7 @@ const History = () => (
                                                                     i3 has already established itself as a key grassroots organization that has
                                                                     offered leadership programs, conferences, workshops, social retreats, youth
                                                                     activities, and seminars.
-                                            </p>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -80,7 +80,7 @@ const History = () => (
                                                                     i3 provides learning and empowerment for the Muslim Youth
                                                                     for them to be confident, productive and aware individuals who can address
                                                                     racism and Islamophobia in society.
-                                            </p>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -94,7 +94,7 @@ const History = () => (
                                                                 <p>
                                                                     i3 will maintain a center wherein individuals’ spiritual, social, cultural and
                                                                     religious identity is built.
-                                            </p>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -124,7 +124,7 @@ const History = () => (
                                                                     youth over the past four years. Many of these events included vital modules that
                                                                     addressed various forms of racism faced by other minority groups that we’ve
                                                                     worked with; our attendees and students found them incredibly beneficial.
-                                            </p>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                         <div className = "info info-horizontal">
@@ -139,7 +139,7 @@ const History = () => (
                                                                     lifestyle of Canadian youth. More importantly,
                                                                     all our programming is free of charge to ease the process of
                                                                     seeking Islamic knowledge.
-                                            </p>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
