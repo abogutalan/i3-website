@@ -52,6 +52,7 @@ export default () => (
                 imgURL
                 description
                 descriptionMore
+                rank
                 
               }
             }

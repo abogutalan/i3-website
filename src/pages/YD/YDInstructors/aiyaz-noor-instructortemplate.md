@@ -9,4 +9,5 @@ descriptionMore: Aiyaz studied Computer Science & Mathematics at the University
   of Toronto, and currently works as a Software Engineer. With two years of
   experience as a Teaching Assistant at U of T, Aiyaz has a “learn by teaching”
   motto, where he transfers over to teaching Islam through the YD program.
+rank: 5
 ---

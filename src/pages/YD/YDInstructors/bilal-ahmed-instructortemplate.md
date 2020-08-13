@@ -12,4 +12,5 @@ descriptionMore: Bilal works as an engineer and project manager with a special
   Da'wah initiatives around GTA and Hamilton. Bilal really enjoys outdoor
   activities with family and friends like camping, hiking, swimming and
   canoeing.
+rank: 9
 ---

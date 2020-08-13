@@ -15,4 +15,6 @@ descriptionMore: Lana has a bachelor’s degree in molecular and cellular biolog
   loves to travel, walk in nature, and try new things. Her goal is to be like
   the Prophet’s (SAW) wives, Khadija (RA) and Aisha (RA). She loves reading
   about various topics in Islam, especially Islamic history.
+rank: 1
 ---
+

@@ -10,4 +10,5 @@ description: Emmanuel is a Greek-Polish revert, who accepted Islam in the year
   well as with private teachers and scholars local and abroad. Emmanuel holds a
   passion for comparative fiqh and usool-al fiqh, da’wah, stories of our pious
   predecessors, project management and community outreach.
+rank: 8
 ---

@@ -4,50 +4,50 @@ import Layout from '../../components/layout';
 const AIS = () => (
     <>
         <Layout>
-            <div className="page-header header-filter header-small" data-parallax="true"
+            <div className = "page-header header-filter header-small" data-parallax="true"
                 style={{ backgroundImage: `url('/myAssets/img/AIS banner.jpg')` }}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-8 ml-auto mr-auto text-center">
-                            <div className="brand">
-                                <h1 className="title"> Advanced Islamic Studies (AIS) </h1>
+                <div className = "container">
+                    <div className = "row">
+                        <div className = "col-md-8 ml-auto mr-auto text-center">
+                            <div className = "brand">
+                                <h1 className = "title"> Advanced Islamic Studies (AIS) </h1>
                                 <h4> Our super intensive initiative that is designed to change the Islamic landscape in Canada! </h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="main main-raised">
-                <div className="section">
-                    <div className="projects-4" id="projects-4">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-8 ml-auto mr-auto text-center">
-                                    <h2 className="title"> Introducing the AIS Program </h2>
-                                    <h5 className="description"> The YD Program has been a great success for the last few years. We have had 13 classes
+            <div className = "main main-raised">
+                <div className = "section">
+                    <div className = "projects-4" id="projects-4">
+                        <div className = "container">
+                            <div className = "row">
+                                <div className = "col-md-8 ml-auto mr-auto text-center">
+                                    <h2 className = "title"> Introducing the AIS Program </h2>
+                                    <h5 className = "description"> The YD Program has been a great success for the last few years. We have had 13 classes
                                     operating, and we think it is the right time to introduce our community to a new
                                     program....
                                     </h5>
-                                    <div className="section-space"></div>
+                                    <div className = "section-space"></div>
                                 </div>
                             </div>
-                            <div className="row">
-                                <div className="col-md-5 ml-auto">
-                                    {/* <!-- <div className="card card-background"
+                            <div className = "row">
+                                <div className = "col-md-5 ml-auto">
+                                    {/* <!-- <div className = "card card-background"
                                         style="background-image:url('./myAssets/img/ais flyer.jpg')">
-                                        <div className="card-body">
+                                        <div className = "card-body">
                                         </div>
                                     </div> --> */}
                                     <img src="/myAssets/img/ais flyer.jpg" alt="flyer" style={{ width: '100%' }} />
                                 </div>
-                                <div className="col-md-5 mr-auto">
-                                    <div className="info info-horizontal">
-                                        <div className="icon icon-danger">
-                                            <i className="material-icons">add_alert</i>
+                                <div className = "col-md-5 mr-auto">
+                                    <div className = "info info-horizontal">
+                                        <div className = "icon icon-danger">
+                                            <i className = "material-icons">add_alert</i>
                                         </div>
-                                        <div className="description">
-                                            <h4 className="info-title">Intensive</h4>
-                                            <p className="description"> This program is super intensive and very comprehensive and covers a structure of
+                                        <div className = "description">
+                                            <h4 className = "info-title">Intensive</h4>
+                                            <p className = "description"> This program is super intensive and very comprehensive and covers a structure of
                                             material similar to that of Islamic universities.
                                             This is for those who want to take their knowledge to the next level and cause
                                             change in their own lives. We are asking all the highly committed students to
@@ -55,26 +55,26 @@ const AIS = () => (
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="info info-horizontal">
-                                        <div className="icon icon-info">
-                                            <i className="material-icons"> chrome_reader_mode </i>
+                                    <div className = "info info-horizontal">
+                                        <div className = "icon icon-info">
+                                            <i className = "material-icons"> chrome_reader_mode </i>
                                         </div>
-                                        <div className="description">
-                                            <h4 className="info-title"> Comprehensive </h4>
-                                            <p className="description"> You can expect to cover a wide range of topics like Tafsir, classical Fiqh
+                                        <div className = "description">
+                                            <h4 className = "info-title"> Comprehensive </h4>
+                                            <p className = "description"> You can expect to cover a wide range of topics like Tafsir, classical Fiqh
                                             texts,
                                             Comparative Fiqh, Quranic Sciences, Hadith Sciences, Fiqh of Da'wah, Aqeedah,
                                             Tazkiya and Tasawwuf, and much more.
                                              </p>
                                         </div>
                                     </div>
-                                    <div className="info info-horizontal">
-                                        <div className="icon icon-primary">
-                                            <i className="material-icons"> event_available </i>
+                                    <div className = "info info-horizontal">
+                                        <div className = "icon icon-primary">
+                                            <i className = "material-icons"> event_available </i>
                                         </div>
-                                        <div className="description">
-                                            <h4 className="info-title"> Accessible </h4>
-                                            <p className="description"> An equivalent program costs over $20,000 CAD. However, we are offering this
+                                        <div className = "description">
+                                            <h4 className = "info-title"> Accessible </h4>
+                                            <p className = "description"> An equivalent program costs over $20,000 CAD. However, we are offering this
                                             program for $100 per term (Excluding a registration fee), for which you will
                                             have
                                             online access to, from the comfort of your own home.
@@ -83,11 +83,11 @@ const AIS = () => (
                                     </div>
                                 </div>
                             </div>
-                            <div className="section-space"></div>
-                            <div className="row">
-                                <div className="col-md-8 ml-auto mr-auto ">
-                                    <h2 className="title text-center"> The Objectives of the AIS Program </h2>
-                                    <h5 className="description text-center"> Here is a more detailed list of the objectives and content of this program. </h5>
+                            <div className = "section-space"></div>
+                            <div className = "row">
+                                <div className = "col-md-8 ml-auto mr-auto ">
+                                    <h2 className = "title text-center"> The Objectives of the AIS Program </h2>
+                                    <h5 className = "description text-center"> Here is a more detailed list of the objectives and content of this program. </h5>
                                     <br />
                                     <ol>
                                         <li> Finish reading 2 full tafsirs of fhe Quran. </li>

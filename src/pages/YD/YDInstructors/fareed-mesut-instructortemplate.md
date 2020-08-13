@@ -8,4 +8,5 @@ description: Fareed is one of our instructors at i3 Institute and a local
   and current affairs.
 descriptionMore: He is also a Business Development Manager at a global
   technology firm leading a team of Sales representatives in the region.
+rank: 4
 ---

@@ -15,6 +15,8 @@ const CounselorsPagePreview = ({ entry, getAsset }) => {
     instructions: entry.getIn(['data', 'instructions']),
     booklink: entry.getIn(['data', 'booklink']),
     gender: entry.getIn(['data', 'gender']),
+    rank: entry.getIn(['data', 'rank']),
+
   }]
   return (
     <CounselorsPageTemplate counselors={counselors} />

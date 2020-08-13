@@ -105,15 +105,17 @@ const Navbar = () => {
                             </a>
                         </li> --> */}
                         <li className = "dropdown nav-item">
-                            <Link to = "#" className = "dropdown-toggle nav-link" data-toggle = "dropdown" width = "50px">
-                                <i className = "material-icons"> attach_money </i> Donate
+                            <Link to = "#" data-toggle = "dropdown" width = "50px">
+                                <button className = "btn btn-warning btn-round ">
+                                    <i className = "material-icons"> attach_money </i> Donate
+                                </button>
                             </Link>
                             <div className = "dropdown-menu dropdown-with-icons">
                                 <Link to = "/donate/donatePage" className = "dropdown-item">
                                         <i className = "material-icons"> money </i> Donate Today!
                                 </Link>
                                 <Link to = "/donate/businessSponsorship" className = "dropdown-item">
-                                        <i className = "material-icons"> business </i> Business Sponsorship
+                                    <i className = "material-icons"> business </i> Business Sponsorship
                                 </Link>
                             </div>
                             <Link to = "/"></Link>

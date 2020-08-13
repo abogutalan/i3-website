@@ -26,6 +26,7 @@ collections:
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: description, label: Description, widget: text }
       - { name: descriptionMore, label: More Description, widget: text, required: false }
+      - { name: rank, label: Rank, widget: number, valueType: int }
 
   - name: locations
     label: Locations
@@ -62,6 +63,7 @@ collections:
       - { name: youtube_url, label: Youtube URL, widget: string, default: "", required: false }
       - { name: google_url, label: Google+ URL, widget: string, default: "", required: false }
       - { name: linkedin_url, label: LinkedIn URL, widget: string, default: "", required: false }
+      - { name: rank, label: Rank, widget: number, valueType: int }
     
   - name: event
     label: Events
@@ -98,6 +100,7 @@ collections:
       - { name: instructions, label: Special Instructions, widget: string, required: false }
       - { name: booklink, label: Link to booking page, widget: string }
       - { name: gender, label: Gender, widget: string }
+      - { name: rank, label: Rank, widget: number, valueType: int }
 
   - name: volunteers
     label: Volunteer Positions

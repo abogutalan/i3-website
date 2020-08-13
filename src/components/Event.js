@@ -7,28 +7,28 @@ const Event = ({ imgURL, name, location, DT, description, idx }) => {
         desClassName = "col-md-5 ml-auto"
         markupToReturn = (
             <>
-                <div className="row">
-                    <div className={imgClassName}>
+                <div className = "row">
+                    <div className = {imgClassName}>
                         <br />
-                        <img src={imgURL} alt={name} className="img-raised rounded img-fluid" width="100%" />
-                        <h3 className="info-title text-center"> {name}</h3>
+                        <img src={imgURL} alt={name} className = "img-raised rounded img-fluid" width="100%" />
+                        <h3 className = "info-title text-center"> {name}</h3>
                     </div>
-                    <div className={desClassName}>
-                        <div className="info info-horizontal">
-                            <div className="description">
-                                <h4 className="info-title"> Location </h4>
+                    <div className = {desClassName}>
+                        <div className = "info info-horizontal">
+                            <div className = "description">
+                                <h4 className = "info-title"> Location </h4>
                                 <p> {location} </p>
                             </div>
                         </div>
-                        <div className="info info-horizontal">
-                            <div className="description">
-                                <h4 className="info-title"> Date & Time </h4>
+                        <div className = "info info-horizontal">
+                            <div className = "description">
+                                <h4 className = "info-title"> Date & Time </h4>
                                 <p> {DT} </p>
                             </div>
                         </div>
-                        <div className="info info-horizontal">
-                            <div className="description">
-                                <h4 className="info-title"> Details </h4>
+                        <div className = "info info-horizontal">
+                            <div className = "description">
+                                <h4 className = "info-title"> Details </h4>
                                 <p> {description} </p>
                             </div>
                         </div>
@@ -42,31 +42,31 @@ const Event = ({ imgURL, name, location, DT, description, idx }) => {
         desClassName = "col-md-5 mr-auto"
         markupToReturn = (
             <>
-                <div className="row">
-                    <div className={desClassName}>
-                        <div className="info info-horizontal">
-                            <div className="description">
-                                <h4 className="info-title"> Location </h4>
+                <div className = "row">
+                    <div className = {desClassName}>
+                        <div className = "info info-horizontal">
+                            <div className = "description">
+                                <h4 className = "info-title"> Location </h4>
                                 <p> {location} </p>
                             </div>
                         </div>
-                        <div className="info info-horizontal">
-                            <div className="description">
-                                <h4 className="info-title"> Date & Time </h4>
+                        <div className = "info info-horizontal">
+                            <div className = "description">
+                                <h4 className = "info-title"> Date & Time </h4>
                                 <p> {DT} </p>
                             </div>
                         </div>
-                        <div className="info info-horizontal">
-                            <div className="description">
-                                <h4 className="info-title"> Details </h4>
+                        <div className = "info info-horizontal">
+                            <div className = "description">
+                                <h4 className = "info-title"> Details </h4>
                                 <p> {description} </p>
                             </div>
                         </div>
                     </div>
-                    <div className={imgClassName}>
+                    <div className = {imgClassName}>
                         <br />
-                        <img src={imgURL} alt={name} className="img-raised rounded img-fluid" width="100%" />
-                        <h3 className="info-title text-center"> {name}</h3>
+                        <img src={imgURL} alt={name} className = "img-raised rounded img-fluid" width="100%" />
+                        <h3 className = "info-title text-center"> {name}</h3>
                     </div>
                 </div>
                 <hr />
