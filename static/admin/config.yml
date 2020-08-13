@@ -100,14 +100,14 @@ collections:
       - { name: gender, label: Gender, widget: string }
 
   - name: volunteers
-    label: Volunteer Postions
-    folder: src/pages/about/Volunteer/VolunteerPostions
-    slug: "{{name}}-{{templateKey}}"
+    label: Volunteer Positions
+    folder: src/pages/about/Volunteer/VolunteerPositions
+    slug: "{{jobTitle}}-{{templateKey}}"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: volunteerTemplate }
-      - { name: jobTitle, label: Postion, widget: string }
-      - { name: jobTeam, label: Department, widget: string }
+      - { name: jobTitle, label: Position, widget: string, default: "Enter Position Here" }
+      - { name: jobTeam, label: Department, widget: string, default: "Enter Department Here" }
       - { name: description, label: Job Description, widget: text}
       - { name: duties, label: Duties and Responsibilities, widget: markdown }
       - { name: qualifications, label: Qualifications, widget: markdown }
@@ -115,7 +115,7 @@ collections:
   - name: slider
     label: Slider Testimonials
     folder: src/pages/about/testimonials/sliders
-    slug: "{{name}}-{{templateKey}}"
+    slug: "{{author}}-{{templateKey}}"
     media_folder: "/../../../../{{media_folder}}/testimonials"
     public_folder: "/../../../../{{media_folder}}/testimonials"
     create: true
