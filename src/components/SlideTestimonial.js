@@ -1,6 +1,15 @@
 import React from 'react'
 
-const SlideTestimonial = ({ imgURL, quote, author, position, isActive }) => (
+const SlideTestimonial = ({ imgURL, quote, author, position, isActive }) => {
+    console.log('imgURL')
+    console.log(imgURL)
+    console.log('author')
+    console.log(author)
+    console.log('quote')
+    console.log(quote)
+    console.log('position')
+    console.log(position)
+    return(
     <div className = {"carousel-item" + (isActive ? "active" : "")}>
         <div className = "card card-testimonial card-plain">
             <div className = "card-avatar">
@@ -23,5 +32,6 @@ const SlideTestimonial = ({ imgURL, quote, author, position, isActive }) => (
         </div>
     </div>
 )
+    }
 
 export default SlideTestimonial
