@@ -4,16 +4,16 @@ import SingleLocation from '../../components/SingleLocation'
 
 const LocationsPagePreview = ({ entry, getAsset }) => {
 
-  const locations = {
-    instructor:entry.getIn(['data', 'instructor']),
+  const location = {
+    instructor: entry.getIn(['data', 'instructor']),
     name: entry.getIn(['data', 'name']),
-    timing:entry.getIn(['data', 'timing']),
+    timing: entry.getIn(['data', 'timing']),
     featuredimage: getAsset(entry.getIn(['data', 'featuredimage']))
   }
   
   return(
     
-    <SingleLocation {...locations} />
+    <SingleLocation {...location} />
 
   )
 }

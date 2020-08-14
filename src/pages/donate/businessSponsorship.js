@@ -25,7 +25,7 @@ const Sponsor = ()  => (
                             <br />
                             <br />
                             <iframe allowpaymentrequest = "" frameborder = "0" height = "900px" name = "donorbox" scrolling = "no"
-                                seamless = "seamless" src=  "https://donorbox.org/embed/business-sponsorship-1"
+                                seamless = "seamless" title="donorbox" src= "https://donorbox.org/embed/business-sponsorship-1"
                                 style = {{maxWidth: '500px', minWidth: '250px', maxHeight:'none!important', width: '100%' }}>
                             </iframe>
                         </div>

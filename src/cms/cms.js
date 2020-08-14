@@ -8,7 +8,7 @@ import EventsPagePreview from './preview-templates/EventsPagePreview'
 import FellowsPagePreview from './preview-templates/FellowsPagePreview'
 import CounselorsPagePreview from './preview-templates/CounselorsPagePreview'
 import VolunteersPagePreview from './preview-templates/VolunteersPagePreview'
-
+import SlideTestimonialsPreview from './preview-templates/SlideTestimonialsPreview'
 
 import "../../static/assets/css/material-kit.css?v=2.1.1"
 
@@ -21,3 +21,4 @@ CMS.registerPreviewTemplate('event', EventsPagePreview)
 CMS.registerPreviewTemplate('fellow', FellowsPagePreview)
 CMS.registerPreviewTemplate('counselors', CounselorsPagePreview)
 CMS.registerPreviewTemplate('volunteers', VolunteersPagePreview)
+CMS.registerPreviewTemplate('slider', SlideTestimonialsPreview)

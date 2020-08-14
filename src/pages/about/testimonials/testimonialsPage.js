@@ -82,13 +82,13 @@ class TestimonialsPage extends Component {
 
                                             {this.state.carousel.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === this.state.activeIndex} />)}
 
-                                            <a className = "carousel-control-prev" role = "button"
+                                            <a className = "carousel-control-prev" role = "button" href="/#"
                                                 onClick = {this.gotoPrev} >
                                                 <span className = "carousel-control-prev-icon" aria-hidden = "true"></span>
                                                 <span className = "sr-only"> Previous </span>
                                             </a>
 
-                                            <a className = "carousel-control-next" role = "button"
+                                            <a className = "carousel-control-next" role = "button" href="/#"
                                                 onClick = {this.gotoNext} >
                                                 <span className = "carousel-control-next-icon" aria-hidden = "true"></span>
                                                 <span className = "sr-only">Next</span>
@@ -105,6 +105,7 @@ class TestimonialsPage extends Component {
         )
     }
 }
+
 
 TestimonialsPage.propTypes = {
     data: PropTypes.shape({

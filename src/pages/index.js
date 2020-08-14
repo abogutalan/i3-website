@@ -1,8 +1,13 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 // import PropTypes from 'prop-types'
+<<<<<<< HEAD
 import IndexEventCarousel from '../components/indexEventCarousel'
 import IndexYDCarousel from '../components/indexYDCarousel'
+=======
+// import { graphql, useStaticQuery } from 'gatsby'
+// import EventCarousel from '../components/EventCarousel'
+>>>>>>> b14266056af8bc998896a5ac21e98817604d4a92
 
 class HomePage extends Component {
   // constructor(props) {
@@ -55,10 +60,11 @@ class HomePage extends Component {
               </div>
               <div className = "col-md-12">
                 <a href="https://www.youtube.com/watch?v=m026tqmJpU0" target="_blank"
-                  className = "btn btn-danger btn-raised btn-lg">
+                  className = "btn btn-danger btn-raised btn-lg" rel="noopener noreferrer">
                   <i className = "fa fa-play"></i> Watch Video
               </a>
-                <a href="http://eepurl.com/dJjNcT" target="_blank" className = "btn btn-danger btn-raised btn-lg">
+                <a href="http://eepurl.com/dJjNcT" target="_blank" 
+                className = "btn btn-danger btn-raised btn-lg" rel="noopener noreferrer">
                   <i className = "material-icons">subscriptions</i> Subscribe
               </a>
                 <a href="./register.html" className = "btn btn-warning btn-raised btn-lg">
@@ -229,7 +235,7 @@ class HomePage extends Component {
                     <div className = "team-player">
                       <div className = "card card-plain">
                         <div className = "col-md-6 ml-auto mr-auto">
-                          <img src="./myAssets/img/ShOstaMain2.jpg" alt="Thumbnail Image"
+                          <img src="./myAssets/img/ShOstaMain2.jpg" alt="Thumbnail"
                             className = "img-raised rounded-circle img-fluid" />
                         </div>
                         <h4 className = "card-title">Sheikh Usta
@@ -258,7 +264,7 @@ class HomePage extends Component {
                     <div className = "team-player">
                       <div className = "card card-plain">
                         <div className = "col-md-6 ml-auto mr-auto">
-                          <img src="./myAssets/img/ShRasoulMain2.jpg" alt="Thumbnail Image"
+                          <img src="./myAssets/img/ShRasoulMain2.jpg" alt="Thumbnail"
                             className = "img-raised rounded-circle img-fluid" />
                         </div>
                         <h4 className = "card-title">Sheikh Rasoul
