@@ -1,13 +1,9 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
+import IndexYDCarousel from "../components/indexYDCarousel"
 // import PropTypes from 'prop-types'
-<<<<<<< HEAD
-import IndexEventCarousel from '../components/indexEventCarousel'
-import IndexYDCarousel from '../components/indexYDCarousel'
-=======
 // import { graphql, useStaticQuery } from 'gatsby'
 // import EventCarousel from '../components/EventCarousel'
->>>>>>> b14266056af8bc998896a5ac21e98817604d4a92
 
 class HomePage extends Component {
   // constructor(props) {

@@ -1,7 +1,7 @@
 ---
 templateKey: instructorTemplate
 name: Sheikh Rasoul
-imgURL: /myAssets/img/instructors/ShRasoulMain2.jpg
+imgURL: /myAssets/img/ShRasoulMain2.jpg
 description: Sheikh Rasoul has memorized the Quran over twenty two years ago
   under his father Sheikh Sebghatollah Rasoul. He has been in the education
   field since 2005, serving as the principal of ISNA High School since 2010. He

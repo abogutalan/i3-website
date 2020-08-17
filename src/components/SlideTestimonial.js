@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SlideTestimonial = ({ imgURL, quote, author, position, isActive }) => {
-    console.log('imgURL')
-    console.log(imgURL)
+const SlideTestimonial = ({ imgSlider, quote, author, position, isActive }) => {
+    console.log('imgSlider')
+    console.log(imgSlider)
     console.log('author')
     console.log(author)
     console.log('quote')
@@ -13,7 +13,7 @@ const SlideTestimonial = ({ imgURL, quote, author, position, isActive }) => {
     <div className = {"carousel-item" + (isActive ? "active" : "")}>
         <div className = "card card-testimonial card-plain">
             <div className = "card-avatar">
-                <img className = "img" src={imgURL} alt="" />
+                <img className = "img" src={imgSlider} alt="Slide Testimonial" />
             </div>
             <div className = "card-body">
                 <h5 className = "card-description">

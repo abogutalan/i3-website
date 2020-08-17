@@ -5,17 +5,22 @@ import SlideTestimonial from '../../components/SlideTestimonial'
 
 const SlideTestimonialsPreview = ({ entry, getAsset }) => {
 
-  const slidetestimonials = [{
-    author: entry.getIn(['data', 'author']),
-    imgURL: getAsset(entry.getIn(['data', 'imgURL'])),
-    position: entry.getIn(['data', 'position']),
-    quote: entry.getIn(['data', 'quote']),
-  }]
-  console.log('slidetestimonials in Preview')
-  console.log(slidetestimonials)
-  return(
+  // const slidetestimonials = [{
+  //   author: entry.getIn(['data', 'author']),
+  //   imgURL: getAsset(entry.getIn(['data', 'imgURL'])),
+  //   position: entry.getIn(['data', 'position']),
+  //   quote: entry.getIn(['data', 'quote']),
+  // }]
+  // console.log('slidetestimonials in Preview')
+  // console.log(slidetestimonials)
+  return (
     // <SlideTestimonialsTemplate slidetestimonials={slidetestimonials}  />
-    <SlideTestimonial {...slidetestimonials} />
+    <SlideTestimonial
+      author={entry.getIn(['data', 'author'])}
+      imgURL={getAsset(entry.getIn(['data', 'imgURL']))}
+      position={entry.getIn(['data', 'position'])}
+      quote={entry.getIn(['data', 'quote'])}
+    />
   )
 }
 

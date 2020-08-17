@@ -1,36 +1,35 @@
-import React from 'react';
-import SlideTestimonial from './SlideTestimonial';
-// import PropTypes from 'prop-types'
+// import React from 'react';
+// import SlideTestimonial from './SlideTestimonial';
 
-const SlideTestimonialsTemplate = ({ slidetestimonials, activeIndex }) => {
+// const SlideTestimonialsTemplate = ({ slidetestimonials, activeIndex }) => {
 
-    console.log("slidetestimonials")
-    console.log(slidetestimonials)
+//     console.log("slidetestimonials")
+//     console.log(slidetestimonials)
 
-    return (
+//     return (
 
-        <>
-            <div className="testimonials-2 section-dark">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div id="carouselExampleIndicatorss" className="carousel slide" data-ride="carousel">
-                                <div className="carousel-inner">
-                                    {/* slidetestimonials begin here */}
+//         <>
+//             <div className="testimonials-2 section-dark">
+//                 <div className="container">
+//                     <div className="row">
+//                         <div className="col-md-12">
+//                             <div id="carouselExampleIndicatorss" className="carousel slide" data-ride="carousel">
+//                                 <div className="carousel-inner">
+//                                     {/* slidetestimonials begin here */}
 
-                                    {slidetestimonials.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === activeIndex} />)}
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-
-    )
-}
+//                                     {slidetestimonials.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === activeIndex} />)}
 
 
-export default SlideTestimonialsTemplate
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </>
+
+//     )
+// }
+
+
+// export default SlideTestimonialsTemplate
