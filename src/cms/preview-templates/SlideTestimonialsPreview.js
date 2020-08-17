@@ -7,7 +7,7 @@ const SlideTestimonialsPreview = ({ entry, getAsset }) => {
 
   const slidetestimonials = [{
     author: entry.getIn(['data', 'author']),
-    imgSlider: getAsset(entry.getIn(['data', 'imgSlider'])).path,
+    imgSlider: getAsset(entry.getIn(['data', 'imgSlider'])),
     position: entry.getIn(['data', 'position']),
     quote: entry.getIn(['data', 'quote']),
   }]
