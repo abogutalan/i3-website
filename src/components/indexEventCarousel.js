@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import ItemIndexEvent from "./itemIndexEvent"
 import { graphql, StaticQuery } from "gatsby"
 import PropTypes from 'prop-types'
 
@@ -19,7 +20,6 @@ class IndexEventCarousel extends Component {
         console.log("carousel::")
         console.log(carousel)
         console.log(this.state)
-
     }
 
     gotoPrev = () => {
@@ -35,8 +35,8 @@ class IndexEventCarousel extends Component {
     }
 
     gotoNext = () => {
-        let index = this.state.activeIndex
-        let finalIdx = this.state.carousel.length - 1
+        let index = this.state.activeIndex;
+        let finalIdx = this.state.carousel.length - 1;
 
         if (index === finalIdx) {
             this.setState({ activeIndex: 0 })
@@ -47,38 +47,26 @@ class IndexEventCarousel extends Component {
     }
 
     render() {
-        // var isActive;
 
         return (
             <div id="carouselExampleIndicatorss" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
-                    {this.state.carousel.map((event, idx) => (
-                        <div className={"carousel-item" + (idx === this.state.activeIndex ? "active" : "")}>
-                            <div className="page-header header-filter" style={{ backgroundImage: event.imgURL }}>
-                                <div className="container">
-                                    <div className="row">
-                                        <div className="col-md-6 ml-auto mr-auto text-center">
-                                            <h1 className="title"> {event.name} </h1>
-                                            <br />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>))}
-                </div>
+                    {this.state.carousel.map((event, idx) => <ItemIndexEvent {...event} isActive={idx === this.state.activeIndex} />)}
+                
 
-                <a className="carousel-control-prev" role="button"
+                <a className="carousel-control-prev" role="button" href="#carouselExampleIndicatorss" 
                     onClick={this.gotoPrev} >
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only"> Previous </span>
                 </a>
 
-                <a className="carousel-control-next" role="button"
+                <a className="carousel-control-next" role="button" href="#carouselExampleIndicatorss" 
                     onClick={this.gotoNext} >
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only"> Next </span>
                 </a>
-            </div >
+                </div>
+            </div>
         )
     }
 }
