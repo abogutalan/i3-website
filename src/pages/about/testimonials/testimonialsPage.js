@@ -14,7 +14,7 @@ class TestimonialsPage extends Component {
 
         // getting frontmatters of every edges
         const carousel = edges.map(edge => {
-            return edge.node.frontmatter
+            return edge.node.frontmatters
         })
         this.state = {
             activeIndex: 0,

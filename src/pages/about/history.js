@@ -2,6 +2,37 @@ import React from 'react'
 import Layout from '../../components/layout'
 
 const History = () => (
+<<<<<<< HEAD
+    <Layout>
+        <div>
+        
+        <div className="page-header header-filter header-small" data-parallax="true" style={{backgroundImage: 'url("./myAssets/img/AppreciationDinner.jpg")'}}>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-8 ml-auto mr-auto text-center">
+                <h1 className="title">Objective</h1>
+                <h4>Find out how i3 started and what it has to offer you!</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="main main-raised">
+          <div className="container">
+            <div className="about-description text-center">
+              <div className="row">
+                <div className="col-md-8 ml-auto mr-auto">
+                  <h2 className="title">How It All Began</h2>
+                  <h5 className="description">i3 was built in April 2014 with the mission of creating a community of
+                    young, aspiring and visionary leaders who are principled, skilled, empowered and aware of
+                    current issues. We aim to build an aware, confident and active group of people that have a
+                    positive impact in the Canadian Civil Society.
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="about-services features-2">
+              <div className="section">
+=======
 
   <Layout>
     <div className="about-us sidebar-collapse">
@@ -12,6 +43,7 @@ const History = () => (
             <div className="page-header header-filter header-small" data-parallax="true"
               style={{ backgroundImage: `url('/myAssets/img/AppreciationDinner.jpg')` }} >
               <div className="container">
+>>>>>>> 6bfe404d4dd6ff744be143176f4e9d72d1d1425f
                 <div className="row">
                   <div className="col-md-8 ml-auto mr-auto text-center">
                     <h1 className="title"> Objective </h1>
@@ -152,8 +184,6 @@ const History = () => (
           </div>
         </div>
       </div>
-    </div>
-
   </Layout>
 )
 
