@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const ItemIndexEvent = ({ imgURL, name, isActive }) => (
     <div className={"carousel-item" + (isActive ? "active" : "")}>
         <div className="page-header header-filter" style={{ backgroundImage: imgURL }}>

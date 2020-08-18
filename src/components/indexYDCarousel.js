@@ -19,12 +19,12 @@ function IndexYDCarousel() {
                                         Our classes are offered in several different locations within the GTA
                                         and surroundings. With 2 hours of weekly classes and recommended readings it
                                         is a program that is flexible enough for any working professional or student to join it.
-                                        </h4>
+                                    </h4>
                                     <br />
                                     <div className="buttons">
                                         <a href="./YDLocations.html" className="btn btn-danger btn-lg">
                                             <i className="material-icons">location_on</i> View Locations & Timings
-                                                <div className="ripple-container"></div>
+                                            <div className="ripple-container"></div>
                                         </a>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@ function IndexYDCarousel() {
                                     <div className="buttons">
                                         <a href="./YDInstructors.html" className="btn btn-danger btn-lg">
                                             <i className="material-icons">people</i> View Instructors' Profiles
-                                            </a>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -67,12 +67,12 @@ function IndexYDCarousel() {
                                         Become a leader! One who is motivational, inspirational, and has sound
                                         knowledge. One who sees challenges and doesn't wait for others to fix them, but takes
                                         initiative themselves. Be the change you want to see!
-                                        </h4>
+                                    1</h4>
                                     <br />
                                     <div className="buttons">
                                         <a href="./YDRegister.html" className="btn btn-danger btn-lg">
                                             <i className="material-icons">person_add</i> Register Now
-                                            </a>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

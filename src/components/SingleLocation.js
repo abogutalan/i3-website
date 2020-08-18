@@ -3,7 +3,8 @@
 import React from 'react';
 
 const SingleLocation = ({ instructor, name, timing, featuredimage }) => {
-    
+    console.log('featuredimage')
+    console.log(featuredimage)
     return (
         <>
             <div className="main main-raised">

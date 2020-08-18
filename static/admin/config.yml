@@ -9,7 +9,7 @@ backend:
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
 media_folder: static/myAssets/img
-public_folder: static/myAssets/img
+public_folder: myAssets/img
 
 collections:
   
@@ -17,8 +17,8 @@ collections:
     label: Instructors
     folder: src/pages/YD/YDInstructors
     slug: "{{name}}-{{templateKey}}"
-    media_folder: "/../../../../{{media_folder}}/instructors"
-    public_folder: "/../../../../{{media_folder}}/instructors"
+    media_folder: "/static/myAssets/img/instructors"
+    public_folder: "/static/myAssets/img/instructors"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: instructorTemplate }
@@ -32,8 +32,8 @@ collections:
     label: Locations
     folder: src/pages/YD/YDLocations
     slug: "{{address}}-{{templateKey}}"
-    media_folder: "/../../../../{{media_folder}}/Locations"
-    public_folder: "/../../../../{{media_folder}}/Locations"
+    media_folder: "/static/myAssets/img/Locations"
+    public_folder: "/static/myAssets/img/Locations"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: locationTemplate }
@@ -46,8 +46,8 @@ collections:
     label: Fellows
     folder: src/pages/research/Fellows
     slug: "{{name}}-{{templateKey}}"
-    media_folder: "/../../../../{{media_folder}}/Research Center/Fellows"
-    public_folder: "/../../../../{{media_folder}}/Research Center/Fellows"
+    media_folder: "/static/myAssets/img/Research Center/Fellows"
+    public_folder: "/static/myAssets/img/Research Center/Fellows"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: fellowTemplate }
@@ -69,8 +69,8 @@ collections:
     label: Events
     folder: src/pages/programs/Events
     slug: "{{name}}-{{templateKey}}"
-    media_folder: "/../../../../{{media_folder}}/events"
-    public_folder: "/../../../../{{media_folder}}/events"
+    media_folder: "/static/myAssets/img/events"
+    public_folder: "/static/myAssets/img/events"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: eventTemplate}
@@ -85,8 +85,8 @@ collections:
     label: Counselors
     folder: src/pages/programs/FCC/FCCCounselors
     slug: "{{name}}-{{templateKey}}"
-    media_folder: "/../../../../{{media_folder}}/FaithCrisis"
-    public_folder: "/../../../../{{media_folder}}/FaithCrisis"
+    media_folder: "/static/myAssets/img/FaithCrisis"
+    public_folder: "/static/myAssets/img/FaithCrisis"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: counselorTemplate }
@@ -119,18 +119,14 @@ collections:
     label: Slider Testimonials
     folder: src/pages/about/testimonials/sliders
     slug: "{{author}}-{{templateKey}}"
-    media_folder: "/../../../../{{media_folder}}/testimonials"
-    public_folder: "/../../../../{{media_folder}}/testimonials"
+    media_folder: "/static/myAssets/img/testimonials"
+    public_folder: "/static/myAssets/img/testimonials"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: carouselTemplate }
-<<<<<<< HEAD
-      - { name: author, label: Author, widget: string }
-      - { name: imgURL, label: Image, widget: image }
-=======
       - { name: imgSlider, label: Image, widget: image }
->>>>>>> 6bfe404d4dd6ff744be143176f4e9d72d1d1425f
       - { name: quote, label: Quote, widget: text}
+      - { name: author, label: Author, widget: string }
       - { name: position, label: Position, widget: string }
       
       

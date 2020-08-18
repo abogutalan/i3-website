@@ -20,8 +20,8 @@ class TestimonialsPage extends Component {
             activeIndex: 0,
             carousel: carousel
         }
-        
-    }        
+
+    }
 
     gotoPrev = () => {
         let index = this.state.activeIndex
@@ -47,48 +47,46 @@ class TestimonialsPage extends Component {
         }
     }
 
-    render() {  
-        
+    render() {
+
 
         return (
             <Layout>
-                <div className = "landing-page sidebar-collapse" >
-                    <div className = "testimonials-1 section-image" style = {{ backgroundImage: `url('/myAssets/img/testimonialsbg.jpg')` }} >
-                        <div className = "container">
-                            <div className = "row">
-                                <div className = "col-md-6 ml-auto mr-auto text-center">
-                                    <h2 className = "title">Our Students Love Us</h2>
-                                    <h5 className = "description">
+                <div className="landing-page sidebar-collapse" >
+                    <div className="testimonials-1 section-image" style={{ backgroundImage: `url('/myAssets/img/testimonialsbg.jpg')` }} >
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-6 ml-auto mr-auto text-center">
+                                    <h2 className="title">Our Students Love Us</h2>
+                                    <h5 className="description">
                                         Here's what our students have to say about us...
                                     </h5>
                                 </div>
                             </div>
-                            <div className = "row">
+                            <div className="row">
                                 {/* testimonials begin here */}
-                                <Testimonials testimonials = {testimonials} />
+                                <Testimonials testimonials={testimonials} />
                             </div>
                         </div>
                     </div>
-                    <div className = "testimonials-2 section-dark">
-                        <div className = "container">
-                            <div className = "row">
-                                <div className = "col-md-12">
-                                    <div id = "carouselExampleIndicatorss" className = "carousel slide" data-ride = "carousel">
-                                        <div className = "carousel-inner">
+                    <div className="testimonials-2 section-dark">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <div id="carouselExampleIndicatorss" className="carousel slide" data-ride="carousel">
+                                        <div className="carousel-inner">
                                             {/* slidetestimonials begin here */}
 
                                             {this.state.carousel.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === this.state.activeIndex} />)}
 
-                                            <a className = "carousel-control-prev" href="#carouselExampleIndicatorss" 
-                                                    role = "button" onClick = {this.gotoPrev} >
-                                                <span className = "carousel-control-prev-icon" aria-hidden = "true"></span>
-                                                <span className = "sr-only"> Previous </span>
+                                            <a className="carousel-control-prev" role="button" onClick={this.gotoPrev} >
+                                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span className="sr-only"> Previous </span>
                                             </a>
 
-                                            <a className = "carousel-control-next" href="#carouselExampleIndicatorss"
-                                                    role = "button" onClick = {this.gotoNext} >
-                                                <span className = "carousel-control-next-icon" aria-hidden = "true"></span>
-                                                <span className = "sr-only">Next</span>
+                                            <a className="carousel-control-next" role="button" onClick={this.gotoNext} >
+                                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span className="sr-only">Next</span>
                                             </a>
                                         </div>
                                     </div>
@@ -105,15 +103,15 @@ class TestimonialsPage extends Component {
 
 TestimonialsPage.propTypes = {
     data: PropTypes.shape({
-      allMarkdownRemark: PropTypes.shape({
-        edges: PropTypes.array,
-      }),
+        allMarkdownRemark: PropTypes.shape({
+            edges: PropTypes.array,
+        }),
     }),
-  }
-  
-  export default () => (
+}
+
+export default () => (
     <StaticQuery
-      query = {graphql`
+        query={graphql`
         query CarouselQuery {
           allMarkdownRemark(
             filter: { frontmatter: { templateKey: { eq: "carouselTemplate" } } }
@@ -136,7 +134,6 @@ TestimonialsPage.propTypes = {
           }
         }
       `}
-      render = {(data, count) => <TestimonialsPage data = {data} count = {count} />}
+        render={(data, count) => <TestimonialsPage data={data} count={count} />}
     />
-  )
-  
+)

@@ -47,24 +47,20 @@ class IndexEventCarousel extends Component {
     }
 
     render() {
-
         return (
             <div id="carouselExampleIndicatorss" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     {this.state.carousel.map((event, idx) => <ItemIndexEvent {...event} isActive={idx === this.state.activeIndex} />)}
-                
 
-                <a className="carousel-control-prev" role="button" href="#carouselExampleIndicatorss" 
-                    onClick={this.gotoPrev} >
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only"> Previous </span>
-                </a>
+                    <a className="carousel-control-prev" role="button" onClick={this.gotoPrev} >
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only"> Previous </span>
+                    </a>
 
-                <a className="carousel-control-next" role="button" href="#carouselExampleIndicatorss" 
-                    onClick={this.gotoNext} >
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only"> Next </span>
-                </a>
+                    <a className="carousel-control-next" role="button" onClick={this.gotoNext} >
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only"> Next </span>
+                    </a>
                 </div>
             </div>
         )
