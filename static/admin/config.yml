@@ -9,7 +9,7 @@ backend:
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
 media_folder: static/myAssets/img
-public_folder: /myAssets/img
+public_folder: static/myAssets/img
 
 collections:
   
@@ -17,6 +17,8 @@ collections:
     label: Instructors
     folder: src/pages/YD/YDInstructors
     slug: "{{name}}-{{templateKey}}"
+    media_folder: "/../../../../{{media_folder}}/instructors"
+    public_folder: "/../../../../{{media_folder}}/instructors"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: instructorTemplate }
@@ -24,7 +26,7 @@ collections:
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: description, label: Description, widget: text }
       - { name: descriptionMore, label: More Description, widget: text, required: false }
-      - { name: rank, label: Rank, widget: number, valueType: int, required: false }
+      - { name: rank, label: Rank, widget: number, valueType: int }
 
   - name: locations
     label: Locations
@@ -122,13 +124,9 @@ collections:
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: carouselTemplate }
-<<<<<<< HEAD
-      - { name: author, label: Author, widget: string }
-      - { name: imgURL, label: Image, widget: image }
-=======
       - { name: imgSlider, label: Image, widget: image }
->>>>>>> 6bfe404d4dd6ff744be143176f4e9d72d1d1425f
       - { name: quote, label: Quote, widget: text}
+      - { name: author, label: Author, widget: string }
       - { name: position, label: Position, widget: string }
       
       
