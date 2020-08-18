@@ -12,6 +12,8 @@ const InstructorsPagePreview = ({ entry, getAsset }) => {
     imgURL: getAsset(entry.getIn(['data', 'imgURL'])),
     rank:entry.getIn(['data', 'rank'])
   }]
+  console.log('instructors')
+  console.log(instructors)
   return (
 
     <InstructorsPageTemplate instructors={instructors} />
