@@ -1,51 +1,10 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 // import PropTypes from 'prop-types'
-<<<<<<< HEAD
 import IndexEventCarousel from '../components/indexEventCarousel'
 import IndexYDCarousel from '../components/indexYDCarousel'
-=======
-// import { graphql, useStaticQuery } from 'gatsby'
-// import EventCarousel from '../components/EventCarousel'
->>>>>>> b14266056af8bc998896a5ac21e98817604d4a92
 
 class HomePage extends Component {
-  // constructor(props) {
-  //   super(props)
-  //   this.state = {
-  //     activeIndex: 0
-  //   }
-  //   console.log(this.state)
-  // }
-
-  // gotoSlide(index) {
-  //   this.setState({ activeIndex: index })
-  // }
-
-  // gotoPrev = () => {
-  //   let index = this.state.activeIndex
-  //   let finalIdx = slidetestimonials.length - 1
-
-  //   if (index === 0) {
-  //     this.setState({ activeIndex: finalIdx })
-  //   } else {
-  //     --index;
-  //     this.setState({ activeIndex: index })
-  //   }
-  // }
-
-  // gotoNext = () => {
-  //   let index = this.state.activeIndex
-  //   let finalIdx = slidetestimonials.length - 1
-
-  //   if (index === finalIdx) {
-  //     this.setState({ activeIndex: 0 })
-  //   } else {
-  //     ++index;
-  //     this.setState({ activeIndex: index })
-  //   }
-  // }
-
   render() {
     return (
       <Layout>
@@ -150,7 +109,7 @@ class HomePage extends Component {
             </div>
             {/* <!-- End Research Center advertisement --> */}
             
-            {/* <IndexEventCarousel /> */}
+            <IndexEventCarousel />
 
             <div className = "section text-center">
               <div className = "row">

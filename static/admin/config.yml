@@ -124,9 +124,9 @@ collections:
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: carouselTemplate }
+      - { name: author, label: Author, widget: string }
       - { name: imgURL, label: Image, widget: image }
       - { name: quote, label: Quote, widget: text}
-      - { name: author, label: Author, widget: string }
       - { name: position, label: Position, widget: string }
       
       

@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../../components/layout'
 
 const History = () => (
-<<<<<<< HEAD
     <Layout>
         <div>
         
@@ -32,18 +31,6 @@ const History = () => (
             </div>
             <div className="about-services features-2">
               <div className="section">
-=======
-
-  <Layout>
-    <div className="about-us sidebar-collapse">
-      <div className="page-header header-filter header-small" data-parallax="true"
-        style={{ backgroundImage: `url('/myAssets/img/AppreciationDinner.jpg')` }} >
-        <div className="container">
-          <div className="about-us sidebar-collapse">
-            <div className="page-header header-filter header-small" data-parallax="true"
-              style={{ backgroundImage: `url('/myAssets/img/AppreciationDinner.jpg')` }} >
-              <div className="container">
->>>>>>> b14266056af8bc998896a5ac21e98817604d4a92
                 <div className="row">
                   <div className="col-md-8 ml-auto mr-auto text-center">
                     <h1 className="title"> Objective </h1>
@@ -184,8 +171,6 @@ const History = () => (
           </div>
         </div>
       </div>
-    </div>
-
   </Layout>
 )
 
