@@ -17,8 +17,6 @@ collections:
     label: Instructors
     folder: src/pages/YD/YDInstructors
     slug: "{{name}}-{{templateKey}}"
-    media_folder: "/../../../../{{media_folder}}/instructors"
-    public_folder: "/../../../../{{media_folder}}/instructors"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: instructorTemplate }
@@ -26,7 +24,7 @@ collections:
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: description, label: Description, widget: text }
       - { name: descriptionMore, label: More Description, widget: text, required: false }
-      - { name: rank, label: Rank, widget: number, valueType: int }
+      - { name: rank, label: Rank, widget: number, valueType: int, required: false }
 
   - name: locations
     label: Locations
