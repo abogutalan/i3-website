@@ -20,9 +20,6 @@ class TestimonialsPage extends Component {
             activeIndex: 0,
             carousel: carousel
         }
-        console.log("carousel::")
-        console.log(carousel)
-        console.log(this.state)
         
     }        
 
@@ -82,14 +79,14 @@ class TestimonialsPage extends Component {
 
                                             {this.state.carousel.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === this.state.activeIndex} />)}
 
-                                            <a className = "carousel-control-prev" role = "button" href="/#"
-                                                onClick = {this.gotoPrev} >
+                                            <a className = "carousel-control-prev" href="#carouselExampleIndicatorss" 
+                                                    role = "button" onClick = {this.gotoPrev} >
                                                 <span className = "carousel-control-prev-icon" aria-hidden = "true"></span>
                                                 <span className = "sr-only"> Previous </span>
                                             </a>
 
-                                            <a className = "carousel-control-next" role = "button" href="/#"
-                                                onClick = {this.gotoNext} >
+                                            <a className = "carousel-control-next" href="#carouselExampleIndicatorss"
+                                                    role = "button" onClick = {this.gotoNext} >
                                                 <span className = "carousel-control-next-icon" aria-hidden = "true"></span>
                                                 <span className = "sr-only">Next</span>
                                             </a>
@@ -105,7 +102,6 @@ class TestimonialsPage extends Component {
         )
     }
 }
-
 
 TestimonialsPage.propTypes = {
     data: PropTypes.shape({
@@ -130,7 +126,7 @@ TestimonialsPage.propTypes = {
                 frontmatter {
                   slug
                   templateKey
-                  imgURL
+                  imgSlider
                   quote
                   author
                   position                  

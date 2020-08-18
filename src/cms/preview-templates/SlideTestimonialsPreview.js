@@ -1,21 +1,27 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import SlideTestimonial from '../../components/SlideTestimonial'
+// import SlideTestimonial from '../../components/SlideTestimonial'
 // import SlideTestimonialsTemplate from '../../components/SlideTestimonialsTemplate'
 
 const SlideTestimonialsPreview = ({ entry, getAsset }) => {
 
   const slidetestimonials = [{
     author: entry.getIn(['data', 'author']),
-    imgURL: getAsset(entry.getIn(['data', 'imgURL'])),
+    imgSlider: getAsset(entry.getIn(['data', 'imgSlider'])),
     position: entry.getIn(['data', 'position']),
     quote: entry.getIn(['data', 'quote']),
   }]
   console.log('slidetestimonials in Preview')
   console.log(slidetestimonials)
-  return(
+  return (
     // <SlideTestimonialsTemplate slidetestimonials={slidetestimonials}  />
-    <SlideTestimonial {...slidetestimonials} />
+    // <SlideTestimonial
+    //   author={entry.getIn(['data', 'author'])}
+    //   imgSlider={getAsset(entry.getIn(['data', 'imgSlider'])).path}
+    //   position={entry.getIn(['data', 'position'])}
+    //   quote={entry.getIn(['data', 'quote'])}
+    // />
+    <></>
   )
 }
 
