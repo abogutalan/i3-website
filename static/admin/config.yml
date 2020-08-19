@@ -18,7 +18,7 @@ collections:
     folder: src/pages/YD/YDInstructors
     slug: "{{name}}-{{templateKey}}"
     media_folder: "/static/myAssets/img/instructors"
-    public_folder: "/static/myAssets/img/instructors"
+    public_folder: "/myAssets/img/instructors"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: instructorTemplate }
@@ -33,7 +33,7 @@ collections:
     folder: src/pages/YD/YDLocations
     slug: "{{address}}-{{templateKey}}"
     media_folder: "/static/myAssets/img/Locations"
-    public_folder: "/static/myAssets/img/Locations"
+    public_folder: "/myAssets/img/Locations"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: locationTemplate }
@@ -47,7 +47,7 @@ collections:
     folder: src/pages/research/Fellows
     slug: "{{name}}-{{templateKey}}"
     media_folder: "/static/myAssets/img/Research Center/Fellows"
-    public_folder: "/static/myAssets/img/Research Center/Fellows"
+    public_folder: "/myAssets/img/Research Center/Fellows"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: fellowTemplate }
@@ -70,7 +70,7 @@ collections:
     folder: src/pages/programs/Events
     slug: "{{name}}-{{templateKey}}"
     media_folder: "/static/myAssets/img/events"
-    public_folder: "/static/myAssets/img/events"
+    public_folder: "/myAssets/img/events"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: eventTemplate}
@@ -86,7 +86,7 @@ collections:
     folder: src/pages/programs/FCC/FCCCounselors
     slug: "{{name}}-{{templateKey}}"
     media_folder: "/static/myAssets/img/FaithCrisis"
-    public_folder: "/static/myAssets/img/FaithCrisis"
+    public_folder: "/myAssets/img/FaithCrisis"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: counselorTemplate }

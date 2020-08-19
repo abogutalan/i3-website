@@ -50,16 +50,10 @@ class TestimonialsPage extends Component {
         }
     }
 
-<<<<<<< HEAD
-    render() {
-
-
-=======
     render() {  
         
 console.log("this.state.carousel")
 console.log(this.state.carousel)
->>>>>>> f95c371e80d5c1977e0b29d4234cff2c427039b8
         return (
             <Layout>
                 <div className="landing-page sidebar-collapse" >
@@ -89,13 +83,13 @@ console.log(this.state.carousel)
 
                                             {this.state.carousel.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === this.state.activeIndex} />)}
 
-                                            <a className="carousel-control-prev" role="button" href="#carouselExampleIndicators"
+                                            <a className="carousel-control-prev" role="button" 
                                                 onClick={this.gotoPrev} >
                                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                                 <span className="sr-only"> Previous </span>
                                             </a>
 
-                                            <a className="carousel-control-next" role="button" href="#carouselExampleIndicators"
+                                            <a className="carousel-control-next" role="button" 
                                                 onClick={this.gotoNext} >
                                                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                                 <span className="sr-only">Next</span>
