@@ -17,7 +17,7 @@ const SlideTestimonialsPreview = ({ entry, getAsset }) => {
     // <SlideTestimonialsTemplate slidetestimonials={slidetestimonials}  />
     <SlideTestimonial
       author={entry.getIn(['data', 'author'])}
-      imgSlider={getAsset(entry.getIn(['data', 'imgSlider'])).path}
+      imgSlider={getAsset(entry.getIn(['data', 'imgSlider']))}
       position={entry.getIn(['data', 'position'])}
       quote={entry.getIn(['data', 'quote'])}
       isActive={1}

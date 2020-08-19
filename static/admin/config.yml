@@ -120,7 +120,7 @@ collections:
     folder: src/pages/about/testimonials/sliders
     slug: "{{author}}-{{templateKey}}"
     media_folder: "/static/myAssets/img/testimonials"
-    public_folder: "/static/myAssets/img/testimonials"
+    public_folder: "/myAssets/img/testimonials"
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: carouselTemplate }
