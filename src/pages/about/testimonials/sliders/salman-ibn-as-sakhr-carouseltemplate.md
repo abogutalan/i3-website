@@ -1,6 +1,6 @@
 ---
 templateKey: carouselTemplate
-imgSlider: /static/myAssets/img/testimonials/salman.png
+imgSlider: /myAssets/img/testimonials/salman.png
 quote: >-
   After joining i3, I realized it wasn't just about the theoretical knowledge.
   It was about putting the ideas into motion. Now I'm a Project Manager at i3.

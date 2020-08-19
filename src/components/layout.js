@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Navbar from './Navbar'
-import "../../static/assets/css/material-kit.css?v=2.1.1"
 
 const Layout = ({ children }) => (
   <>

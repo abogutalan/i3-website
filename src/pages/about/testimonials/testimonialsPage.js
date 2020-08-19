@@ -11,11 +11,14 @@ class TestimonialsPage extends Component {
         super(props)
         const { data } = this.props
         const { edges } = data.allMarkdownRemark
-
+        console.log('edges')
+        console.log(edges)
         // getting frontmatters of every edges
         const carousel = edges.map(edge => {
-            return edge.node.frontmatters
+            return edge.node.frontmatter
         })
+        console.log('carousel000')
+        console.log(carousel)
         this.state = {
             activeIndex: 0,
             carousel: carousel
@@ -49,7 +52,8 @@ class TestimonialsPage extends Component {
 
     render() {  
         
-
+console.log("this.state.carousel")
+console.log(this.state.carousel)
         return (
             <Layout>
                 <div className = "landing-page sidebar-collapse" >
@@ -122,7 +126,6 @@ TestimonialsPage.propTypes = {
               node {
                 excerpt(pruneLength: 400)
                 id
-                
                 frontmatter {
                   slug
                   templateKey
