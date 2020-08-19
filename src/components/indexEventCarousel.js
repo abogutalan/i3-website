@@ -8,11 +8,12 @@ class IndexEventCarousel extends Component {
         super(props)
         const { data } = this.props
         const { edges } = data.allMarkdownRemark
-
+        console.log(edges)
         // getting frontmatters of every edges
         const carousel = edges.map(edge => {
             return edge.node.frontmatter
         })
+        console.log(carousel)
         this.state = {
             activeIndex: 0,
             carousel: carousel
@@ -52,12 +53,14 @@ class IndexEventCarousel extends Component {
                 <div className="carousel-inner">
                     {this.state.carousel.map((event, idx) => <ItemIndexEvent {...event} isActive={idx === this.state.activeIndex} />)}
 
-                    <a className="carousel-control-prev" role="button" onClick={this.gotoPrev} >
+                    <a className="carousel-control-prev" role="button" href="#carouselExampleIndicators"
+                        onClick={this.gotoPrev} >
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="sr-only"> Previous </span>
                     </a>
 
-                    <a className="carousel-control-next" role="button" onClick={this.gotoNext} >
+                    <a className="carousel-control-next" role="button" href="#carouselExampleIndicators"
+                        onClick={this.gotoNext} >
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only"> Next </span>
                     </a>
