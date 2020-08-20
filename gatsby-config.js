@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
   siteMetadata: {
     title: `Interactive Ilm Institute`,
@@ -9,9 +11,10 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `img`,
+        path: path.join(__dirname, `static`, `myAssets`, `img`),
       },
+      
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -21,6 +24,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     // to register the Netlify CMS plugin
     {
@@ -29,7 +33,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

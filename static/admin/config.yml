@@ -119,6 +119,7 @@ collections:
     label: Slider Testimonials
     folder: src/pages/about/testimonials/sliders
     slug: "{{author}}-{{templateKey}}"
+    sortableFields: ['position', 'quote']
     media_folder: "/static/myAssets/img/testimonials"
     public_folder: "/myAssets/img/testimonials"
     create: true
