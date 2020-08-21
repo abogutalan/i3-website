@@ -49,23 +49,35 @@ class IndexEventCarousel extends Component {
 
     render() {
         return (
-            <div id="carouselExampleIndicatorss" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    {this.state.carousel.map((event, idx) => <ItemIndexEvent {...event} isActive={idx === this.state.activeIndex} />)}
+            <div className="landing-page sidebar-collapse" >
+                <div className="testimonials-3">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div id="carouselExampleIndicatorss" className="carousel slide" data-ride="carousel">
+                                    <div className="carousel-inner">
+                                        {this.state.carousel.map((event, idx) => <ItemIndexEvent {...event} isActive={idx === this.state.activeIndex} />)}
 
-                    <a className="carousel-control-prev" role="button" href="#carouselExampleIndicators"
-                        onClick={this.gotoPrev} >
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only"> Previous </span>
-                    </a>
+                                        <a className="carousel-control-prev" role="button" href="#carouselExampleIndicators"
+                                            onClick={this.gotoPrev} >
+                                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span className="sr-only"> Previous </span>
+                                        </a>
 
-                    <a className="carousel-control-next" role="button" href="#carouselExampleIndicators"
-                        onClick={this.gotoNext} >
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only"> Next </span>
-                    </a>
+                                        <a className="carousel-control-next" role="button" href="#carouselExampleIndicators"
+                                            onClick={this.gotoNext} >
+                                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span className="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
         )
     }
 }

@@ -50,16 +50,9 @@ class TestimonialsPage extends Component {
         }
     }
 
-<<<<<<< HEAD
     render() {
 
 
-=======
-    render() {  
-        
-console.log("this.state.carousel")
-console.log(this.state.carousel)
->>>>>>> f95c371e80d5c1977e0b29d4234cff2c427039b8
         return (
             <Layout>
                 <div className="landing-page sidebar-collapse" >
