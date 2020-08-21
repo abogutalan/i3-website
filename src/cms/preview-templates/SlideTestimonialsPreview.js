@@ -10,6 +10,7 @@ const SlideTestimonialsPreview = ({ entry, getAsset }) => {
   //   imgSlider: getAsset(entry.getIn(['data', 'imgSlider'])),
   //   position: entry.getIn(['data', 'position']),
   //   quote: entry.getIn(['data', 'quote']),
+        
   // }]
   // console.log('slidetestimonials in Preview')
   // console.log(slidetestimonials)

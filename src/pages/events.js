@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../components/layout';
+import Layout from '../components/layout';
 
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
-import EventsPageTemplate from '../../components/EventsPageTemplate';
+import EventsPageTemplate from '../components/EventsPageTemplate';
 
 class EventsPage extends React.Component {
   render() {

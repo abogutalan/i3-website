@@ -1,9 +1,8 @@
 import React from 'react';
-import Layout from '../../../components/layout'
-import '../../../../static/myAssets/stylesheets/navbar.css'
+import Layout from '../components/layout'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
-import CounselorsPageTemplate from '../../../components/CounselorsPageTemplate';
+import CounselorsPageTemplate from '../components/CounselorsPageTemplate';
 
 class FCCPage extends React.Component {
   render() {

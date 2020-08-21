@@ -1,8 +1,7 @@
 import React from 'react'
-import Layout from '../../components/layout'
+import Layout from '../components/layout'
 
-const Sponsor = ()  => (
-    <>
+const Donate = ()  => (
     <Layout>
         <div className = "page-header header-filter header-small" data-parallax = "true"
         style = {{ backgroundImage: `url('/myAssets/img/hiking.jpg')` }} >
@@ -10,8 +9,8 @@ const Sponsor = ()  => (
                 <div className = "row">
                     <div className = "col-md-8 ml-auto mr-auto text-center">
                         <div className = "brand">
-                            <h1 className = "title"> Business Sponsorship </h1>
-                            <h4> Become a sponsor for the i3 Institute! </h4>
+                            <h1 className = "title"> Donations </h1>
+                            <h4> Make a donation to the i3 Institute. </h4>
                         </div>
                     </div>
                 </div>
@@ -24,9 +23,10 @@ const Sponsor = ()  => (
                         <div className = "col-md-6">
                             <br />
                             <br />
-                            <iframe allowpaymentrequest = "" frameborder = "0" height = "900px" name = "donorbox" scrolling = "no"
-                                seamless = "seamless" title="donorbox" src= "https://donorbox.org/embed/business-sponsorship-1"
-                                style = {{maxWidth: '500px', minWidth: '250px', maxHeight:'none!important', width: '100%' }}>
+                            <iframe title="donationbox" allowpaymentrequest = "" frameborder = "0" height = "900px" name = "donorbox" scrolling = "no"
+                                seamless = "seamless" src = "https://donorbox.org/embed/i3institute?default_interval=m"
+                                style = {{ maxWidth: '500px', minWidth: '310px', maxHeight:'none!important' }}
+                                width = "100% ">
                             </iframe>
                         </div>
                         <div className = "col-md-6">
@@ -42,23 +42,21 @@ const Sponsor = ()  => (
                                 <div className = "description">
                                     <h4 className = "info-title"> How Your Donations Will Be Used </h4>
                                     <p>
-                                        At the i3 institute, we are dedicated to transforming our Muslim youth into principled,
-                                        confident, and aware Muslim leaders. In addition to leadership building,
-                                        we aim to create a Center to hold events including but not limited to:
+                                        In order to continue the important work that i3 is doing for the Muslim
+                                        community, the i3 Institute needs funding for operational costs. Our respected shuyookh,
+                                        teachers, and teaching assistants volunteer their time to this initiative for the sake of 
+                                        Allah (SWT), but funding is required for resources, including (but not limited to):
                                     </p>
                                     <ul>
-                                        <li> Conferences </li>
-                                        <li> Islamic Classes </li>
-                                        <li> Workshops </li>
-                                        <li> Prayers </li>
-                                        <li> Youth activities/Social space </li>
+                                        <li> Room rentals for classes, conferences, and events. </li>
+                                        <li> Teaching materials, including projectors and textbooks. </li>
+                                        <li> Food and refreshments for community events and lectures. </li>
+                                        <li> Printed Marketing Material. </li>
+                                        <li> Digital Media and Website. </li>
                                     </ul>
                                     <p>
-                                        In order to reach our goals, we need your support. By investing in the future of the Ummah,
-                                        your sponsorship will allow your business to benefit from our marketing reach to over 3,500 people
-                                        through our Facebook page, Instagram, and email list.  Furthermore,
-                                        your sponsorship will also grant exposure at our large annual conferences taking place
-                                        at well known community centres and masajid.
+                                        Your generous donations will help the i3 Institute succeed in creating the Muslim
+                                        leaders of tomorrow, insha'Allah!
                                     </p>
                                     <p>
                                         You can also directly e-transfer an amount to
@@ -72,7 +70,6 @@ const Sponsor = ()  => (
             </div>
         </div>
     </Layout>
-    </>
 )
 
-export default Sponsor
+export default Donate

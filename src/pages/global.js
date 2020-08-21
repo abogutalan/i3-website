@@ -1,9 +1,8 @@
 import React from 'react'
-import Layout from '../../components/layout'
-import '../../../static/myAssets/stylesheets/navbar.css'
+import Layout from '../components/layout'
+// import '../../../static/myAssets/stylesheets/navbar.css'
 
 const Global = ({data}) => (
-  <>
   <Layout>
   <div className = "landing-page sidebar-collapse">
         <div id="navbarDiv">
@@ -341,7 +340,6 @@ const Global = ({data}) => (
         </div>
       </div>
   </Layout>
-  </>
   )
 
 

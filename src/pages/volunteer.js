@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from './../../../components/layout'
+import Layout from '../components/layout'
 // import '../../../../static/myAssets/stylesheets/navbar.css'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
-import VolunteersPageTemplate from '../../../components/VolunteersPageTemplate'
+import VolunteersPageTemplate from '../components/VolunteersPageTemplate'
 
 class VolunteerPage extends React.Component {
     render() {

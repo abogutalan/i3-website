@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
-import Layout from '../../components/layout';
-import Fellows from '../../components/Fellows';
+import Layout from '../components/layout';
+import Fellows from '../components/Fellows';
 class FellowPage extends React.Component {
 
   render() {

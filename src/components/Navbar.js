@@ -29,16 +29,16 @@ const Navbar = () => {
                                 <i className = "material-icons"> apps </i> About Us
                             </Link>
                             <div className = "dropdown-menu dropdown-with-icons">
-                                <Link to = "/about/history" className = "dropdown-item">
+                                <Link to = "/history" className = "dropdown-item">
                                     <i className = "material-icons"> layers </i> Objective
                                 </Link>
-                                <Link to = "/about/gallery" className = "dropdown-item">
+                                <Link to = "/gallery" className = "dropdown-item">
                                     <i className = "material-icons"> content_paste </i> Gallery
                                 </Link>
-                                <Link to = "/about/testimonials/testimonialsPage" className = "dropdown-item">
+                                <Link to = "/testimonials" className = "dropdown-item">
                                     <i className = "material-icons"> chat </i> Testimonials
                                 </Link>
-                                <Link to = "/about/Volunteer/VolunteerPage" className = "dropdown-item">
+                                <Link to = "/volunteer" className = "dropdown-item">
                                     <i className = "material-icons"> pan_tool </i> Volunteer
                                 </Link>
                             </div>
@@ -48,19 +48,19 @@ const Navbar = () => {
                                 <i className = "material-icons"> apps </i> Programs
                             </Link>
                             <div className = "dropdown-menu dropdown-with-icons">
-                                <Link to = "/programs/events/" className = "dropdown-item">
+                                <Link to = "/events/" className = "dropdown-item">
                                     <i className = "material-icons"> line_style </i> Events
                                 </Link>
-                                <Link to = "/programs/khateebdev" className = "dropdown-item">
+                                <Link to = "/khateebdev" className = "dropdown-item">
                                     <i className = "material-icons"> build </i> Khateeb Development
                                 </Link>
-                                <Link to = "/programs/outreach" className = "dropdown-item">
+                                <Link to = "/outreach" className = "dropdown-item">
                                     <i className = "material-icons"> people </i> Outreach
                                 </Link>
-                                <Link to = "/programs/ais" className = "dropdown-item">
+                                <Link to = "/ais" className = "dropdown-item">
                                     <i className = "material-icons"> chrome_reader_mode </i> Advanced Islamic Studies (AIS)
                                 </Link>
-                                <Link to = "/programs/FCC/FCCPage" className = "dropdown-item">
+                                <Link to = "/fcc" className = "dropdown-item">
                                     <i className = "material-icons"> people </i> Faith Crisis Care
                                 </Link>
                             </div>
@@ -70,16 +70,16 @@ const Navbar = () => {
                                 <i className = "material-icons"> apps </i> Young Da'ee
                             </Link>
                             <div className = "dropdown-menu dropdown-with-icons">
-                                <Link to = "/YD/YDLocations" className = "dropdown-item">
+                                <Link to = "/ydlocations" className = "dropdown-item">
                                     <i className = "material-icons"> location_on </i> Locations
                                 </Link>
-                                <Link to = "/YD/YDInstructors" className = "dropdown-item">
+                                <Link to = "/ydinstructors" className = "dropdown-item">
                                     <i className = "material-icons"> people </i> Instructors
                                 </Link>
-                                <Link to = "/YD/register" className = "dropdown-item">
+                                <Link to = "/register" className = "dropdown-item">
                                     <i className = "material-icons"> person_add </i> Registration
                                 </Link>
-                                <Link to = "/YD/global" className = "dropdown-item">
+                                <Link to = "/global" className = "dropdown-item">
                                     <i className = "material-icons"> public </i> i3 Global
                                 </Link>
                             </div>
@@ -89,10 +89,10 @@ const Navbar = () => {
                                 <i className = "material-icons"> apps </i> Research Center
                             </Link>
                             <div className = "dropdown-menu dropdown-with-icons">
-                                <Link to = "/research/fellows" className = "dropdown-item">
+                                <Link to = "/fellows" className = "dropdown-item">
                                     <i className = "material-icons"> people </i> Fellows
                                 </Link>
-                                <Link to = "/research/articles" className = "dropdown-item">
+                                <Link to = "/articles" className = "dropdown-item">
                                     <i className = "material-icons"> chrome_reader_mode </i> Articles
                                 </Link>
                             </div>
@@ -111,10 +111,10 @@ const Navbar = () => {
                                 </button>
                             </Link>
                             <div className = "dropdown-menu dropdown-with-icons">
-                                <Link to = "/donate/donatePage" className = "dropdown-item">
+                                <Link to = "/donate" className = "dropdown-item">
                                         <i className = "material-icons"> money </i> Donate Today!
                                 </Link>
-                                <Link to = "/donate/businessSponsorship" className = "dropdown-item">
+                                <Link to = "/sponsor" className = "dropdown-item">
                                     <i className = "material-icons"> business </i> Business Sponsorship
                                 </Link>
                             </div>
@@ -124,8 +124,11 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
+        
+
     )
 }
 
 export default Navbar
+
 

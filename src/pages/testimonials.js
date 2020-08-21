@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Layout from '../../../components/layout'
-import Testimonials from '../../../components/Testimonials'
-import { testimonials } from '../../../data/testimonials'
-import SlideTestimonial from '../../../components/SlideTestimonial'
+import Layout from '../components/layout'
+import Testimonials from '../components/Testimonials'
+import { testimonials } from '../data/testimonials'
+import SlideTestimonial from '../components/SlideTestimonial'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
@@ -50,9 +50,10 @@ class TestimonialsPage extends Component {
         }
     }
 
-    render() {
-
-
+    render() {  
+        
+console.log("this.state.carousel")
+console.log(this.state.carousel)
         return (
             <Layout>
                 <div className="landing-page sidebar-collapse" >
@@ -82,13 +83,13 @@ class TestimonialsPage extends Component {
 
                                             {this.state.carousel.map((slide, idx) => <SlideTestimonial {...slide} isActive={idx === this.state.activeIndex} />)}
 
-                                            <a className="carousel-control-prev" role="button" href="#carouselExampleIndicators"
+                                            <a className="carousel-control-prev" role="button" 
                                                 onClick={this.gotoPrev} >
                                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                                 <span className="sr-only"> Previous </span>
                                             </a>
 
-                                            <a className="carousel-control-next" role="button" href="#carouselExampleIndicators"
+                                            <a className="carousel-control-next" role="button" 
                                                 onClick={this.gotoNext} >
                                                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                                 <span className="sr-only">Next</span>

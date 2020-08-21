@@ -11,7 +11,7 @@ import VolunteersPagePreview from './preview-templates/VolunteersPagePreview'
 import SlideTestimonialsPreview from './preview-templates/SlideTestimonialsPreview'
 
 import "../../static/assets/css/material-kit.css?v=2.1.1"
-// import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" 
+import "../../static/myAssets/stylesheets/fonts.css"
 
 
 CMS.registerMediaLibrary(uploadcare)
