@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../components/layout'
 
 const Donate = ()  => (
-    <>
     <Layout>
         <div className = "page-header header-filter header-small" data-parallax = "true"
         style = {{ backgroundImage: `url('/myAssets/img/hiking.jpg')` }} >
@@ -27,7 +26,8 @@ const Donate = ()  => (
                             <iframe title="donationbox" allowpaymentrequest = "" frameborder = "0" height = "900px" name = "donorbox" scrolling = "no"
                                 seamless = "seamless" src = "https://donorbox.org/embed/i3institute?default_interval=m"
                                 style = {{ maxWidth: '500px', minWidth: '310px', maxHeight:'none!important' }}
-                                width = "100% "></iframe>
+                                width = "100% ">
+                            </iframe>
                         </div>
                         <div className = "col-md-6">
                             <h2 className = "title"> Donate Today! </h2>
@@ -43,15 +43,9 @@ const Donate = ()  => (
                                     <h4 className = "info-title"> How Your Donations Will Be Used </h4>
                                     <p>
                                         In order to continue the important work that i3 is doing for the Muslim
-                                        community,
-                                        the i3 Institute needs funding for operational costs. Our respected shuyookh,
-                                        teachers, and
-                                        teaching
-                                        assistants volunteer their time to this initiative for the sake of Allah (SWT), but
-                                        funding
-                                        is
-                                        required
-                                        for resources, including (but not limited to):
+                                        community, the i3 Institute needs funding for operational costs. Our respected shuyookh,
+                                        teachers, and teaching assistants volunteer their time to this initiative for the sake of 
+                                        Allah (SWT), but funding is required for resources, including (but not limited to):
                                     </p>
                                     <ul>
                                         <li> Room rentals for classes, conferences, and events. </li>
@@ -76,7 +70,6 @@ const Donate = ()  => (
             </div>
         </div>
     </Layout>
-    </>
 )
 
 export default Donate

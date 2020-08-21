@@ -1,8 +1,9 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 import IndexYDCarousel from "../components/indexYDCarousel"
-// import PropTypes from 'prop-types'
 import IndexEventCarousel from '../components/indexEventCarousel'
+// import PropTypes from 'prop-types'
+// import { graphql, StaticQuery } from 'gatsby'
 
 class HomePage extends Component {
   render() {
@@ -21,14 +22,14 @@ class HomePage extends Component {
                 <a href="https://www.youtube.com/watch?v=m026tqmJpU0" target="_blank"
                   className = "btn btn-danger btn-raised btn-lg" rel="noopener noreferrer">
                   <i className = "fa fa-play"></i> Watch Video
-              </a>
+                </a>
                 <a href="http://eepurl.com/dJjNcT" target="_blank" 
-                className = "btn btn-danger btn-raised btn-lg" rel="noopener noreferrer">
+                  className = "btn btn-danger btn-raised btn-lg" rel="noopener noreferrer">
                   <i className = "material-icons">subscriptions</i> Subscribe
-              </a>
+                </a>
                 <a href="./register.html" className = "btn btn-warning btn-raised btn-lg">
                   <i className = "material-icons">person_add</i> Register
-              </a>
+                </a>
               </div>
             </div>
           </div>
@@ -96,10 +97,8 @@ class HomePage extends Component {
                           this. …
                         <a href="./articles/quranShouldNot.html"> Read More </a>
                         </p>
-                        <p className = "author">
-                          by <a href="./fellows/ijazahmed.html">
-                            <b>Ijaz Ahmed</b>
-                          </a>, May 17, 2019
+                        <p className = "author"> by 
+                          <a href="./fellows/ijazahmed.html"> <b> Ijaz Ahmed 788888888888888888898</b> </a>, May 17, 2019
                         </p>
                       </div>
                     </div>
@@ -284,3 +283,35 @@ class HomePage extends Component {
 }
 
 export default HomePage
+
+// HomePage.propTypes = {
+//   data: PropTypes.shape({
+//       allMarkdownRemark: PropTypes.shape({
+//           edges: PropTypes.array,
+//       }),
+//   }),
+// }
+
+// export default () => (
+//   <StaticQuery
+//       query={graphql`
+//       query ArticleQuery {
+//         allMarkdownRemark(
+//           filter: { frontmatter: { templateKey: { eq: "articleTemplate" } } }
+//         ) {
+//           edges {
+//             node {
+//               excerpt(pruneLength: 400)
+//               id
+//               frontmatter {
+//                 slug
+//                 templateKey
+                                  
+//               }
+//             }
+//           }
+//         }
+//       }
+//     `}
+//   />
+// )
