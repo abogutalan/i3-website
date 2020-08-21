@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/fellows/
+slug: fellows/
 name: Kamil Ahmad
 title: RESEARCH FELLOW
 description: Sheikh Kamil Ahmad's research concentrated on New Atheism and its

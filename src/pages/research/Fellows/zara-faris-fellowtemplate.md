@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/fellows/
+slug: fellows/
 name: Zara Faris
 title: RESEARCH FELLOW
 description: |-

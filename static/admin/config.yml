@@ -22,7 +22,7 @@ collections:
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: instructorTemplate }
-      - { name: name, label: Instructor Name, widget: string }
+      - { name: name, label: Instructor Name, widget: text }
       - { name: imgURL, label: Featured Image, widget: image }
       - { name: description, label: Description, widget: text }
       - { name: descriptionMore, label: More Description, widget: text, required: false }
@@ -51,7 +51,7 @@ collections:
     create: true
     fields:
       - {label: Template Key, name: templateKey, widget: hidden, default: fellowTemplate }
-      - {label: Slug, name: slug, widget: hidden, default: /research/fellows/ }
+      - {label: Slug, name: slug, widget: hidden, default: fellows/ }
       - { name: name, label: Fellow Name, widget: string }
       - { name: title, label: Title }
       - { name: description, label: Description, widget: text }

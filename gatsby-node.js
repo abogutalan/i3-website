@@ -36,7 +36,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     if(node.frontmatter.templateKey == "fellowTemplate" ) {
       /** id provides matching fellows and fellow portfolios  */
       const id = node.id
-      let portfolio_path = node.frontmatter.slug + node.frontmatter.name
+      /** removing white spaces */
+      const editted_name = node.frontmatter.name.replace(/ +/g, "").toLowerCase()
+      let portfolio_path = node.frontmatter.slug + editted_name
       /** 
        * if new template added path can be a updated in if cases
        */

@@ -1,6 +1,6 @@
 ---
 templateKey: fellowTemplate
-slug: /research/fellows/
+slug: fellows/
 name: Jaan Islam
 title: RESEARCH FELLOW
 description: Jaan Islam is a PhD Student and SSHRC Fellow at the University of Edinburgh.
