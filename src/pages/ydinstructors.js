@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
-import Layout from '../../components/layout';
-import InstructorsPageTemplate from '../../components/InstructorsPageTemplate';
+import Layout from '../components/layout';
+import InstructorsPageTemplate from '../components/InstructorsPageTemplate';
 
 class YDInstructorsPage extends React.Component {
   render() {

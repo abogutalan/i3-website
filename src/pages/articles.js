@@ -1,9 +1,9 @@
 import React from 'react'
-import Categories from '../../components/Categories';
-import Articles from '../../components/Articles';
-import { articles } from '../../data/articles';
-import { categories } from '../../data/categories';
-import Layout from '../../components/layout';
+import Categories from '../components/Categories';
+import Articles from '../components/Articles';
+import { articles } from '../data/articles';
+import { categories } from '../data/categories';
+import Layout from '../components/layout';
 
 
 const ArticlesPage = () => (

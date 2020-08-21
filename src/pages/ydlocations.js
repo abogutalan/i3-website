@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../../components/layout';
+import Layout from '../components/layout';
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
-import LocationsPageTemplate from '../../components/LocationsPageTemplate';
-import '../../../static/myAssets/stylesheets/locations.css'
+import LocationsPageTemplate from '../components/LocationsPageTemplate';
+import '../../static/myAssets/stylesheets/locations.css'
 
 class YDLocationsPage extends React.Component {
 

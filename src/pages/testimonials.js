@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Layout from '../../../components/layout'
-import Testimonials from '../../../components/Testimonials'
-import { testimonials } from '../../../data/testimonials'
-import SlideTestimonial from '../../../components/SlideTestimonial'
+import Layout from '../components/layout'
+import Testimonials from '../components/Testimonials'
+import { testimonials } from '../data/testimonials'
+import SlideTestimonial from '../components/SlideTestimonial'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 
