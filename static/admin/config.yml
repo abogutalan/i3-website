@@ -83,7 +83,7 @@ collections:
 
   - name: counselors
     label: Counselors
-    folder: src/pages/programs/FCC/FCCCounselors
+    folder: src/pages/programs/FCC
     slug: "{{name}}-{{templateKey}}"
     media_folder: "/static/myAssets/img/FaithCrisis"
     public_folder: "/myAssets/img/FaithCrisis"
@@ -104,7 +104,7 @@ collections:
 
   - name: volunteers
     label: Volunteer Positions
-    folder: src/pages/about/Volunteer/VolunteerPositions
+    folder: src/pages/about/Volunteers
     slug: "{{jobTitle}}-{{templateKey}}"
     create: true
     fields:
@@ -117,7 +117,7 @@ collections:
 
   - name: slider
     label: Slider Testimonials
-    folder: src/pages/about/testimonials/sliders
+    folder: src/pages/about/Testimonials
     slug: "{{author}}-{{templateKey}}"
     sortableFields: ['position', 'quote']
     media_folder: "/static/myAssets/img/testimonials"
